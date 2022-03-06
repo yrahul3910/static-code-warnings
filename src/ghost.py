@@ -17,7 +17,7 @@ class BinaryGHOST(Learner):
     """
 
     def __init__(self, metrics: list, ultrasample: bool = True,
-                 autoencode: bool = True, ae_thresh: float = 1e3,
+                 autoencode: bool = True, ae_thresh: float = 1e3, smote=True,
                  ae_layers: list = [10, 7], ae_out: int = 5, n_epochs: int = 50,
                  max_evals: int = 30, bs=512, name='experiment', *args, **kwargs):
         """
@@ -41,6 +41,7 @@ class BinaryGHOST(Learner):
         self.ultrasample = ultrasample
         self.autoencode = autoencode
         self.n_epochs = n_epochs
+        self.smote = smote
         self.ae_thresh = ae_thresh
         self.ae_layers = ae_layers
         self.max_evals = max_evals
@@ -65,8 +66,9 @@ class BinaryGHOST(Learner):
             data.y_test = 1. - data.y_test
 
             if self.autoencode:
+                count = 0
                 loss = 1 + self.ae_thresh
-                while loss > self.ae_thresh:
+                while loss > self.ae_thresh and count < 3:
                     ae = Autoencoder(n_layers=len(self.ae_layers),
                                      n_units=self.ae_layers, n_out=self.ae_out)
 
@@ -75,9 +77,11 @@ class BinaryGHOST(Learner):
                     ae.fit()
 
                     loss = ae.model.history.history['loss'][-1]
+                    count += 1
 
-                data.x_train = ae.encode(np.array(data.x_train))
-                data.x_test = ae.encode(np.array(data.x_test))
+                if count != 3:
+                    data.x_train = ae.encode(np.array(data.x_train))
+                    data.x_test = ae.encode(np.array(data.x_test))
 
         dodge_config = {
             'n_runs': 1,
@@ -86,14 +90,14 @@ class BinaryGHOST(Learner):
             'n_iters': self.max_evals,
             'learners': [],
             'log_path': './log/',
-            'transforms': ['standardize', 'normalize', 'minmax'] * 30,
+            'transforms': ['standardize', 'normalize', 'minmax', 'maxabs'] * 30,
             'random': True,
             'name': self.name
         }
 
         for _ in range(30):
             dodge_config['learners'].append(
-                FeedforwardDL(weighted=True, wfo=True, smote=True,
+                FeedforwardDL(weighted=True, wfo=True, smote=self.smote,
                               random={'n_units': (2, 6), 'n_layers': (2, 5)},
                               n_epochs=self.n_epochs, verbose=0)
             )

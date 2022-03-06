@@ -5,21 +5,15 @@ import pandas as pd
 from glob import glob
 from ivis import Ivis
 from ghost import BinaryGHOST
-from raise_utils.learners import Autoencoder, RandomForest, LogisticRegressionClassifier
+from raise_utils.learners import *
+from sklearn.svm import SVC
 from raise_utils.hyperparams import DODGE
 from raise_utils.transforms import Transform
 from raise_utils.data import DataLoader, Data
 from raise_utils.metrics import ClassificationMetrics
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import pairwise_distances
 from scipy.stats import mode
 from scipy.spatial import KDTree
-
-os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
-
-base_path = '../data/reimplemented_2016_manual/'
-datasets = ['ant', 'cassandra', 'commons', 'derby',
-            'jmeter', 'lucene-solr', 'maven',  'tomcat']
 
 
 def remove_labels(data):
@@ -31,7 +25,7 @@ def remove_labels(data):
     # lost_idx = np.random.choice(
     #    len(data.y_train), size=int(len(data.y_train) - np.sqrt(len(data.y_train))))
     lost_idx = np.random.choice(
-        len(data.y_train), size=int(len(data.y_train) - np.sqrt(len(data.y_train))), replace=False)
+        len(data.y_train), size=int(0.63 * len(data.y_train)), replace=False)
     X_lost = data.x_train[lost_idx]
     X_rest = np.delete(data.x_train, lost_idx, axis=0)
     y_lost = data.y_train[lost_idx]
@@ -55,8 +49,24 @@ def remove_labels(data):
     return data, 0.8 * len(X_rest) / (len(X_rest) + len(X_lost))
 
 
-results = []
-ratios = []
+class _SVM(Learner):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        self.learner = SVC(C=1., kernel='rbf')
+        self.random_map = {
+            'C': [0.1, 1., 10., 100.],
+            'kernel': ['rbf', 'poly', 'sigmoid']
+        }
+        self._instantiate_random_vals()
+
+
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
+
+base_path = '../data/reimplemented_2016_manual/'
+datasets = ['maven', 'ant', 'cassandra', 'commons', 'derby',
+            'jmeter', 'lucene-solr', 'maven', 'tomcat']
+
 for dataset in datasets:
     print(dataset)
     print('=' * len(dataset))
@@ -81,30 +91,49 @@ for dataset in datasets:
     X = X.select_dtypes(
         exclude=['object']).astype(np.float32)
 
-    data = Data(
-        *train_test_split(X, y, test_size=.2 if dataset != 'maven' else .5))
-    print(len(data.x_train), len(data.x_test))
+    if dataset == 'maven':
+        data = Data(*train_test_split(X, y, test_size=.5))
+    else:
+        data = Data(*train_test_split(X, y, test_size=.2))
     data.x_train = np.array(data.x_train)
     data.y_train = np.array(data.y_train)
-    print(sum(data.y_train) / len(data.y_train))
     data, ratio = remove_labels(data)
-    ratios.append(ratio)
 
     try:
+        transform = Transform('wfo')
+        transform.apply(data)
+        transform.apply(data)
         transform = Transform('smote')
         transform.apply(data)
     except ValueError:
         pass
+    # ghost = BinaryGHOST(['f1', 'accuracy', 'pd', 'pf',
+    #                     'prec', 'auc'],  name=dataset)
+    # ghost.set_data(*data)
+    # ghost.fit()
+    dodge_config = {
+        'n_runs': 1,
+        'transforms': ['standardize', 'normalize', 'minmax', 'maxabs'] * 30,
+        'metrics': ['f1', 'accuracy', 'pd', 'pf', 'auc', 'prec'],
+        'random': True,
+        'log_path': './log_dodge',
+        'learners': [],
+        'data': [data],
+        'n_iters': 30,
+        'name': dataset
+    }
 
-    ghost = BinaryGHOST(['f1', 'accuracy', 'pd', 'pf',
-                        'prec', 'auc'], autoencode=False, ultrasample=False, name=dataset)
-    ghost.set_data(*data)
+    for _ in range(30):
+        dodge_config['learners'].extend([
+            _SVM(random=True),
+            LogisticRegressionClassifier(random=True),
+            RandomForest(random=True),
+            NaiveBayes(),
+            DecisionTree(random=True)
+        ])
 
+    dodge = DODGE(dodge_config)
     try:
-        results.append(ghost.fit())
-    except:
-        pass
-
-results = np.array(results)
-print(np.median(results, axis=0))
-print(np.median(ratios))
+        dodge.optimize()
+    except ValueError:
+        print('AUC cannot be computed.')

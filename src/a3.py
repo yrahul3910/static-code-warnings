@@ -5,7 +5,7 @@ import pandas as pd
 from glob import glob
 from ivis import Ivis
 from ghost import BinaryGHOST
-from raise_utils.learners import Autoencoder, RandomForest, LogisticRegressionClassifier
+from raise_utils.learners import FeedforwardDL
 from raise_utils.hyperparams import DODGE
 from raise_utils.transforms import Transform
 from raise_utils.data import DataLoader, Data
@@ -36,6 +36,9 @@ def remove_labels(data):
     X_rest = np.delete(data.x_train, lost_idx, axis=0)
     y_lost = data.y_train[lost_idx]
     y_rest = np.delete(data.y_train, lost_idx, axis=0)
+
+    print('Train set labeled:', len(y_rest))
+    print('Train set:', len(y_lost))
 
     if len(X_lost.shape) == 1:
         X_lost = X_lost.reshape(1, -1)
@@ -83,11 +86,11 @@ for dataset in datasets:
 
     data = Data(
         *train_test_split(X, y, test_size=.2 if dataset != 'maven' else .5))
-    print(len(data.x_train), len(data.x_test))
+
     data.x_train = np.array(data.x_train)
     data.y_train = np.array(data.y_train)
-    print(sum(data.y_train) / len(data.y_train))
     data, ratio = remove_labels(data)
+    print('Test set:', len(data.y_test))
     ratios.append(ratio)
 
     try:
@@ -96,12 +99,18 @@ for dataset in datasets:
     except ValueError:
         pass
 
-    ghost = BinaryGHOST(['f1', 'accuracy', 'pd', 'pf',
-                        'prec', 'auc'], autoencode=False, ultrasample=False, name=dataset)
+    transform = Transform('normalize')
+    transform.apply(data)
+    ghost = FeedforwardDL(weighted=True, wfo=True, smote=True, verbose=0)
     ghost.set_data(*data)
 
     try:
-        results.append(ghost.fit())
+        ghost.fit()
+        m = ClassificationMetrics(data.y_test, ghost.predict(data.x_test))
+        m.add_metrics(['prec', 'auc', 'pf', 'pd'])
+        res = m.get_metrics()
+        print(res)
+        results.append(res)
     except:
         pass
 
