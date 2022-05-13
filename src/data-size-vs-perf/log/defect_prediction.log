@@ -1,0 +1,11 @@
+Run # 0
+======
+setting: minmaxe|rf
+iter 0 : [0.8866995073891626]
+setting: minmaxi|rf
+iter 1 : [0.837696335078534]
+setting: standardizeo|rf
+iter 2 : [0.8878048780487804]
+setting: minmaxb|rf
+iter 3 : [0.8866995073891626]
+setting: normalizeB|rf

@@ -4,6 +4,7 @@ import numpy as np
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
 from raise_utils.data import Data
+from raise_utils.transforms import Transform
 from ghost import BinaryGHOST
 from dodge import DODGELearner
 
@@ -31,3 +32,30 @@ for file in files:
             break
         data.x_train = np.array(data.x_train).astype(np.float32)
         data.y_train = np.array(data.y_train).astype(np.float32)
+
+        dodge = DODGELearner(['f1'])
+        dodge.set_data(*data)
+        ghost_result = dodge.fit()
+
+        dodge = DODGELearner(['f1'])
+        transform = Transform('wfo')
+        transform.apply(data)
+        transform.apply(data)
+        transform = Transform('smote')
+        transform.apply(data)
+        dodge.set_data(*data)
+        dodge_result = dodge.fit()
+
+        if ghost_result > dodge_result:
+            if i not in win:
+                win[i] = 1
+            else:
+                win[i] += 1
+        else:
+            if i not in loss:
+                loss[i] = 1
+            else:
+                loss[i] += 1
+
+print('Wins:', win)
+print('Loss:', loss)

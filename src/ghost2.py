@@ -18,8 +18,9 @@ from scipy.spatial import KDTree
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 
 base_path = '../data/reimplemented_2016_manual/'
-datasets = ['ant', 'cassandra', 'commons', 'derby',
-            'jmeter', 'lucene-solr', 'maven',  'tomcat']
+# datasets = ['ant', 'cassandra', 'commons', 'derby',
+#            'jmeter', 'lucene-solr', 'maven',  'tomcat']
+datasets = ['commons', 'derby']
 
 
 def remove_labels(data):
@@ -68,7 +69,6 @@ for dataset in datasets:
     test_df = pd.read_csv(test_file)
 
     df = pd.concat((train_df, test_df), join='inner')
-    df.sample(frac=1)  # shuffle data
 
     X = df.drop('category', axis=1)
     y = df['category']
@@ -82,7 +82,7 @@ for dataset in datasets:
         exclude=['object']).astype(np.float32)
 
     data = Data(
-        *train_test_split(X, y, test_size=.2 if dataset != 'maven' else .5))
+        *train_test_split(X, y, test_size=.2 if dataset != 'maven' else .5, shuffle=False))
     print(len(data.x_train), len(data.x_test))
     data.x_train = np.array(data.x_train)
     data.y_train = np.array(data.y_train)
@@ -96,8 +96,8 @@ for dataset in datasets:
     except ValueError:
         pass
 
-    ghost = BinaryGHOST(['f1', 'accuracy', 'pd', 'pf',
-                        'prec', 'auc'], autoencode=False, ultrasample=False, name=dataset)
+    ghost = BinaryGHOST(['pd-pf', 'pd', 'pf',
+                        'prec', 'auc'], autoencode=False, ultrasample=True, name=dataset)
     ghost.set_data(*data)
 
     try:

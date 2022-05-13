@@ -31,3 +31,25 @@ for file in files:
             break
         data.x_train = np.array(data.x_train).astype(np.float32)
         data.y_train = np.array(data.y_train).astype(np.float32)
+
+        ghost = BinaryGHOST(['f1'], name='experiment')
+        ghost.set_data(*data)
+        ghost_result = ghost.fit()
+
+        dodge = DODGELearner(['f1'])
+        dodge.set_data(*data)
+        dodge_result = dodge.fit()
+
+        if ghost_result > dodge_result:
+            if i not in win:
+                win[i] = 1
+            else:
+                win[i] += 1
+        else:
+            if i not in loss:
+                loss[i] = 1
+            else:
+                loss[i] += 1
+
+print('Wins:', win)
+print('Loss:', loss)

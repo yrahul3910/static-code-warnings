@@ -24,7 +24,7 @@ class _SVM(Learner):
         self._instantiate_random_vals()
 
 
-class BinaryGHOST(Learner):
+class _DODGE(Learner):
     """
     Implements the original, 2-class GHOST algorithm.
     """

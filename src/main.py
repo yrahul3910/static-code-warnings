@@ -22,10 +22,10 @@ def remove_labels(data):
     nearest neighbors from the labels we know, and use the mode.
     """
     # "Remove" labels
-    # lost_idx = np.random.choice(
-    #    len(data.y_train), size=int(len(data.y_train) - np.sqrt(len(data.y_train))))
     lost_idx = np.random.choice(
-        len(data.y_train), size=int(0.63 * len(data.y_train)), replace=False)
+        len(data.y_train), size=int(len(data.y_train) - np.sqrt(len(data.y_train))), replace=False)
+    # lost_idx = np.random.choice(
+    #    len(data.y_train), size=int(0.63 * len(data.y_train)), replace=False)
     X_lost = data.x_train[lost_idx]
     X_rest = np.delete(data.x_train, lost_idx, axis=0)
     y_lost = data.y_train[lost_idx]
@@ -64,7 +64,7 @@ class _SVM(Learner):
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 
 base_path = '../data/reimplemented_2016_manual/'
-datasets = ['maven', 'ant', 'cassandra', 'commons', 'derby',
+datasets = ['ant', 'cassandra', 'commons', 'derby',
             'jmeter', 'lucene-solr', 'maven', 'tomcat']
 
 for dataset in datasets:
@@ -78,7 +78,6 @@ for dataset in datasets:
     test_df = pd.read_csv(test_file)
 
     df = pd.concat((train_df, test_df), join='inner')
-    df.sample(frac=1)  # shuffle data
 
     X = df.drop('category', axis=1)
     y = df['category']
@@ -92,25 +91,28 @@ for dataset in datasets:
         exclude=['object']).astype(np.float32)
 
     if dataset == 'maven':
-        data = Data(*train_test_split(X, y, test_size=.5))
+        data = Data(*train_test_split(X, y, test_size=.5, shuffle=False))
     else:
-        data = Data(*train_test_split(X, y, test_size=.2))
+        data = Data(*train_test_split(X, y, test_size=.2, shuffle=False))
     data.x_train = np.array(data.x_train)
     data.y_train = np.array(data.y_train)
-    data, ratio = remove_labels(data)
+    #data, ratio = remove_labels(data)
 
     try:
-        transform = Transform('wfo')
-        transform.apply(data)
-        transform.apply(data)
-        transform = Transform('smote')
-        transform.apply(data)
+        #transform = Transform('wfo')
+        # transform.apply(data)
+        # transform.apply(data)
+        #transform = Transform('smote')
+        # transform.apply(data)
+        pass
     except ValueError:
         pass
-    # ghost = BinaryGHOST(['f1', 'accuracy', 'pd', 'pf',
-    #                     'prec', 'auc'],  name=dataset)
-    # ghost.set_data(*data)
-    # ghost.fit()
+
+    ghost = BinaryGHOST(['pd-pf', 'pd', 'pf',
+                         'prec', 'auc'], smote=True, autoencode=False,  name=dataset)
+    ghost.set_data(*data)
+    ghost.fit()
+    """
     dodge_config = {
         'n_runs': 1,
         'transforms': ['standardize', 'normalize', 'minmax', 'maxabs'] * 30,
@@ -137,3 +139,4 @@ for dataset in datasets:
         dodge.optimize()
     except ValueError:
         print('AUC cannot be computed.')
+    """

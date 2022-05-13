@@ -4,22 +4,15 @@ import numpy as np
 import pandas as pd
 from glob import glob
 from ivis import Ivis
-from ghost import BinaryGHOST
-from raise_utils.learners import FeedforwardDL
-from raise_utils.hyperparams import DODGE
+from dodge import _DODGE
+from raise_utils.learners import *
+from sklearn.svm import SVC
 from raise_utils.transforms import Transform
 from raise_utils.data import DataLoader, Data
 from raise_utils.metrics import ClassificationMetrics
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import pairwise_distances
 from scipy.stats import mode
 from scipy.spatial import KDTree
-
-os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
-
-base_path = '../data/reimplemented_2016_manual/'
-datasets = ['ant', 'cassandra', 'commons', 'derby',
-            'jmeter', 'lucene-solr', 'maven',  'tomcat']
 
 
 def remove_labels(data):
@@ -28,17 +21,14 @@ def remove_labels(data):
     nearest neighbors from the labels we know, and use the mode.
     """
     # "Remove" labels
-    # lost_idx = np.random.choice(
-    #    len(data.y_train), size=int(len(data.y_train) - np.sqrt(len(data.y_train))))
     lost_idx = np.random.choice(
         len(data.y_train), size=int(len(data.y_train) - np.sqrt(len(data.y_train))), replace=False)
+    # lost_idx = np.random.choice(
+    #    len(data.y_train), size=int(0.63 * len(data.y_train)), replace=False)
     X_lost = data.x_train[lost_idx]
     X_rest = np.delete(data.x_train, lost_idx, axis=0)
     y_lost = data.y_train[lost_idx]
     y_rest = np.delete(data.y_train, lost_idx, axis=0)
-
-    print('Train set labeled:', len(y_rest))
-    print('Train set:', len(y_lost))
 
     if len(X_lost.shape) == 1:
         X_lost = X_lost.reshape(1, -1)
@@ -58,8 +48,12 @@ def remove_labels(data):
     return data, 0.8 * len(X_rest) / (len(X_rest) + len(X_lost))
 
 
-results = []
-ratios = []
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
+
+base_path = '../data/reimplemented_2016_manual/'
+datasets = ['ant', 'cassandra', 'commons', 'derby',
+            'jmeter', 'lucene-solr', 'maven', 'tomcat']
+
 for dataset in datasets:
     print(dataset)
     print('=' * len(dataset))
@@ -83,36 +77,20 @@ for dataset in datasets:
     X = X.select_dtypes(
         exclude=['object']).astype(np.float32)
 
-    data = Data(
-        *train_test_split(X, y, test_size=.2 if dataset != 'maven' else .5, shuffle=False))
-
+    if dataset == 'maven':
+        data = Data(*train_test_split(X, y, test_size=.5, shuffle=False))
+    else:
+        data = Data(*train_test_split(X, y, test_size=.2, shuffle=False))
     data.x_train = np.array(data.x_train)
     data.y_train = np.array(data.y_train)
-    data, ratio = remove_labels(data)
-    print('Test set:', len(data.y_test))
-    ratios.append(ratio)
 
     try:
         transform = Transform('smote')
         transform.apply(data)
-    except ValueError:
-        pass
-
-    transform = Transform('normalize')
-    transform.apply(data)
-    ghost = FeedforwardDL(weighted=True, wfo=True, smote=True, verbose=0)
-    ghost.set_data(*data)
-
-    try:
-        ghost.fit()
-        m = ClassificationMetrics(data.y_test, ghost.predict(data.x_test))
-        m.add_metrics(['prec', 'auc', 'pf', 'pd'])
-        res = m.get_metrics()
-        print(res)
-        results.append(res)
     except:
         pass
 
-results = np.array(results)
-print(np.median(results, axis=0))
-print(np.median(ratios))
+    ghost = _DODGE(['pd-pf', 'pd', 'pf',
+                   'prec', 'auc'])
+    ghost.set_data(*data)
+    ghost.fit()
