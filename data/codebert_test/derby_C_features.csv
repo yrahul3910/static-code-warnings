@@ -1,0 +1,728 @@
+canonical_id,F72,F54,F55,F25,F26,F62,F65,F64,F67,F34,F66,F69,F68,F101,F102,F103,F104,F105,F107,F108,F16-String[],F16-Boolean,F16-Object,F16-NA,F16-ExecRow,F16-void,F16-int,F16-ScanController,F16-Properties,F16-boolean,F16-PrintWriter,F16-String,F16-SQLException,F16-InputStream,F16-FileOutputStream,F16-TupleDescriptor,F16-Void,F16-ExecIndexRow,F16-BooleanDataValue,F16-Object[],F3-NA,F3-int[],F3-Integer,F3-Long,F3-UUID,F3-ResultSet,F3-InputStream,F3-TransactionController,F3-null,F3-byte[],F3-boolean,F3-Object[],F3-String,F3-long,F3-ExecRow,F3-int,F3-PrintWriter,F3-SQLException,F3-QualifiedIdentifier,F3-Connection,F7-|,F7--,F7-/,F7-++,F7---,F7--=,F7-+=,F7-&,F7-NA,F7-+,F12-long,F12-int,F12-NA,F12-LocalizedResource,F12-boolean,F12-LocalizedOutput,F12-SQLException,F12-int[],F12-String[],F12-byte[],F12-String,F12-Connection,F12-ArrayList<ResultSet>,F12-Hashtable,F12-ConnectionEnv,F12-PrintStream,F12-Class[],F12-Statement,F12-ResultSet,F12-TypeDescriptor,F17-static,F17-final,F17-NA,F17-final-final,F2-ResultSet,F2-JDBCDisplayUtil,F2-BrokeredConnection,F2-NA,F2-UCode_CharStream,F2-Integer,F2-Hashtable<String Object>,F2-StringBuffer,F2-Properties,F2-Object,F2-Connection,F2-String,F2-ij,F2-PreparedStatement,F2-DataDictionaryImpl,F2-System,F2-SQLParserTokenManager,F2-DRDAConnThread,F2-Statement,F2-File,F6-java.io.RandomAccessFile,F6-org.apache.derby.impl.sql.compile.IsNullNode,F6-NA,F6-java.lang.Long,F6-org.apache.derby.impl.tools.ij.ijResultSetResult,F6-java.io.FileWriter,F6-java.io.FileOutputStream,F6-java.io.InputStreamReader,F6-java.util.Properties,F6-java.io.FileInputStream,F6-java.io.PrintWriter,F6-java.lang.Integer,F6-java.io.File,F6-java.lang.Boolean,F6-java.lang.String,F6-org.apache.derby.impl.sql.execute.rts.XPLAINResultSetTimingsDescriptor,F6-java.lang.StringBuffer,F6-java.util.Vector<java.lang.String>,F6-org.apache.derby.impl.sql.execute.rts.XPLAINResultSetDescriptor,F6-org.apache.derby.impl.tools.ij.Token,F13-private,F13-NA,F13-public,F13-protected,F18-private,F18-NA,F18-public,F14-static-final,F14-static,F14-NA,F14-final,F1-executeQuery,F1-ReInit,F1-size,F1-NA,F1-getBoolean,F1-generateCsSQLException,F1-prepareStatement,F1-jj_consume_token,F1-next,F1-getDefaultConn,F1-readChar,F1-get,F1-append,F1-equals,F1-getProperty,F1-put,F1-qualifiedIdentifier,F1-toString,F1-jjStopAtPos,F1-newException,F5-java.util.AbstractMap,F5-java.lang.Object,F5-NA,F5-java.io.Writer,F5-javax.naming.InitialContext,F5-java.io.OutputStreamWriter,F5-java.lang.Thread,F5-java.io.FilterOutputStream,F5-java.util.Hashtable,F5-java.io.InputStream,F5-java.lang.Number,F5-java.util.Date,F5-java.io.Reader,F5-java.util.AbstractList,F5-java.lang.RuntimeException,F5-java.lang.AbstractStringBuilder,F5-java.io.OutputStream,F5-java.lang.Exception,F5-java.util.Dictionary,F9-indexName,F9-isXAConnection_,F9-password,F9-description,F9-containerId,F9-databaseName,F9-internalReader,F9-user,F9-serviceType,F9-cachedCharLength,F9-lockString,F9-array,F9-unclosableInternalReader,F9-dataSourceName,F9-NA,F9-retrieveMessageText,F9-uuidFactory,F9-backupRoot,F9-loginTimeout,F9-length,F10-NA,F10-true,F19-NA,F19-interface,F19-abstract,F15-NA,F15-private,F15-protected,F15-public,F0-NA,F4-NA,F4-String[],F4-boolean,F4-InputStream,F4-long,F4-StringBuffer,F4-ResultSet,F4-Statement,F4-PreparedStatement,F4-char,F4-Token,F4-Connection,F4-Object,F4-void,F4-double,F4-QualifiedIdentifier,F4-int,F4-String,F4-DataValueDescriptor[],F4-SQLException,F8-EmbeddedBaseDataSource,F8-DDdependableFinder,F8-PermDescriptor,F8-TemporaryClob,F8-RealLastIndexKeyScanStatistics,F8-UpdateServiceProperties,F8-AuthenticationServiceBase,F8-ClientConnection,F8-RealHashScanStatistics,F8-ClientBaseDataSourceRoot,F8-DoubleProperties,F8-BaseDataFileFactory,F8-DRDAProtocolExceptionInfo,F8-AliasDescriptor,F8-mtTime,F8-RealTableScanStatistics,F8-NA,F8-MeteredStream,F8-ByteArray,F8-StatementKey,F11-ignoreWebLogic,F11-langUtil,F11-scanned,F11-NA,F11-rowResult,F11-DS_GET_CONN_TYPES,F11-file,F11-propFile,F11-urlCheck,F11-displayColumns,F11-resultSet,F11-actions,F11-CONTAINER_KEY_MEMORY_USAGE,F11-catalogType,F11-num_pages,F11-kind,F11-used,F11-serialVersionUID,F11-portingOnly,F11-out,F94,F95,F21,F109,F20,F23,F22,F79,F111,F112,F113,F116,F117,F118,F119,F120,F110,F121,F122,F123,F114,F115,F61,F77,F88,F70,F41,F40,F43,F42,F45,F44,F46,F126,F127,F128,F129,F36,F130,F35,F131,F38,F132,F37,F133,F134,F39,F135,F136,F137,F83,F71-mamta@apache.org,F71-djd@apache.org,F71-lilywei@apache.org,F71-davidvc@apache.org,F71-kmarsden@apache.org,F71-rhillegas@apache.org,F71-bakksjo@apache.org,F71-mikem@apache.org,F71-myrnavl@apache.org,F71-kristwaa@apache.org,F71-dag@apache.org,F71-kahatlen@apache.org,F71-bandaram@apache.org,F71-oysteing@apache.org,F71-suresht@apache.org,F71-dyre@apache.org,F71-bernt@apache.org,F71-fuzzylogic@apache.org,F71-bpendleton@apache.org,F71-coar@apache.org,F74,F73,F84,url,method_name,F146,category,method_content
+derby-C-0,3644,java/sql,java/sql/BatchUpdateException.java,2014,True,3,11,1278,1,0,965,1,48,0.9705882352941176,15,16,1.0666666666666669,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,1,STYLE,0.0307935254638768,PZLA_PREFER_ZERO_LENGTH_ARRAYS,20,3,1,0.0047584187408491,0.0003660322108345535,0.0003660322108345535,1.0,0.1168831168831168,0.0026467039454052,0.1764705882352941,0.1049160834232871,-0.7662337662337663,0.0,0.0788880540946656,0.1049160834232871,1.0,1.0,5,7546,3429,8135,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,247,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,834,8135,247,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/stubs/jdbc4/java/sql/BatchUpdateException.java,getUpdateCounts,834,open,public  int[] 	getUpdateCounts() { return null; }
+derby-C-2,3644,java/sql,java/sql/Date.java,2014,True,3,11,1278,1,0,965,1,48,0.926829268292683,21,16,0.7619047619047619,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,3,BAD_PRACTICE,0.0015791551519936,NP_TOSTRING_COULD_RETURN_NULL,14,2,1,0.0047584187408491,0.0010980966325036,0.0003660322108345535,0.0,0.5,0.006578947368421,0.0722347629796839,0.4917294634275249,0.0,0.0,0.0120210368144252,0.4917294634275249,1.0,1.0,6,7546,3429,8135,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,247,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,834,8135,247,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/stubs/jdbc4/java/sql/Date.java,toString,834,open,public  String 	toString()  { return null; }
+derby-C-8,3644,java/sql,java/sql/SQLException.java,2014,True,3,13,1278,1,0,965,1,48,3.45,18,16,0.8888888888888888,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,1,BAD_PRACTICE,0.0055270430319778,NM_CONFUSING,19,3,0,0.0047584187408491,0.0003660322108345535,0.00018301610541727675,0.5,0.0714285714285714,0.0017454350161117,0.0722347629796839,0.4917294634275249,-0.8571428571428571,0.0,0.0120210368144252,0.4917294634275249,1.0,1.0,5,7546,3429,8135,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,247,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,834,8135,247,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/stubs/jdbc4/java/sql/SQLException.java,getSQLState,834,open,public  String 	getSQLState() { return null; }
+derby-C-10,3644,java/sql,java/sql/Time.java,2014,True,3,12,1278,1,0,965,1,48,0.9302325581395348,23,16,0.6956521739130435,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,2,BAD_PRACTICE,0.0015791551519936,NP_TOSTRING_COULD_RETURN_NULL,14,2,1,0.0047584187408491,0.0007320644216691069,0.0003660322108345535,0.0,0.5,0.006578947368421,0.0722347629796839,0.4917294634275249,0.0,0.0,0.0120210368144252,0.4917294634275249,1.0,0.0,6,7546,3429,8135,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,247,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,834,8135,247,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/stubs/jdbc4/java/sql/Time.java,toString,834,open,public  String 	toString() { return null; }
+derby-C-12,3644,java/sql,java/sql/Timestamp.java,2014,True,3,14,1278,1,0,965,1,48,0.7368421052631579,18,16,0.8888888888888888,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,4,BAD_PRACTICE,0.0003947887879984208,CO_SELF_NO_OBJECT,16,2,1,0.0047584187408491,0.0014641288433382,0.0003660322108345535,0.0,0.0,0.0,0.0722347629796839,0.4917294634275249,0.0,0.0,0.0120210368144252,0.4917294634275249,1.0,1.0,7,7546,3429,8135,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,247,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,834,8135,247,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/stubs/jdbc4/java/sql/Timestamp.java,compareTo,834,open,public  int 	compareTo(Date o)   { return 0; }
+derby-C-13,3644,java/sql,java/sql/Timestamp.java,2014,True,3,14,1278,1,0,965,1,48,0.7631578947368421,18,16,0.8888888888888888,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,4,CORRECTNESS,0.0003947887879984208,EQ_ALWAYS_FALSE,7,1,1,0.0047584187408491,0.0014641288433382,0.0003660322108345535,1.0,0.0,0.0,0.1693548387096774,0.3874285194906458,0.0,0.0,0.0078888054094665,0.3874285194906458,1.0,1.0,7,7546,3429,8135,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,247,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,834,8135,247,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/stubs/jdbc4/java/sql/Timestamp.java,equals,834,open,public  boolean 	equals(Object ts)   { return false; }
+derby-C-14,3644,java/sql,java/sql/Timestamp.java,2014,True,3,14,1278,1,0,965,1,48,0.9210526315789472,18,16,0.8888888888888888,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,4,BAD_PRACTICE,0.0015791551519936,NP_TOSTRING_COULD_RETURN_NULL,14,2,1,0.0047584187408491,0.0014641288433382,0.0003660322108345535,1.0,0.5,0.006578947368421,0.0722347629796839,0.4917294634275249,0.0,0.0,0.0120210368144252,0.4917294634275249,1.0,1.0,7,7546,3429,8135,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,247,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,834,8135,247,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/stubs/jdbc4/java/sql/Timestamp.java,toString,834,open,public  String 	toString()  { return null; }
+derby-C-474,2557,org/apache/derby/iapi/types,org/apache/derby/iapi/types/HarmonySerialBlob.java,1247,True,36,15,9967,1,12,1650,10,67,0.9325842696629212,141,92,0.6524822695035462,0.1666666666666666,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,112,10,PERFORMANCE,0.0793525463876825,DM_NUMBER_CTOR,18,2,1,0.0409956076134699,0.0036603221083455,0.0003660322108345535,0.0,0.3333333333333333,0.0138888888888888,0.2377622377622377,0.1534782583024784,-0.3333333333333333,0.0,0.0255447032306536,0.1534782583024784,-0.7169811320754716,-1.0,3,1968,1247,2557,101,0.0,0,9,92,110,0.0074998375779625,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,105,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,692,8135,59,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/engine/org/apache/derby/iapi/types/HarmonySerialBlob.java,getBinaryStream,646,close,"public InputStream getBinaryStream() throws SQLException {
+        return new ByteArrayInputStream(buf);
+    }"
+derby-C-475,2557,org/apache/derby/iapi/types,org/apache/derby/iapi/types/HarmonySerialBlob.java,1247,True,14,15,9967,1,12,1650,4,67,0.4382022471910112,141,92,0.6524822695035462,0.4285714285714285,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,112,10,PERFORMANCE,0.0793525463876825,DM_NUMBER_CTOR,18,2,2,0.0409956076134699,0.0036603221083455,0.0007320644216691069,0.0,0.3333333333333333,0.0138888888888888,0.2377622377622377,0.1534782583024784,-0.3333333333333333,0.0,0.0255447032306536,0.1534782583024784,-0.7169811320754716,-1.0,3,1968,1247,2557,101,0.0,0,9,92,110,0.0074998375779625,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,105,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,692,8135,59,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/engine/org/apache/derby/iapi/types/HarmonySerialBlob.java,getBytes,646,open,"public byte[] getBytes(long pos, int length) throws SQLException {
+
+        if (pos < 1 || pos > len)
+        {
+            throw makeSQLException( SQLState.BLOB_BAD_POSITION, new Object[] {new Long(pos)} );
+        }
+        if (length < 0)
+        {
+            throw makeSQLException( SQLState.BLOB_NONPOSITIVE_LENGTH, new Object[] {new Integer(length)} );
+        }
+
+        if (length > len - pos + 1) {
+            length = (int) (len - pos + 1);
+        }
+        byte[] copiedArray = new byte[length];
+        System.arraycopy(buf, (int) pos - 1, copiedArray, 0, length);
+        return copiedArray;
+    }"
+derby-C-553,8134,org/apache/derby/iapi/types,org/apache/derby/iapi/types/SQLSmallint.java,3429,True,4,49,9967,1,0,1650,3,67,0.2166890982503364,377,252,0.6684350132625995,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,112,2,PERFORMANCE,0.0793525463876825,DM_NUMBER_CTOR,18,2,1,0.0409956076134699,0.0007320644216691069,0.0003660322108345535,0.0,0.3333333333333333,0.0138888888888888,0.2377622377622377,0.1534782583024784,-0.3333333333333333,0.0,0.0255447032306536,0.1534782583024784,-0.7169811320754716,-1.0,13,7545,3429,8134,101,0.0,0,9,92,110,0.0074998375779625,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,126,0,1,0,0,0,1,1,0,0,1,0,1,0,0,0,0,0,0,1,1,713,8135,59,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/engine/org/apache/derby/iapi/types/SQLSmallint.java,getObject,646,open,"public Object	getObject() 
+	{
+		if (isNull())
+			return null;
+		else
+			return new Integer(value);
+	}"
+derby-C-554,8134,org/apache/derby/iapi/types,org/apache/derby/iapi/types/SQLSmallint.java,3429,True,3,49,9967,1,0,1650,1,67,0.9730820995962316,377,252,0.6684350132625995,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,112,2,BAD_PRACTICE,0.0071061981839715,HE_HASHCODE_NO_EQUALS,19,3,1,0.0409956076134699,0.0007320644216691069,0.0003660322108345535,-1.0,0.0526315789473684,0.0013121446274967,0.0722347629796839,0.4917294634275249,-0.8947368421052632,0.0,0.0120210368144252,0.4917294634275249,-0.7169811320754716,-1.0,13,7545,3429,8134,101,0.0,0,9,92,110,0.0074998375779625,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,126,0,1,0,0,0,1,1,0,0,1,0,1,0,0,0,0,0,0,1,1,713,8135,59,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/engine/org/apache/derby/iapi/types/SQLSmallint.java,hashCode,646,open,"public int hashCode()
+	{
+		return (int) value;
+	}"
+derby-C-562,6449,org/apache/derby/iapi/types,org/apache/derby/iapi/types/SqlXmlUtil.java,2702,True,116,7,9967,3,16,1650,35,67,0.8433813892529489,271,414,1.5276752767527677,0.4568965517241379,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,112,2,CORRECTNESS,0.0067114093959731,NP_NULL_ON_SOME_PATH,6,1,1,0.0409956076134699,0.0007320644216691069,0.0003660322108345535,-1.0,0.0526315789473684,0.0022664316293125,0.1693548387096774,0.3874285194906458,-0.8947368421052632,0.0,0.0078888054094665,0.3874285194906458,-0.7169811320754716,-1.0,6,1571,1042,2160,101,0.0,0,9,92,110,0.0074998375779625,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,126,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,713,8135,59,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/engine/org/apache/derby/iapi/types/SqlXmlUtil.java,evalXQExpression,646,close,"protected List evalXQExpression(XMLDataValue xmlContext,
+        boolean returnResults, int [] resultXType) throws Exception
+    {
+        // if this object is in an SPS, we need to recompile the query
+        if (recompileQuery)
+        {
+        	compileXQExpr(queryExpr, opName);
+        }
+
+        // Make sure we have a compiled query.
+        if (SanityManager.DEBUG) {
+            SanityManager.ASSERT(
+                (query != null),
+                ""Failed to locate compiled XML query expression."");
+        }
+
+        /* Create a DOM node from the xmlContext, since that's how
+         * we feed the context to Xalan.  We do this by creating
+         * a Document node using DocumentBuilder, which means that
+         * the serialized form of the context node must be a string
+         * value that is parse-able by DocumentBuilder--i.e. it must
+         * constitute a valid XML document.  If that's true then
+         * the context item's qualified type will be DOC_ANY.
+         */
+        if (xmlContext.getXType() != XML.XML_DOC_ANY)
+        {
+            throw StandardException.newException(
+                SQLState.LANG_INVALID_XML_CONTEXT_ITEM,
+                (returnResults ? ""XMLQUERY"" : ""XMLEXISTS""));
+        } 
+
+        Document docNode = null;
+        docNode = dBuilder.parse(
+            new InputSource(
+                new StringReader(xmlContext.getString())));
+
+        // Evaluate the expresion using Xalan.
+        XPathResult result = (XPathResult)
+                query.evaluate(docNode, XPathResult.ANY_TYPE, null);
+
+        if (!returnResults)
+        {
+            // We don't want to return the actual results, we just
+            // want to know if there was at least one item in the
+            // result sequence.
+            switch (result.getResultType()) {
+                case XPathResult.UNORDERED_NODE_ITERATOR_TYPE:
+                case XPathResult.ORDERED_NODE_ITERATOR_TYPE:
+                    if (result.iterateNext() == null) {
+                        // We have an empty sequence, so return null.
+                        return null;
+                    } else {
+                        // We have a non-empty sequence, so return a non-null
+                        // list to indicate that we found at least one item.
+                        return Collections.EMPTY_LIST;
+                    }
+                default:
+                    // We have a single atomic value, which means the result is
+                    // non-empty. So return a non-null list.
+                    return Collections.EMPTY_LIST;
+            }
+        }
+
+        // Else process the results.
+        List itemRefs;
+        switch (result.getResultType()) {
+            case XPathResult.NUMBER_TYPE:
+                // Single atomic number. Get its string value.
+                String val = numberToString(result.getNumberValue());
+                itemRefs = Collections.singletonList(val);
+                break;
+            case XPathResult.STRING_TYPE:
+                // Single atomic string value.
+                itemRefs = Collections.singletonList(result.getStringValue());
+                break;
+            case XPathResult.BOOLEAN_TYPE:
+                // Single atomic boolean. Get its string value.
+                itemRefs = Collections.singletonList(
+                        String.valueOf(result.getBooleanValue()));
+                break;
+            case XPathResult.UNORDERED_NODE_ITERATOR_TYPE:
+            case XPathResult.ORDERED_NODE_ITERATOR_TYPE:
+                // We have a sequence. Get all nodes.
+                ArrayList<Node> nodes = new ArrayList<Node>();
+                Node node;
+                while ((node = result.iterateNext()) != null) {
+                    nodes.add(node);
+                }
+                itemRefs = nodes;
+                break;
+            default:
+                if (SanityManager.DEBUG) {
+                    SanityManager.THROWASSERT(
+                            ""Don't know how to handle XPath result type "" +
+                            result.getResultType());
+                }
+                itemRefs = null;
+        }
+
+        /* Indicate what kind of XML result value we have.  If
+         * we have a sequence of exactly one Document then it
+         * is XMLPARSE-able and so we consider it to be of type
+         * XML_DOC_ANY (which means we can store it in a Derby
+         * XML column).
+         */
+        if ((itemRefs.size() == 1) && (itemRefs.get(0) instanceof Document))
+            resultXType[0] = XML.XML_DOC_ANY;
+        else
+            resultXType[0] = XML.XML_SEQUENCE;
+
+        return itemRefs;
+    }"
+derby-C-1332,8134,org/apache/derby/impl/sql/conn,org/apache/derby/impl/sql/conn/GenericLanguageConnectionContext.java,3429,True,18,176,1849,1,8,277,5,8,0.9372529644268774,2196,1299,0.5915300546448088,0.2777777777777778,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,4,STYLE,0.0892222660876431,DLS_DEAD_LOCAL_STORE,17,2,1,0.0029282576866764,0.0014641288433382,0.0003660322108345535,0.0,0.2835820895522388,0.0052093150778826,0.1764705882352941,0.1049160834232871,-0.4328358208955223,0.0,0.0788880540946656,0.1049160834232871,-0.7142857142857143,-0.5,89,7545,3429,8134,251,0.1461218836565097,41,9,242,301,0.0479192658222494,0,0,0,0,6,0,164,0.0,211,0,41,0,0,158,0,0,0.0,30,1,1,0,1,1,1,1,1,0,1,1,1,1,0,0,0,1,1,1,1,617,8135,30,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/engine/org/apache/derby/impl/sql/conn/GenericLanguageConnectionContext.java,compareConstraintModes,617,close,"private void compareConstraintModes(
+            SQLSessionContext nested,
+            SQLSessionContext caller) throws StandardException {
+
+        if (deferredHashTables == null) {
+            // Nothing to do
+            return;
+        }
+
+        DataDictionary dd = getDataDictionary();
+
+        // Check all constraints that were deferred inside the routine
+        // but whose constraint mode is immediate on the outside. If
+        // any of these violate the constraints, roll back.
+        Set<Map.Entry<Long, BackingStoreHashtable>> es =
+                deferredHashTables.entrySet();
+
+        for (Map.Entry<Long, BackingStoreHashtable> e : es) {
+            final long indexCID = e.getKey().longValue();
+
+            boolean effectivelyDeferred = effectivelyDeferred(caller, indexCID);
+
+            if (effectivelyDeferred ) {
+                // the constraint is also deferred in the calling context
+                continue;
+            }
+            // The constraint must have been deferred inside the routine
+            if (SanityManager.DEBUG) {
+                SanityManager.ASSERT(effectivelyDeferred(nested, indexCID));
+            }
+
+            doValidateConstraint(e.getKey().longValue(), e.getValue(), true);
+        }
+    }"
+derby-C-1333,8134,org/apache/derby/impl/sql/conn,org/apache/derby/impl/sql/conn/GenericLanguageConnectionContext.java,3429,True,40,176,1849,1,8,277,12,8,0.5049407114624506,2196,1299,0.5915300546448088,0.525,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,4,PERFORMANCE,0.0039478878799842,DM_GC,16,1,1,0.0029282576866764,0.0014641288433382,0.0003660322108345535,-1.0,0.0,0.0,0.2377622377622377,0.1534782583024784,-1.0,0.0,0.0255447032306536,0.1534782583024784,-0.7142857142857143,-0.5,89,7545,3429,8134,251,0.1461218836565097,41,9,242,301,0.0479192658222494,0,0,0,0,6,0,164,0.0,211,0,41,0,0,158,0,0,0.0,30,1,1,0,1,1,1,1,1,0,1,1,1,1,0,0,0,1,1,1,1,617,8135,30,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/engine/org/apache/derby/impl/sql/conn/GenericLanguageConnectionContext.java,verifyAllHeldResultSetsAreClosed,617,open,"public boolean verifyAllHeldResultSetsAreClosed()
+            throws StandardException
+    {
+        boolean seenOpenResultSets = false;
+
+        /* For every activation */
+        for (int i = acts.size() - 1; i >= 0; i--) {
+
+            Activation a = acts.get(i);
+
+            if (SanityManager.DEBUG)
+            {
+                SanityManager.ASSERT(a instanceof CursorActivation, ""a is not a CursorActivation"");
+            }
+
+            if (!a.isInUse())
+            {
+                continue;
+            }
+
+            if (!a.getResultSetHoldability())
+            {
+                continue;
+            }
+
+            ResultSet rs = ((CursorActivation) a).getResultSet();
+
+            /* is there an open result set? */
+            if ((rs != null) && !rs.isClosed() && rs.returnsRows())
+            {
+                seenOpenResultSets = true;
+                break;
+            }
+        }
+
+        if (!seenOpenResultSets)
+            return(true);
+
+        // There may be open ResultSet's that are yet to be garbage collected
+        // let's try and force these out rather than throw an error
+        System.gc();
+        System.runFinalization();
+
+
+        /* For every activation */
+        for (int i = acts.size() - 1; i >= 0; i--) {
+                
+            Activation a = acts.get(i);
+
+            if (SanityManager.DEBUG)
+            {
+                SanityManager.ASSERT(a instanceof CursorActivation, ""a is not a CursorActivation"");
+            }
+
+            if (!a.isInUse())
+            {
+                continue;
+            }
+
+            if (!a.getResultSetHoldability())
+            {
+                continue;
+            }
+
+            ResultSet rs = ((CursorActivation) a).getResultSet();
+
+            /* is there an open held result set? */
+            if ((rs != null) && !rs.isClosed() && rs.returnsRows())
+            {
+                return(false);
+            }
+        }
+        return(true);
+    }"
+derby-C-1334,8134,org/apache/derby/impl/sql/conn,org/apache/derby/impl/sql/conn/GenericLanguageConnectionContext.java,3429,True,37,176,1849,1,8,277,12,8,0.5276679841897233,2196,1299,0.5915300546448088,0.4864864864864865,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,4,PERFORMANCE,0.0039478878799842,DM_GC,16,1,1,0.0029282576866764,0.0014641288433382,0.0003660322108345535,-1.0,0.0,0.0,0.2377622377622377,0.1534782583024784,-1.0,0.0,0.0255447032306536,0.1534782583024784,-0.7142857142857143,-0.5,89,7545,3429,8134,251,0.1461218836565097,41,9,242,301,0.0479192658222494,0,0,0,0,6,0,164,0.0,211,0,41,0,0,158,0,0,0.0,30,1,1,0,1,1,1,1,1,0,1,1,1,1,0,0,0,1,1,1,1,617,8135,30,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/engine/org/apache/derby/impl/sql/conn/GenericLanguageConnectionContext.java,verifyNoOpenResultSets,617,open,"public boolean verifyNoOpenResultSets(PreparedStatement pStmt, Provider provider,
+                                       int action)
+            throws StandardException
+    {
+        /*
+        ** It is not a problem to create an index when there is an open
+        ** result set, since it doesn't invalidate the access path that was
+        ** chosen for the result set.
+        */
+        boolean seenOpenResultSets = false;
+
+        /* For every activation */
+
+        // synchronize on acts as other threads may be closing activations
+        // in this list, thus invalidating the Enumeration
+        for (int i = acts.size() - 1; i >= 0; i--) {
+                
+            Activation a = acts.get(i);
+
+            if (!a.isInUse())
+            {
+                continue;
+            }
+            
+            /* for this prepared statement */
+            if (pStmt == a.getPreparedStatement()) {
+                ResultSet rs = a.getResultSet();
+
+                /* is there an open result set? */
+                if (rs != null && ! rs.isClosed())
+                {
+                    if (!rs.returnsRows())
+                        continue;
+                    seenOpenResultSets = true;
+                    break;
+                }
+                
+            }
+        }
+
+        if (!seenOpenResultSets)
+            return false;
+
+        // There may be open ResultSet's that are yet to be garbage collected
+        // let's try and force these out rather than throw an error
+        System.gc();
+        System.runFinalization();
+
+
+        /* For every activation */
+        // synchronize on acts as other threads may be closing activations
+        // in this list, thus invalidating the Enumeration
+        for (int i = acts.size() - 1; i >= 0; i--) {
+                
+            Activation a = acts.get(i);
+
+            if (!a.isInUse())
+            {
+                continue;
+            }
+
+            /* for this prepared statement */
+            if (pStmt == a.getPreparedStatement()) {
+                ResultSet rs = a.getResultSet();
+
+                /* is there an open result set? */
+                if (rs != null && ! rs.isClosed())
+                {
+                    if ((provider != null) && rs.returnsRows()) {
+                    DependencyManager dmgr = getDataDictionary().getDependencyManager();
+
+                    throw StandardException.newException(SQLState.LANG_CANT_INVALIDATE_OPEN_RESULT_SET, 
+                                    dmgr.getActionString(action), 
+                                    provider.getObjectName());
+
+                    }
+                    return true;
+                }
+            }
+        }
+        return false;
+    }"
+derby-C-1389,8134,org/apache/derby/impl/sql/execute,org/apache/derby/impl/sql/execute/GenericRIChecker.java,3429,True,15,8,17760,1,0,1614,7,158,0.5245901639344263,137,82,0.5985401459854015,1.0,13,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,166,1,PERFORMANCE,0.0793525463876825,DM_NUMBER_CTOR,18,2,1,0.0607613469985358,0.0003660322108345535,0.0003660322108345535,0.0,0.3333333333333333,0.0138888888888888,0.2377622377622377,0.1534782583024784,-0.3333333333333333,0.0,0.0255447032306536,0.1534782583024784,-0.642512077294686,0.0,9,7545,3429,8134,1269,0.0053852526926263,38,280,989,1587,0.0153182509483219,0,0,0,0,8,0,5,0.0,13,35,0,31,3,-3,69,4,0.0086158940325606,30,0,1,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,1,1,617,8135,1,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/engine/org/apache/derby/impl/sql/execute/GenericRIChecker.java,getScanController,588,close,"protected ScanController getScanController(long conglomNumber,
+											   StaticCompiledOpenConglomInfo scoci,
+											   DynamicCompiledOpenConglomInfo dcoci, ExecRow searchRow)
+		throws StandardException
+	{
+		int				isoLevel = getRICheckIsolationLevel();
+		ScanController 	scan;
+		Long			hashKey = new Long(conglomNumber);
+
+		/*
+		** If we haven't already opened this scan controller,
+		** we'll open it now and stick it in the hash table.
+		*/
+		if ((scan = scanControllers.get(hashKey)) == null)
+		{
+			setupQualifierRow(searchRow);
+			scan = 
+                tc.openCompiledScan(
+                      false,                       				// hold 
+                      0, 										// read only
+                      TransactionController.MODE_RECORD,		// row locking
+					  isoLevel,
+                      (FormatableBitSet)null, 							// retrieve all fields
+                      indexQualifierRow.getRowArray(),    		// startKeyValue
+                      ScanController.GE,            			// startSearchOp
+                      null,                         			// qualifier
+                      indexQualifierRow.getRowArray(),    		// stopKeyValue
+                      ScanController.GT,             			// stopSearchOp 
+					  scoci,
+					  dcoci
+                      );
+			scanControllers.put(hashKey, scan);
+		}
+		else
+		{
+			/*
+			** If the base row is the same row as the previous	
+			** row, this call to setupQualfierRow is redundant,
+			** but it is safer this way so we'll take the
+			** marginal performance hit (marginal relative
+			** to the index scans that we are making).
+			*/
+			setupQualifierRow(searchRow);
+			scan.reopenScan(
+                      indexQualifierRow.getRowArray(),    	// startKeyValue
+                      ScanController.GE,            		// startSearchOp
+                      null,                         		// qualifier
+                      indexQualifierRow.getRowArray(), 		// stopKeyValue
+                      ScanController.GT             		// stopSearchOp 
+                      );
+		}
+
+		return scan;
+	}"
+derby-C-2305,8134,org/apache/derby/jdbc,org/apache/derby/jdbc/EmbeddedDriver.java,3429,True,7,10,2721,1,12,417,2,46,0.92018779342723,139,39,0.2805755395683453,0.5714285714285714,4,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,1,I18N,0.0193446506119226,DM_DEFAULT_ENCODING,19,1,1,0.0281844802342606,0.0003660322108345535,0.0003660322108345535,-1.0,0.0625,0.029296875,0.0757575757575757,0.00017820447212019174,-0.875,0.0,0.0018782870022539,0.00017820447212019174,0.3,-1.0,1,744,526,1333,24,0.0,1,2,22,27,0.00019415819207075613,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,289,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,876,8135,30,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/engine/org/apache/derby/jdbc/EmbeddedDriver.java,boot,617,open,"static void boot() {
+        PrintWriter pw = DriverManager.getLogWriter();
+
+        if (pw == null) {
+            pw = new PrintWriter(System.err, true);
+        }
+
+        new JDBCBoot().boot(Attribute.PROTOCOL, pw);
+	}"
+derby-C-2309,7927,org/apache/derby/jdbc,org/apache/derby/jdbc/InternalDriver.java,3248,True,54,39,2721,4,0,417,14,46,0.2347368421052631,552,243,0.4402173913043478,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,10,STYLE,0.0177654954599289,DLS_DEAD_LOCAL_STORE_OF_NULL,20,3,1,0.0281844802342606,0.0036603221083455,0.0003660322108345535,-1.0,0.1346153846153846,0.0029870277651342,0.1764705882352941,0.1049160834232871,-0.7307692307692307,0.0,0.0788880540946656,0.1049160834232871,0.3,-1.0,27,7338,3248,7927,24,0.0,1,2,22,27,0.00019415819207075613,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,161,0,1,1,0,1,1,1,0,0,1,0,1,0,1,0,0,0,1,0,0,748,8135,30,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/engine/org/apache/derby/jdbc/InternalDriver.java,connect,617,open,"public Connection connect( String url, Properties info, int loginTimeoutSeconds )
+		 throws SQLException 
+	{
+		if (!acceptsURL(url)) { return null; }
+		
+        /**
+         * If we are below the low memory watermark for obtaining
+         * a connection, then don't even try. Just throw an exception.
+         */
+		if (EmbedConnection.memoryState.isLowMemory())
+		{
+			throw EmbedConnection.NO_MEM;
+		}
+        			
+		/*
+		** A url ""jdbc:default:connection"" means get the current
+		** connection.  From within a method called from JSQL, the
+		** ""current"" connection is the one that is running the
+		** JSQL statement containing the method call.
+		*/
+		boolean current = url.equals(Attribute.SQLJ_NESTED);
+		
+		/* If jdbc:default:connection, see if user already has a
+		 * connection. All connection attributes are ignored.
+		 */
+		if (current) {
+
+			ConnectionContext connContext = getConnectionContext();
+
+			if (connContext != null) {
+						
+				return connContext.getNestedConnection(false);
+				
+			}
+			// there is no Derby connection, so
+			// return null, as we are not the driver to handle this
+			return null;
+		}
+
+		// convert the ;name=value attributes in the URL into
+		// properties.
+		FormatableProperties finfo = null;
+        
+		try {
+            
+            finfo = getAttributes(url, info);
+            info = null; // ensure we don't use this reference directly again.
+
+			/*
+			** A property ""shutdown=true"" means shut the system or database down
+			*/
+			boolean shutdown = Boolean.valueOf(finfo.getProperty(Attribute.SHUTDOWN_ATTR)).booleanValue();
+			
+			if (shutdown) {				
+				// If we are shutting down the system don't attempt to create
+				// a connection; but we validate users credentials if we have to.
+				// In case of datbase shutdown, we ask the database authentication
+				// service to authenticate the user. If it is a system shutdown,
+				// then we ask the Driver to do the authentication.
+				//
+				if (InternalDriver.getDatabaseName(url, finfo).length() == 0) {
+					//
+					// We need to authenticate the user if authentication is
+					// ON. Note that this is a system shutdown.
+					// check that we do have a authentication service
+					// it is _always_ expected.
+					if (this.getAuthenticationService() == null)
+						throw Util.generateCsSQLException(
+                        SQLState.LOGIN_FAILED, 
+						MessageService.getTextMessage(MessageId.AUTH_NO_SERVICE_FOR_SYSTEM));
+					
+						
+					if (!this.getAuthenticationService().authenticate((String) null, finfo)) {
+
+						// not a valid user
+						throw Util.generateCsSQLException(
+                                    SQLState.NET_CONNECT_AUTH_FAILED,
+                                    MessageService.
+                                    getTextMessage(MessageId.AUTH_INVALID));
+					}
+
+                    // DERBY-2905, allow users to provide deregister attribute to 
+                    // leave AutoloadedDriver registered in DriverManager, default
+                    // value is true
+                    if (finfo.getProperty(Attribute.DEREGISTER_ATTR) != null) {
+                        boolean deregister = Boolean.valueOf(
+                                finfo.getProperty(Attribute.DEREGISTER_ATTR))
+                                .booleanValue();
+                        InternalDriver.setDeregister(deregister);
+                    }
+
+					// check for shutdown privileges
+					// DERBY-3495: uncomment to enable system privileges checks
+					//final String user = IdUtil.getUserNameFromURLProps(finfo);
+					//checkShutdownPrivileges(user);
+
+					Monitor.getMonitor().shutdown();
+
+					throw Util.generateCsSQLException(
+                                         SQLState.CLOUDSCAPE_SYSTEM_SHUTDOWN);
+				}
+			}
+
+            EmbedConnection conn;
+			
+            if ( loginTimeoutSeconds <= 0 ) { conn = getNewEmbedConnection( url, finfo ); }
+            else { conn = timeLogin( url, finfo, loginTimeoutSeconds ); }
+            
+			// if this is not the correct driver a EmbedConnection
+			// object is returned in the closed state.
+			if (conn.isClosed()) {
+				return null;
+			}
+
+			return conn;
+		}
+		catch (OutOfMemoryError noMemory)
+		{
+			EmbedConnection.memoryState.setLowMemory();
+			throw EmbedConnection.NO_MEM;
+		}
+		finally {
+			// break any link with the user's Properties set.
+            if (finfo != null)
+			    finfo.clearDefaults();
+		}
+	}"
+derby-C-2310,7927,org/apache/derby/jdbc,org/apache/derby/jdbc/InternalDriver.java,3248,True,18,39,2721,4,0,417,3,46,0.5063157894736842,552,243,0.4402173913043478,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,10,STYLE,0.0177654954599289,DLS_DEAD_LOCAL_STORE_OF_NULL,20,3,2,0.0281844802342606,0.0036603221083455,0.0007320644216691069,-1.0,0.1346153846153846,0.0029870277651342,0.1764705882352941,0.1049160834232871,-0.7307692307692307,0.0,0.0788880540946656,0.1049160834232871,0.3,-1.0,27,7338,3248,7927,24,0.0,1,2,22,27,0.00019415819207075613,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,161,0,1,1,0,1,1,1,0,0,1,0,1,0,1,0,0,0,1,0,0,748,8135,30,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/engine/org/apache/derby/jdbc/InternalDriver.java,getAttributes,617,open,"protected FormatableProperties getAttributes(String url, Properties info) 
+		throws SQLException {
+
+		// We use FormatableProperties here to take advantage
+		// of the clearDefaults, method.
+		FormatableProperties finfo = new FormatableProperties(info);
+		info = null; // ensure we don't use this reference directly again.
+
+
+		StringTokenizer st = new StringTokenizer(url, "";"");
+		st.nextToken(); // skip the first part of the url
+
+		while (st.hasMoreTokens()) {
+
+			String v = st.nextToken();
+
+			int eqPos = v.indexOf('=');
+			if (eqPos == -1)
+				throw Util.generateCsSQLException(
+                                            SQLState.MALFORMED_URL, url);
+
+			//if (eqPos != v.lastIndexOf('='))
+			//	throw Util.malformedURL(url);
+
+			finfo.put((v.substring(0, eqPos)).trim(),
+					 (v.substring(eqPos + 1)).trim()
+					);
+		}
+
+		// now validate any attributes we can
+		//
+		// Boolean attributes -
+		//  dataEncryption,create,createSource,convertToSource,shutdown,upgrade,current
+
+
+		checkBoolean(finfo, Attribute.DATA_ENCRYPTION);
+		checkBoolean(finfo, Attribute.CREATE_ATTR);
+		checkBoolean(finfo, Attribute.SHUTDOWN_ATTR);
+        checkBoolean(finfo, Attribute.DEREGISTER_ATTR);
+		checkBoolean(finfo, Attribute.UPGRADE_ATTR);
+
+		return finfo;
+	}"
+derby-C-2311,7927,org/apache/derby/jdbc,org/apache/derby/jdbc/InternalDriver.java,3248,True,36,39,2721,4,0,417,7,46,0.8768421052631579,552,243,0.4402173913043478,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,10,STYLE,0.0177654954599289,DLS_DEAD_LOCAL_STORE_OF_NULL,20,3,1,0.0281844802342606,0.0036603221083455,0.0003660322108345535,0.0,0.1346153846153846,0.0029870277651342,0.1764705882352941,0.1049160834232871,-0.7307692307692307,0.0,0.0788880540946656,0.1049160834232871,0.3,-1.0,27,7338,3248,7927,24,0.0,1,2,22,27,0.00019415819207075613,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,161,0,1,1,0,1,1,1,0,0,1,0,1,0,1,0,0,0,1,0,0,748,8135,30,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/engine/org/apache/derby/jdbc/InternalDriver.java,getPropertyInfo,617,open,"public DriverPropertyInfo[] getPropertyInfo(String url, Properties info)
+            throws SQLException {
+
+        // RESOLVE other properties should be added into this method in the future ...
+
+        if (info != null) {
+            if (Boolean.valueOf(info.getProperty(Attribute.SHUTDOWN_ATTR)).booleanValue()) {
+
+                // no other options possible when shutdown is set to be true
+                return new DriverPropertyInfo[0];
+            }
+        }
+
+        // at this point we have databaseName,
+
+        String dbname = InternalDriver.getDatabaseName(url, info);
+
+        // convert the ;name=value attributes in the URL into
+        // properties.
+        FormatableProperties finfo = getAttributes(url, info);
+        info = null; // ensure we don't use this reference directly again.
+        boolean encryptDB = Boolean.valueOf(finfo.getProperty(Attribute.DATA_ENCRYPTION)).booleanValue();
+        String encryptpassword = finfo.getProperty(Attribute.BOOT_PASSWORD);
+
+        if (dbname.length() == 0 || (encryptDB && encryptpassword == null)) {
+
+            // with no database name we can have shutdown or a database name
+
+            // In future, if any new attribute info needs to be included in this
+            // method, it just has to be added to either string or boolean or secret array
+            // depending on whether it accepts string or boolean or secret(ie passwords) value.
+
+            String[][] connStringAttributes = {
+                {Attribute.DBNAME_ATTR, MessageId.CONN_DATABASE_IDENTITY},
+                {Attribute.CRYPTO_PROVIDER, MessageId.CONN_CRYPTO_PROVIDER},
+                {Attribute.CRYPTO_ALGORITHM, MessageId.CONN_CRYPTO_ALGORITHM},
+                {Attribute.CRYPTO_KEY_LENGTH, MessageId.CONN_CRYPTO_KEY_LENGTH},
+                {Attribute.CRYPTO_EXTERNAL_KEY, MessageId.CONN_CRYPTO_EXTERNAL_KEY},
+                {Attribute.TERRITORY, MessageId.CONN_LOCALE},
+                {Attribute.COLLATION, MessageId.CONN_COLLATION},
+                {Attribute.USERNAME_ATTR, MessageId.CONN_USERNAME_ATTR},
+                {Attribute.LOG_DEVICE, MessageId.CONN_LOG_DEVICE},
+                {Attribute.ROLL_FORWARD_RECOVERY_FROM, MessageId.CONN_ROLL_FORWARD_RECOVERY_FROM},
+                {Attribute.CREATE_FROM, MessageId.CONN_CREATE_FROM},
+                {Attribute.RESTORE_FROM, MessageId.CONN_RESTORE_FROM},
+            };
+
+            String[][] connBooleanAttributes = {
+                {Attribute.SHUTDOWN_ATTR, MessageId.CONN_SHUT_DOWN_CLOUDSCAPE},
+                {Attribute.DEREGISTER_ATTR, MessageId.CONN_DEREGISTER_AUTOLOADEDDRIVER},
+                {Attribute.CREATE_ATTR, MessageId.CONN_CREATE_DATABASE},
+                {Attribute.DATA_ENCRYPTION, MessageId.CONN_DATA_ENCRYPTION},
+                {Attribute.UPGRADE_ATTR, MessageId.CONN_UPGRADE_DATABASE},
+                };
+
+            String[][] connStringSecretAttributes = {
+                {Attribute.BOOT_PASSWORD, MessageId.CONN_BOOT_PASSWORD},
+                {Attribute.PASSWORD_ATTR, MessageId.CONN_PASSWORD_ATTR},
+                };
+
+
+            DriverPropertyInfo[] optionsNoDB = new  DriverPropertyInfo[connStringAttributes.length+
+                                                                      connBooleanAttributes.length+
+                                                                      connStringSecretAttributes.length];
+
+            int attrIndex = 0;
+            for( int i = 0; i < connStringAttributes.length; i++, attrIndex++ )
+            {
+                optionsNoDB[attrIndex] = new DriverPropertyInfo(connStringAttributes[i][0],
+                                      finfo.getProperty(connStringAttributes[i][0]));
+                optionsNoDB[attrIndex].description = MessageService.getTextMessage(connStringAttributes[i][1]);
+            }
+
+            optionsNoDB[0].choices = Monitor.getMonitor().getServiceList(Property.DATABASE_MODULE);
+            // since database name is not stored in FormatableProperties, we
+            // assign here explicitly
+            optionsNoDB[0].value = dbname;
+
+            for( int i = 0; i < connStringSecretAttributes.length; i++, attrIndex++ )
+            {
+                optionsNoDB[attrIndex] = new DriverPropertyInfo(connStringSecretAttributes[i][0],
+                                      (finfo.getProperty(connStringSecretAttributes[i][0]) == null? """" : ""****""));
+                optionsNoDB[attrIndex].description = MessageService.getTextMessage(connStringSecretAttributes[i][1]);
+            }
+
+            for( int i = 0; i < connBooleanAttributes.length; i++, attrIndex++ )
+            {
+                optionsNoDB[attrIndex] = new DriverPropertyInfo(connBooleanAttributes[i][0],
+                    Boolean.valueOf(finfo == null? """" : finfo.getProperty(connBooleanAttributes[i][0])).toString());
+                optionsNoDB[attrIndex].description = MessageService.getTextMessage(connBooleanAttributes[i][1]);
+                optionsNoDB[attrIndex].choices = BOOLEAN_CHOICES;
+            }
+
+            return optionsNoDB;
+        }
+
+        return new DriverPropertyInfo[0];
+    }"
+derby-C-2380,2556,org/apache/derby/tools,org/apache/derby/tools/PlanExporter.java,1244,True,0,6,1514,2,0,134,1,10,0.9741100323624596,232,51,0.2198275862068965,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80,4,BAD_PRACTICE,0.0019739439399921,RV_RETURN_VALUE_IGNORED_BAD_PRACTICE,16,2,1,0.0292825768667642,0.0014641288433382,0.0003660322108345535,-1.0,0.0,0.0,0.0722347629796839,0.4917294634275249,-1.0,0.0,0.0120210368144252,0.4917294634275249,-0.9012345679012346,-1.0,6,1967,1244,2556,2,0.0,0,2,0,4,0.0006116207951070337,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,303,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,890,8135,60,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/tools/org/apache/derby/tools/PlanExporter.java,run,647,open,"public Object run() {
+                File delFile = new File(fileName);
+                if (!delFile.exists())
+                    return null;
+                delFile.delete();
+                return null;
+            }"
+derby-C-2522,2463,org/apache/derbyPreBuild,org/apache/derbyPreBuild/ReleaseProperties.java,1181,True,39,9,416,2,0,42,2,6,0.51875,173,90,0.5202312138728323,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,3,STYLE,0.0114488748519542,REC_CATCH_EXCEPTION,17,2,2,0.00402635431918,0.0010980966325036,0.0007320644216691069,-1.0,0.0769230769230769,0.001820664542558,0.1764705882352941,0.1049160834232871,-0.8461538461538461,0.0,0.0788880540946656,0.1049160834232871,-1.0,-1.0,3,1874,1181,2463,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,165,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,752,8135,165,https://github.com/apache/derby/tree/acbecbb96a5ae0a3b6bc5948b03f061dfea91662//java/build/org/apache/derbyPreBuild/ReleaseProperties.java,execute,752,open,"public  void    execute()
+        throws BuildException
+    {
+        File                 target = new File( _releasePropertiesFileName );
+        FileWriter      propertiesFW = null;
+        PrintWriter    propertiesPW = null;
+
+        try {
+            VersionID versionID = new VersionID( _releaseID );
+            if ( _bump ) { versionID.bump(); }
+            
+            int major = versionID.getMajor();
+            int minor = versionID.getMinor();
+            int currentYear = getCurrentYear();
+
+            propertiesFW = new FileWriter( target );
+            propertiesPW = new PrintWriter( propertiesFW );
+
+            propertiesPW.println( APACHE_LICENSE_HEADER );
+
+            propertiesPW.println( ""drdamaint=0"" );
+            propertiesPW.println( ""maint="" + encodeFixpackAndPoint( versionID ) );
+            propertiesPW.println( ""major="" + major );
+            propertiesPW.println( ""minor="" + minor );
+            propertiesPW.println( ""eversion="" + versionID.getBranchName() );
+            propertiesPW.println( ""beta="" + versionID.isBeta() );
+            propertiesPW.println( ""copyright.comment=Copyright 1997, "" + currentYear + "" The Apache Software Foundation or its licensors, as applicable."" );
+            propertiesPW.println( ""vendor=The Apache Software Foundation"" ) ;
+            propertiesPW.println( ""copyright.year="" + currentYear ) ;
+            propertiesPW.println( ""release.id.long="" + versionID.toString() ) ;
+
+            setProperty( NEW_RELEASE_ID, versionID.toString() );
+        }
+        catch (Exception e)
+        {
+            throw new BuildException( ""Could not generate release properties: "" + e.getMessage(), e );
+        }
+        finally
+        {
+            try {
+                finishWriting( propertiesFW, propertiesPW );
+            }
+            catch (Exception ex)
+            {
+                throw new BuildException( ""Error closing file writers."", ex );
+            }
+        }
+    }"

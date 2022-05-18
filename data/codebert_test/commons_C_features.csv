@@ -1,0 +1,770 @@
+canonical_id,F72,F54,F55,F25,F26,F62,F65,F64,F67,F34,F66,F69,F68,F101,F102,F103,F104,F105,F107,F108,F16-String,F16-Boolean,F16-NA,F16-int,F16-BigInteger,F3-NA,F3-String,F3-int,F3-boolean,F7-++,F7--=,F7-+=,F7-NA,F12-NA,F17-static-final,F17-NA,F2-String,F2-DurationFormatUtils,F2-NA,F2-AccessibleObject,F2-Class<>,F2-BooleanUtils,F2-Calendar,F2-Token,F6-NA,F13-NA,F18-NA,F14-NA,F1-toBooleanObject,F1-toLowerCase,F1-NA,F1-getValue,F1-charAt,F1-lexx,F1-getDeclaredField,F1-startsWith,F1-setAccessible,F1-length,F1-get,F5-NA,F9-NA,F10-NA,F19-NA,F15-NA,F15-public,F0-NA,F4-NA,F4-void,F4-boolean,F4-Token[],F4-int,F4-String,F4-Field,F4-char,F4-Boolean,F4-Object,F8-NA,F11-NA,F94,F95,F21,F109,F20,F23,F22,F79,F111,F112,F113,F116,F117,F118,F119,F120,F110,F121,F122,F123,F114,F115,F61,F77,F88,F70,F41,F40,F43,F42,F45,F44,F46,F126,F127,F128,F129,F36,F130,F35,F131,F38,F132,F37,F133,F134,F39,F135,F136,F137,F83,F71-pbenedict@apache.org,F71-jcarman@apache.org,F71-britter@apache.org,F71-niallp@apache.org,F71-chas@apache.org,F71-oheger@apache.org,F71-brentworden@apache.org,F71-mcucchiara@apache.org,F71-ggregory@apache.org,F71-bayard@apache.org,F71-joehni@apache.org,F71-psteitz@apache.org,F71-scolebourne@apache.org,F71-mbenson@apache.org,F71-tn@apache.org,F71-sebb@apache.org,F74,F73,F84,url,method_name,F146,category,method_content
+commons-C-60,2562,org/apache/commons/lang3,org/apache/commons/lang3/ClassUtils.java,1482,True,0,41,6273,6,0,815,1,39,0.9475806451612904,567,585,1.031746031746032,1.0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,72,5,BAD_PRACTICE,0.0099009900990099,IT_NO_SUCH_ELEMENT,19,3,1,0.6792452830188679,0.0471698113207547,0.0094339622641509,0.0,0.0,0.0,0.0454545454545454,0.0041580578512396,0.0,0.0,0.0099009900990099,0.0041580578512396,-0.9444444444444444,-0.5,3,142,156,1236,312,0.1538461538461538,1,121,191,434,0.0942121729289667,0,0,0,0,1,0,4,0.0,6,21,1,1,0,3,22,20,0.0124009138673385,70,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1162,4806,5,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/ClassUtils.java,next,1097,open,"@Override
+                    public Class<?> next() {
+                        final Class<?> result = next.getValue();
+                        next.setValue(result.getSuperclass());
+                        return result;
+                    }"
+commons-C-61,2562,org/apache/commons/lang3,org/apache/commons/lang3/StringUtils.java,1482,True,6,191,6273,1,8,815,2,39,0.7535437282695908,2327,4832,2.0764933390631715,0.8333333333333334,0,1,1,0,1,0,0,1,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,72,7,I18N,0.0297029702970297,DM_CONVERT_CASE,20,3,1,0.6792452830188679,0.0660377358490566,0.0094339622641509,-1.0,0.0,0.0,0.25,0.125,-1.0,0.0,0.0099009900990099,0.125,-0.9444444444444444,-0.75,175,1468,1482,2562,312,0.3419495429750847,1,121,191,434,0.0942121729289667,5,1,0,6,1,4,118,0.119298245614035,119,21,0,1,0,117,22,20,0.0124009138673385,5,1,1,1,1,0,1,1,0,1,1,0,0,1,1,1,1,1097,4806,5,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/StringUtils.java,lowerCase,1097,open,"public static String lowerCase(final String str) {
+        if (str == null) {
+            return null;
+        }
+        return str.toLowerCase();
+    }"
+commons-C-79,2562,org/apache/commons/lang3/text,org/apache/commons/lang3/text/ExtendedMessageFormat.java,1482,True,23,21,2099,1,15,330,7,19,0.7065420560747664,312,196,0.6282051282051282,0.6361556064073227,0,1,0,0,1,0,0,1,0,0,0,1,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,4,2,STYLE,0.0693069306930693,SF_SWITCH_NO_DEFAULT,19,2,1,0.0377358490566037,0.0188679245283018,0.0094339622641509,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-1.0,-1.0,17,1468,1482,2562,63,0.1290322580645161,0,49,14,112,0.0762869487175705,0,0,0,0,2,0,2,0.0,4,0,0,0,0,0,0,0,0.0,61,1,0,0,1,0,1,0,0,1,1,0,0,0,0,0,1,1153,4806,30,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,parseFormatDescription,1122,close,"private String parseFormatDescription(final String pattern, final ParsePosition pos) {
+        final int start = pos.getIndex();
+        seekNonWs(pattern, pos);
+        final int text = pos.getIndex();
+        int depth = 1;
+        for (; pos.getIndex() < pattern.length(); next(pos)) {
+            switch (pattern.charAt(pos.getIndex())) {
+            case START_FE:
+                depth++;
+                break;
+            case END_FE:
+                depth--;
+                if (depth == 0) {
+                    return pattern.substring(text, pos.getIndex());
+                }
+                break;
+            case QUOTE:
+                getQuotedString(pattern, pos, false);
+                break;
+            }
+        }
+        throw new IllegalArgumentException(
+                ""Unterminated format element at position "" + start);
+    }"
+commons-C-80,2562,org/apache/commons/lang3/text,org/apache/commons/lang3/text/ExtendedMessageFormat.java,1482,True,12,21,2099,1,8,330,1,19,0.2551401869158878,312,196,0.6282051282051282,0.3333333333333333,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,4,2,CORRECTNESS,0.0099009900990099,UR_UNINIT_READ_CALLED_FROM_SUPER_CONSTRUCTOR,10,2,1,0.0377358490566037,0.0188679245283018,0.0094339622641509,-1.0,0.0,0.0,0.25,0.1375,-1.0,0.0,0.0099009900990099,0.1375,-1.0,-1.0,17,1468,1482,2562,63,0.1290322580645161,0,49,14,112,0.0762869487175705,0,0,0,0,2,0,2,0.0,4,0,0,0,0,0,0,0,0.0,61,1,0,0,1,0,1,0,0,1,1,0,0,0,0,0,1,1153,4806,30,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java,applyPattern,1122,open,"@Override
+    public final void applyPattern(final String pattern) {
+        if (registry == null) {
+            super.applyPattern(pattern);
+            toPattern = super.toPattern();
+            return;
+        }
+        final ArrayList<Format> foundFormats = new ArrayList<Format>();
+        final ArrayList<String> foundDescriptions = new ArrayList<String>();
+        final StringBuilder stripCustom = new StringBuilder(pattern.length());
+
+        final ParsePosition pos = new ParsePosition(0);
+        final char[] c = pattern.toCharArray();
+        int fmtCount = 0;
+        while (pos.getIndex() < pattern.length()) {
+            switch (c[pos.getIndex()]) {
+            case QUOTE:
+                appendQuotedString(pattern, pos, stripCustom, true);
+                break;
+            case START_FE:
+                fmtCount++;
+                seekNonWs(pattern, pos);
+                final int start = pos.getIndex();
+                final int index = readArgumentIndex(pattern, next(pos));
+                stripCustom.append(START_FE).append(index);
+                seekNonWs(pattern, pos);
+                Format format = null;
+                String formatDescription = null;
+                if (c[pos.getIndex()] == START_FMT) {
+                    formatDescription = parseFormatDescription(pattern,
+                            next(pos));
+                    format = getFormat(formatDescription);
+                    if (format == null) {
+                        stripCustom.append(START_FMT).append(formatDescription);
+                    }
+                }
+                foundFormats.add(format);
+                foundDescriptions.add(format == null ? null : formatDescription);
+                Validate.isTrue(foundFormats.size() == fmtCount);
+                Validate.isTrue(foundDescriptions.size() == fmtCount);
+                if (c[pos.getIndex()] != END_FE) {
+                    throw new IllegalArgumentException(
+                            ""Unreadable format element at position "" + start);
+                }
+                //$FALL-THROUGH$
+            default:
+                stripCustom.append(c[pos.getIndex()]);
+                next(pos);
+            }
+        }
+        super.applyPattern(stripCustom.toString());
+        toPattern = insertFormats(super.toPattern(), foundDescriptions);
+        if (containsElements(foundFormats)) {
+            final Format[] origFormats = getFormats();
+            // only loop over what we know we have, as MessageFormat on Java 1.3
+            // seems to provide an extra format element:
+            int i = 0;
+            for (final Iterator<Format> it = foundFormats.iterator(); it.hasNext(); i++) {
+                final Format f = it.next();
+                if (f != null) {
+                    origFormats[i] = f;
+                }
+            }
+            super.setFormats(origFormats);
+        }
+    }"
+commons-C-84,1329,org/apache/commons/lang3/time,org/apache/commons/lang3/time/DateUtils.java,343,True,34,59,1898,2,13,227,12,46,0.8951271186440678,595,1203,2.0218487394957982,0.4264705882352941,0,1,0,0,1,0,0,1,0,1,0,0,0,1,1,1,0,1,0,0,1,0,0,0,1,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,1,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,1,1,18,4,STYLE,0.0693069306930693,SF_SWITCH_NO_DEFAULT,19,2,2,0.1698113207547169,0.0377358490566037,0.0188679245283018,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-0.7894736842105263,-1.0,34,1468,1482,2562,26,0.0,2,11,15,39,0.1171086775034143,0,0,0,0,0,0,0,0.0,0,0,0,3,1,0,4,-3,0.0125,236,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,1,1328,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/DateUtils.java,getFragment,1112,close,"private static long getFragment(final Date date, final int fragment, final int unit) {
+        if(date == null) {
+            throw  new IllegalArgumentException(""The date must not be null"");
+        }
+        final Calendar calendar = Calendar.getInstance();
+        calendar.setTime(date);
+        return getFragment(calendar, fragment, unit);
+    }"
+commons-C-85,1329,org/apache/commons/lang3/time,org/apache/commons/lang3/time/DateUtils.java,343,True,66,59,1898,2,22,227,19,46,0.6260593220338984,595,1203,2.0218487394957982,0.4684343434343434,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,18,4,STYLE,0.0693069306930693,SF_SWITCH_NO_DEFAULT,19,2,1,0.1698113207547169,0.0377358490566037,0.0094339622641509,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-0.7894736842105263,-1.0,34,1468,1482,2562,26,0.0,2,11,15,39,0.1171086775034143,0,0,0,0,0,0,0,0.0,0,0,0,3,1,0,4,-3,0.0125,236,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,1,1328,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/DateUtils.java,iterator,1112,close,"public static Iterator<Calendar> iterator(final Date focus, final int rangeStyle) {
+        if (focus == null) {
+            throw new IllegalArgumentException(""The date must not be null"");
+        }
+        final Calendar gval = Calendar.getInstance();
+        gval.setTime(focus);
+        return iterator(gval, rangeStyle);
+    }"
+commons-C-86,1329,org/apache/commons/lang3/time,org/apache/commons/lang3/time/DateUtils.java,343,True,98,59,1898,2,22,227,29,46,0.5545550847457628,595,1203,2.0218487394957982,0.5904081632653061,48,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,18,4,STYLE,0.0693069306930693,SF_SWITCH_NO_DEFAULT,19,2,1,0.1698113207547169,0.0377358490566037,0.0094339622641509,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-0.7894736842105263,-1.0,34,1468,1482,2562,26,0.0,2,11,15,39,0.1171086775034143,0,0,0,0,0,0,0,0.0,0,0,0,3,1,0,4,-3,0.0125,236,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,1,1328,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/DateUtils.java,modify,1112,close,"private static void modify(final Calendar val, final int field, final int modType) {
+        if (val.get(Calendar.YEAR) > 280000000) {
+            throw new ArithmeticException(""Calendar value too large for accurate calculations"");
+        }
+        
+        if (field == Calendar.MILLISECOND) {
+            return;
+        }
+
+        // ----------------- Fix for LANG-59 ---------------------- START ---------------
+        // see http://issues.apache.org/jira/browse/LANG-59
+        //
+        // Manually truncate milliseconds, seconds and minutes, rather than using
+        // Calendar methods.
+
+        final Date date = val.getTime();
+        long time = date.getTime();
+        boolean done = false;
+
+        // truncate milliseconds
+        final int millisecs = val.get(Calendar.MILLISECOND);
+        if (MODIFY_TRUNCATE == modType || millisecs < 500) {
+            time = time - millisecs;
+        }
+        if (field == Calendar.SECOND) {
+            done = true;
+        }
+
+        // truncate seconds
+        final int seconds = val.get(Calendar.SECOND);
+        if (!done && (MODIFY_TRUNCATE == modType || seconds < 30)) {
+            time = time - (seconds * 1000L);
+        }
+        if (field == Calendar.MINUTE) {
+            done = true;
+        }
+
+        // truncate minutes
+        final int minutes = val.get(Calendar.MINUTE);
+        if (!done && (MODIFY_TRUNCATE == modType || minutes < 30)) {
+            time = time - (minutes * 60000L);
+        }
+
+        // reset time
+        if (date.getTime() != time) {
+            date.setTime(time);
+            val.setTime(date);
+        }
+        // ----------------- Fix for LANG-59 ----------------------- END ----------------
+
+        boolean roundUp = false;
+        for (final int[] aField : fields) {
+            for (final int element : aField) {
+                if (element == field) {
+                    //This is our field... we stop looping
+                    if (modType == MODIFY_CEILING || (modType == MODIFY_ROUND && roundUp)) {
+                        if (field == DateUtils.SEMI_MONTH) {
+                            //This is a special case that's hard to generalize
+                            //If the date is 1, we round up to 16, otherwise
+                            //  we subtract 15 days and add 1 month
+                            if (val.get(Calendar.DATE) == 1) {
+                                val.add(Calendar.DATE, 15);
+                            } else {
+                                val.add(Calendar.DATE, -15);
+                                val.add(Calendar.MONTH, 1);
+                            }
+// ----------------- Fix for LANG-440 ---------------------- START ---------------
+                        } else if (field == Calendar.AM_PM) {
+                            // This is a special case
+                            // If the time is 0, we round up to 12, otherwise
+                            //  we subtract 12 hours and add 1 day
+                            if (val.get(Calendar.HOUR_OF_DAY) == 0) {
+                                val.add(Calendar.HOUR_OF_DAY, 12);
+                            } else {
+                                val.add(Calendar.HOUR_OF_DAY, -12);
+                                val.add(Calendar.DATE, 1);
+                            }
+// ----------------- Fix for LANG-440 ---------------------- END ---------------
+                        } else {
+                            //We need at add one to this field since the
+                            //  last number causes us to round up
+                            val.add(aField[0], 1);
+                        }
+                    }
+                    return;
+                }
+            }
+            //We have various fields that are not easy roundings
+            int offset = 0;
+            boolean offsetSet = false;
+            //These are special types of fields that require different rounding rules
+            switch (field) {
+                case DateUtils.SEMI_MONTH:
+                    if (aField[0] == Calendar.DATE) {
+                        //If we're going to drop the DATE field's value,
+                        //  we want to do this our own way.
+                        //We need to subtrace 1 since the date has a minimum of 1
+                        offset = val.get(Calendar.DATE) - 1;
+                        //If we're above 15 days adjustment, that means we're in the
+                        //  bottom half of the month and should stay accordingly.
+                        if (offset >= 15) {
+                            offset -= 15;
+                        }
+                        //Record whether we're in the top or bottom half of that range
+                        roundUp = offset > 7;
+                        offsetSet = true;
+                    }
+                    break;
+                case Calendar.AM_PM:
+                    if (aField[0] == Calendar.HOUR_OF_DAY) {
+                        //If we're going to drop the HOUR field's value,
+                        //  we want to do this our own way.
+                        offset = val.get(Calendar.HOUR_OF_DAY);
+                        if (offset >= 12) {
+                            offset -= 12;
+                        }
+                        roundUp = offset >= 6;
+                        offsetSet = true;
+                    }
+                    break;
+            }
+            if (!offsetSet) {
+                final int min = val.getActualMinimum(aField[0]);
+                final int max = val.getActualMaximum(aField[0]);
+                //Calculate the offset from the minimum allowed value
+                offset = val.get(aField[0]) - min;
+                //Set roundUp if this is more than half way between the minimum and maximum
+                roundUp = offset > ((max - min) / 2);
+            }
+            //We need to remove this field
+            if (offset != 0) {
+                val.set(aField[0], val.get(aField[0]) - offset);
+            }
+        }
+        throw new IllegalArgumentException(""The field "" + field + "" is not supported"");
+
+    }"
+commons-C-87,2507,org/apache/commons/lang3/time,org/apache/commons/lang3/time/DurationFormatUtils.java,1458,True,51,11,1898,2,0,227,13,46,0.6460176991150443,379,243,0.6411609498680739,1.0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,1,1,18,9,BAD_PRACTICE,0.0792079207920792,ES_COMPARING_STRINGS_WITH_EQ,11,2,7,0.1698113207547169,0.0849056603773584,0.0660377358490566,-1.0,0.125,0.013671875,0.0454545454545454,0.0041580578512396,-0.75,0.0,0.0099009900990099,0.0041580578512396,-0.7894736842105263,-0.7777777777777778,13,1468,1482,2562,26,0.0,2,11,15,39,0.1171086775034143,0,0,0,0,0,0,0,0.0,0,0,0,3,1,0,4,-3,0.0125,173,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1,1265,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,format,1112,close,"static String format(final Token[] tokens, final int years, final int months, final int days, final int hours, final int minutes, final int seconds,
+            int milliseconds, final boolean padWithZeros) {
+        final StringBuilder buffer = new StringBuilder();
+        boolean lastOutputSeconds = false;
+        final int sz = tokens.length;
+        for (int i = 0; i < sz; i++) {
+            final Token token = tokens[i];
+            final Object value = token.getValue();
+            final int count = token.getCount();
+            if (value instanceof StringBuilder) {
+                buffer.append(value.toString());
+            } else {
+                if (value == y) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(years), count, '0') : Integer
+                            .toString(years));
+                    lastOutputSeconds = false;
+                } else if (value == M) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(months), count, '0') : Integer
+                            .toString(months));
+                    lastOutputSeconds = false;
+                } else if (value == d) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(days), count, '0') : Integer
+                            .toString(days));
+                    lastOutputSeconds = false;
+                } else if (value == H) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(hours), count, '0') : Integer
+                            .toString(hours));
+                    lastOutputSeconds = false;
+                } else if (value == m) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(minutes), count, '0') : Integer
+                            .toString(minutes));
+                    lastOutputSeconds = false;
+                } else if (value == s) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(seconds), count, '0') : Integer
+                            .toString(seconds));
+                    lastOutputSeconds = true;
+                } else if (value == S) {
+                    if (lastOutputSeconds) {
+                        milliseconds += 1000;
+                        final String str = padWithZeros
+                                ? StringUtils.leftPad(Integer.toString(milliseconds), count, '0')
+                                : Integer.toString(milliseconds);
+                        buffer.append(str.substring(1));
+                    } else {
+                        buffer.append(padWithZeros
+                                ? StringUtils.leftPad(Integer.toString(milliseconds), count, '0')
+                                : Integer.toString(milliseconds));
+                    }
+                    lastOutputSeconds = false;
+                }
+            }
+        }
+        return buffer.toString();
+    }"
+commons-C-88,2507,org/apache/commons/lang3/time,org/apache/commons/lang3/time/DurationFormatUtils.java,1458,True,51,11,1898,2,0,227,13,46,0.6342182890855457,379,243,0.6411609498680739,1.0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,18,9,BAD_PRACTICE,0.0792079207920792,ES_COMPARING_STRINGS_WITH_EQ,11,2,7,0.1698113207547169,0.0849056603773584,0.0660377358490566,-1.0,0.125,0.013671875,0.0454545454545454,0.0041580578512396,-0.75,0.0,0.0099009900990099,0.0041580578512396,-0.7894736842105263,-0.7777777777777778,13,1468,1482,2562,26,0.0,2,11,15,39,0.1171086775034143,0,0,0,0,0,0,0,0.0,0,0,0,3,1,0,4,-3,0.0125,173,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1,1265,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,format,1112,close,"static String format(final Token[] tokens, final int years, final int months, final int days, final int hours, final int minutes, final int seconds,
+            int milliseconds, final boolean padWithZeros) {
+        final StringBuilder buffer = new StringBuilder();
+        boolean lastOutputSeconds = false;
+        final int sz = tokens.length;
+        for (int i = 0; i < sz; i++) {
+            final Token token = tokens[i];
+            final Object value = token.getValue();
+            final int count = token.getCount();
+            if (value instanceof StringBuilder) {
+                buffer.append(value.toString());
+            } else {
+                if (value == y) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(years), count, '0') : Integer
+                            .toString(years));
+                    lastOutputSeconds = false;
+                } else if (value == M) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(months), count, '0') : Integer
+                            .toString(months));
+                    lastOutputSeconds = false;
+                } else if (value == d) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(days), count, '0') : Integer
+                            .toString(days));
+                    lastOutputSeconds = false;
+                } else if (value == H) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(hours), count, '0') : Integer
+                            .toString(hours));
+                    lastOutputSeconds = false;
+                } else if (value == m) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(minutes), count, '0') : Integer
+                            .toString(minutes));
+                    lastOutputSeconds = false;
+                } else if (value == s) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(seconds), count, '0') : Integer
+                            .toString(seconds));
+                    lastOutputSeconds = true;
+                } else if (value == S) {
+                    if (lastOutputSeconds) {
+                        milliseconds += 1000;
+                        final String str = padWithZeros
+                                ? StringUtils.leftPad(Integer.toString(milliseconds), count, '0')
+                                : Integer.toString(milliseconds);
+                        buffer.append(str.substring(1));
+                    } else {
+                        buffer.append(padWithZeros
+                                ? StringUtils.leftPad(Integer.toString(milliseconds), count, '0')
+                                : Integer.toString(milliseconds));
+                    }
+                    lastOutputSeconds = false;
+                }
+            }
+        }
+        return buffer.toString();
+    }"
+commons-C-89,2507,org/apache/commons/lang3/time,org/apache/commons/lang3/time/DurationFormatUtils.java,1458,True,51,11,1898,2,0,227,13,46,0.6637168141592921,379,243,0.6411609498680739,1.0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,1,1,18,9,BAD_PRACTICE,0.0792079207920792,ES_COMPARING_STRINGS_WITH_EQ,11,2,7,0.1698113207547169,0.0849056603773584,0.0660377358490566,-1.0,0.125,0.013671875,0.0454545454545454,0.0041580578512396,-0.75,0.0,0.0099009900990099,0.0041580578512396,-0.7894736842105263,-0.7777777777777778,13,1468,1482,2562,26,0.0,2,11,15,39,0.1171086775034143,0,0,0,0,0,0,0,0.0,0,0,0,3,1,0,4,-3,0.0125,173,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1,1265,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,format,1112,close,"static String format(final Token[] tokens, final int years, final int months, final int days, final int hours, final int minutes, final int seconds,
+            int milliseconds, final boolean padWithZeros) {
+        final StringBuilder buffer = new StringBuilder();
+        boolean lastOutputSeconds = false;
+        final int sz = tokens.length;
+        for (int i = 0; i < sz; i++) {
+            final Token token = tokens[i];
+            final Object value = token.getValue();
+            final int count = token.getCount();
+            if (value instanceof StringBuilder) {
+                buffer.append(value.toString());
+            } else {
+                if (value == y) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(years), count, '0') : Integer
+                            .toString(years));
+                    lastOutputSeconds = false;
+                } else if (value == M) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(months), count, '0') : Integer
+                            .toString(months));
+                    lastOutputSeconds = false;
+                } else if (value == d) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(days), count, '0') : Integer
+                            .toString(days));
+                    lastOutputSeconds = false;
+                } else if (value == H) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(hours), count, '0') : Integer
+                            .toString(hours));
+                    lastOutputSeconds = false;
+                } else if (value == m) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(minutes), count, '0') : Integer
+                            .toString(minutes));
+                    lastOutputSeconds = false;
+                } else if (value == s) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(seconds), count, '0') : Integer
+                            .toString(seconds));
+                    lastOutputSeconds = true;
+                } else if (value == S) {
+                    if (lastOutputSeconds) {
+                        milliseconds += 1000;
+                        final String str = padWithZeros
+                                ? StringUtils.leftPad(Integer.toString(milliseconds), count, '0')
+                                : Integer.toString(milliseconds);
+                        buffer.append(str.substring(1));
+                    } else {
+                        buffer.append(padWithZeros
+                                ? StringUtils.leftPad(Integer.toString(milliseconds), count, '0')
+                                : Integer.toString(milliseconds));
+                    }
+                    lastOutputSeconds = false;
+                }
+            }
+        }
+        return buffer.toString();
+    }"
+commons-C-90,2507,org/apache/commons/lang3/time,org/apache/commons/lang3/time/DurationFormatUtils.java,1458,True,51,11,1898,2,0,227,13,46,0.640117994100295,379,243,0.6411609498680739,1.0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,1,1,18,9,BAD_PRACTICE,0.0792079207920792,ES_COMPARING_STRINGS_WITH_EQ,11,2,7,0.1698113207547169,0.0849056603773584,0.0660377358490566,-1.0,0.125,0.013671875,0.0454545454545454,0.0041580578512396,-0.75,0.0,0.0099009900990099,0.0041580578512396,-0.7894736842105263,-0.7777777777777778,13,1468,1482,2562,26,0.0,2,11,15,39,0.1171086775034143,0,0,0,0,0,0,0,0.0,0,0,0,3,1,0,4,-3,0.0125,173,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1,1265,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,format,1112,close,"static String format(final Token[] tokens, final int years, final int months, final int days, final int hours, final int minutes, final int seconds,
+            int milliseconds, final boolean padWithZeros) {
+        final StringBuilder buffer = new StringBuilder();
+        boolean lastOutputSeconds = false;
+        final int sz = tokens.length;
+        for (int i = 0; i < sz; i++) {
+            final Token token = tokens[i];
+            final Object value = token.getValue();
+            final int count = token.getCount();
+            if (value instanceof StringBuilder) {
+                buffer.append(value.toString());
+            } else {
+                if (value == y) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(years), count, '0') : Integer
+                            .toString(years));
+                    lastOutputSeconds = false;
+                } else if (value == M) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(months), count, '0') : Integer
+                            .toString(months));
+                    lastOutputSeconds = false;
+                } else if (value == d) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(days), count, '0') : Integer
+                            .toString(days));
+                    lastOutputSeconds = false;
+                } else if (value == H) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(hours), count, '0') : Integer
+                            .toString(hours));
+                    lastOutputSeconds = false;
+                } else if (value == m) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(minutes), count, '0') : Integer
+                            .toString(minutes));
+                    lastOutputSeconds = false;
+                } else if (value == s) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(seconds), count, '0') : Integer
+                            .toString(seconds));
+                    lastOutputSeconds = true;
+                } else if (value == S) {
+                    if (lastOutputSeconds) {
+                        milliseconds += 1000;
+                        final String str = padWithZeros
+                                ? StringUtils.leftPad(Integer.toString(milliseconds), count, '0')
+                                : Integer.toString(milliseconds);
+                        buffer.append(str.substring(1));
+                    } else {
+                        buffer.append(padWithZeros
+                                ? StringUtils.leftPad(Integer.toString(milliseconds), count, '0')
+                                : Integer.toString(milliseconds));
+                    }
+                    lastOutputSeconds = false;
+                }
+            }
+        }
+        return buffer.toString();
+    }"
+commons-C-91,2507,org/apache/commons/lang3/time,org/apache/commons/lang3/time/DurationFormatUtils.java,1458,True,51,11,1898,2,0,227,13,46,0.6519174041297935,379,243,0.6411609498680739,1.0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,1,1,18,9,BAD_PRACTICE,0.0792079207920792,ES_COMPARING_STRINGS_WITH_EQ,11,2,7,0.1698113207547169,0.0849056603773584,0.0660377358490566,-1.0,0.125,0.013671875,0.0454545454545454,0.0041580578512396,-0.75,0.0,0.0099009900990099,0.0041580578512396,-0.7894736842105263,-0.7777777777777778,13,1468,1482,2562,26,0.0,2,11,15,39,0.1171086775034143,0,0,0,0,0,0,0,0.0,0,0,0,3,1,0,4,-3,0.0125,173,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1,1265,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,format,1112,close,"static String format(final Token[] tokens, final int years, final int months, final int days, final int hours, final int minutes, final int seconds,
+            int milliseconds, final boolean padWithZeros) {
+        final StringBuilder buffer = new StringBuilder();
+        boolean lastOutputSeconds = false;
+        final int sz = tokens.length;
+        for (int i = 0; i < sz; i++) {
+            final Token token = tokens[i];
+            final Object value = token.getValue();
+            final int count = token.getCount();
+            if (value instanceof StringBuilder) {
+                buffer.append(value.toString());
+            } else {
+                if (value == y) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(years), count, '0') : Integer
+                            .toString(years));
+                    lastOutputSeconds = false;
+                } else if (value == M) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(months), count, '0') : Integer
+                            .toString(months));
+                    lastOutputSeconds = false;
+                } else if (value == d) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(days), count, '0') : Integer
+                            .toString(days));
+                    lastOutputSeconds = false;
+                } else if (value == H) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(hours), count, '0') : Integer
+                            .toString(hours));
+                    lastOutputSeconds = false;
+                } else if (value == m) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(minutes), count, '0') : Integer
+                            .toString(minutes));
+                    lastOutputSeconds = false;
+                } else if (value == s) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(seconds), count, '0') : Integer
+                            .toString(seconds));
+                    lastOutputSeconds = true;
+                } else if (value == S) {
+                    if (lastOutputSeconds) {
+                        milliseconds += 1000;
+                        final String str = padWithZeros
+                                ? StringUtils.leftPad(Integer.toString(milliseconds), count, '0')
+                                : Integer.toString(milliseconds);
+                        buffer.append(str.substring(1));
+                    } else {
+                        buffer.append(padWithZeros
+                                ? StringUtils.leftPad(Integer.toString(milliseconds), count, '0')
+                                : Integer.toString(milliseconds));
+                    }
+                    lastOutputSeconds = false;
+                }
+            }
+        }
+        return buffer.toString();
+    }"
+commons-C-92,2507,org/apache/commons/lang3/time,org/apache/commons/lang3/time/DurationFormatUtils.java,1458,True,51,11,1898,2,0,227,13,46,0.6578171091445427,379,243,0.6411609498680739,1.0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,18,9,BAD_PRACTICE,0.0792079207920792,ES_COMPARING_STRINGS_WITH_EQ,11,2,7,0.1698113207547169,0.0849056603773584,0.0660377358490566,-1.0,0.125,0.013671875,0.0454545454545454,0.0041580578512396,-0.75,0.0,0.0099009900990099,0.0041580578512396,-0.7894736842105263,-0.7777777777777778,13,1468,1482,2562,26,0.0,2,11,15,39,0.1171086775034143,0,0,0,0,0,0,0,0.0,0,0,0,3,1,0,4,-3,0.0125,173,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1,1265,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,format,1112,close,"static String format(final Token[] tokens, final int years, final int months, final int days, final int hours, final int minutes, final int seconds,
+            int milliseconds, final boolean padWithZeros) {
+        final StringBuilder buffer = new StringBuilder();
+        boolean lastOutputSeconds = false;
+        final int sz = tokens.length;
+        for (int i = 0; i < sz; i++) {
+            final Token token = tokens[i];
+            final Object value = token.getValue();
+            final int count = token.getCount();
+            if (value instanceof StringBuilder) {
+                buffer.append(value.toString());
+            } else {
+                if (value == y) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(years), count, '0') : Integer
+                            .toString(years));
+                    lastOutputSeconds = false;
+                } else if (value == M) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(months), count, '0') : Integer
+                            .toString(months));
+                    lastOutputSeconds = false;
+                } else if (value == d) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(days), count, '0') : Integer
+                            .toString(days));
+                    lastOutputSeconds = false;
+                } else if (value == H) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(hours), count, '0') : Integer
+                            .toString(hours));
+                    lastOutputSeconds = false;
+                } else if (value == m) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(minutes), count, '0') : Integer
+                            .toString(minutes));
+                    lastOutputSeconds = false;
+                } else if (value == s) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(seconds), count, '0') : Integer
+                            .toString(seconds));
+                    lastOutputSeconds = true;
+                } else if (value == S) {
+                    if (lastOutputSeconds) {
+                        milliseconds += 1000;
+                        final String str = padWithZeros
+                                ? StringUtils.leftPad(Integer.toString(milliseconds), count, '0')
+                                : Integer.toString(milliseconds);
+                        buffer.append(str.substring(1));
+                    } else {
+                        buffer.append(padWithZeros
+                                ? StringUtils.leftPad(Integer.toString(milliseconds), count, '0')
+                                : Integer.toString(milliseconds));
+                    }
+                    lastOutputSeconds = false;
+                }
+            }
+        }
+        return buffer.toString();
+    }"
+commons-C-93,2507,org/apache/commons/lang3/time,org/apache/commons/lang3/time/DurationFormatUtils.java,1458,True,51,11,1898,2,16,227,13,46,0.6283185840707964,379,243,0.6411609498680739,0.2549019607843137,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,18,9,BAD_PRACTICE,0.0792079207920792,ES_COMPARING_STRINGS_WITH_EQ,11,2,7,0.1698113207547169,0.0849056603773584,0.0660377358490566,-1.0,0.125,0.013671875,0.0454545454545454,0.0041580578512396,-0.75,0.0,0.0099009900990099,0.0041580578512396,-0.7894736842105263,-0.7777777777777778,13,1468,1482,2562,26,0.0,2,11,15,39,0.1171086775034143,0,0,0,0,0,0,0,0.0,0,0,0,3,1,0,4,-3,0.0125,173,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1,1265,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,format,1112,close,"static String format(final Token[] tokens, final int years, final int months, final int days, final int hours, final int minutes, final int seconds,
+            int milliseconds, final boolean padWithZeros) {
+        final StringBuilder buffer = new StringBuilder();
+        boolean lastOutputSeconds = false;
+        final int sz = tokens.length;
+        for (int i = 0; i < sz; i++) {
+            final Token token = tokens[i];
+            final Object value = token.getValue();
+            final int count = token.getCount();
+            if (value instanceof StringBuilder) {
+                buffer.append(value.toString());
+            } else {
+                if (value == y) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(years), count, '0') : Integer
+                            .toString(years));
+                    lastOutputSeconds = false;
+                } else if (value == M) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(months), count, '0') : Integer
+                            .toString(months));
+                    lastOutputSeconds = false;
+                } else if (value == d) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(days), count, '0') : Integer
+                            .toString(days));
+                    lastOutputSeconds = false;
+                } else if (value == H) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(hours), count, '0') : Integer
+                            .toString(hours));
+                    lastOutputSeconds = false;
+                } else if (value == m) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(minutes), count, '0') : Integer
+                            .toString(minutes));
+                    lastOutputSeconds = false;
+                } else if (value == s) {
+                    buffer.append(padWithZeros ? StringUtils.leftPad(Integer.toString(seconds), count, '0') : Integer
+                            .toString(seconds));
+                    lastOutputSeconds = true;
+                } else if (value == S) {
+                    if (lastOutputSeconds) {
+                        milliseconds += 1000;
+                        final String str = padWithZeros
+                                ? StringUtils.leftPad(Integer.toString(milliseconds), count, '0')
+                                : Integer.toString(milliseconds);
+                        buffer.append(str.substring(1));
+                    } else {
+                        buffer.append(padWithZeros
+                                ? StringUtils.leftPad(Integer.toString(milliseconds), count, '0')
+                                : Integer.toString(milliseconds));
+                    }
+                    lastOutputSeconds = false;
+                }
+            }
+        }
+        return buffer.toString();
+    }"
+commons-C-94,2507,org/apache/commons/lang3/time,org/apache/commons/lang3/time/DurationFormatUtils.java,1458,True,0,11,1898,2,0,227,1,46,0.799410029498525,379,243,0.6411609498680739,1.0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,18,9,BAD_PRACTICE,0.0792079207920792,ES_COMPARING_STRINGS_WITH_EQ,11,2,1,0.1698113207547169,0.0849056603773584,0.0094339622641509,1.0,0.125,0.013671875,0.0454545454545454,0.0041580578512396,-0.75,0.0,0.0099009900990099,0.0041580578512396,-0.7894736842105263,-0.7777777777777778,0,171,244,1265,26,0.0,2,11,15,39,0.1171086775034143,0,0,0,0,0,0,0,0.0,0,0,0,3,1,0,4,-3,0.0125,173,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1265,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,lexx,1112,close,"static Token[] lexx(final String format) {
+        final char[] array = format.toCharArray();
+        final ArrayList<Token> list = new ArrayList<Token>(array.length);
+
+        boolean inLiteral = false;
+        // Although the buffer is stored in a Token, the Tokens are only
+        // used internally, so cannot be accessed by other threads
+        StringBuilder buffer = null;
+        Token previous = null;
+        final int sz = array.length;
+        for (int i = 0; i < sz; i++) {
+            final char ch = array[i];
+            if (inLiteral && ch != '\'') {
+                buffer.append(ch); // buffer can't be null if inLiteral is true
+                continue;
+            }
+            Object value = null;
+            switch (ch) {
+            // TODO: Need to handle escaping of '
+            case '\'':
+                if (inLiteral) {
+                    buffer = null;
+                    inLiteral = false;
+                } else {
+                    buffer = new StringBuilder();
+                    list.add(new Token(buffer));
+                    inLiteral = true;
+                }
+                break;
+            case 'y':
+                value = y;
+                break;
+            case 'M':
+                value = M;
+                break;
+            case 'd':
+                value = d;
+                break;
+            case 'H':
+                value = H;
+                break;
+            case 'm':
+                value = m;
+                break;
+            case 's':
+                value = s;
+                break;
+            case 'S':
+                value = S;
+                break;
+            default:
+                if (buffer == null) {
+                    buffer = new StringBuilder();
+                    list.add(new Token(buffer));
+                }
+                buffer.append(ch);
+            }
+
+            if (value != null) {
+                if (previous != null && previous.getValue() == value) {
+                    previous.increment();
+                } else {
+                    final Token token = new Token(value);
+                    list.add(token);
+                    previous = token;
+                }
+                buffer = null;
+            }
+        }
+        return list.toArray(new Token[list.size()]);
+    }"
+commons-C-95,2507,org/apache/commons/lang3/time,org/apache/commons/lang3/time/DurationFormatUtils.java,1458,True,182,11,1898,2,14,227,45,46,0.4815634218289085,379,243,0.6411609498680739,0.2225274725274725,0,1,0,0,1,0,0,1,1,1,0,0,1,0,1,1,0,1,0,1,1,0,0,0,1,0,1,1,1,1,0,0,1,0,0,1,0,0,0,0,1,1,1,1,1,1,0,1,1,0,0,1,1,0,0,0,0,0,1,1,18,9,CORRECTNESS,0.0198019801980198,RpC_REPEATED_CONDITIONAL_TEST,11,3,1,0.1698113207547169,0.0849056603773584,0.0094339622641509,-1.0,0.0,0.0,0.25,0.1375,-1.0,0.0,0.0099009900990099,0.1375,-0.7894736842105263,-0.7777777777777778,13,1468,1482,2562,26,0.0,2,11,15,39,0.1171086775034143,0,0,0,0,0,0,0,0.0,0,0,0,3,1,0,4,-3,0.0125,173,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1,1265,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,formatPeriod,1112,open,"public static String formatPeriod(final long startMillis, final long endMillis, final String format) {
+        return formatPeriod(startMillis, endMillis, format, true, TimeZone.getDefault());
+    }"
+commons-C-97,1329,org/apache/commons/lang3/time,org/apache/commons/lang3/time/FastDateParser.java,343,True,47,22,1898,10,10,227,31,46,0.5638020833333334,437,271,0.620137299771167,0.4923305294408708,11,1,0,0,1,0,0,1,0,1,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,1,0,0,0,0,1,0,1,1,1,1,1,0,1,1,0,0,0,1,0,0,1,0,0,1,1,18,2,STYLE,0.0693069306930693,SF_SWITCH_NO_DEFAULT,19,2,1,0.1698113207547169,0.0188679245283018,0.0094339622641509,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-0.7894736842105263,-0.3333333333333333,32,446,708,1540,26,0.2245614035087719,2,11,15,39,0.1171086775034143,0,0,0,0,2,0,6,0.0,8,0,0,3,1,4,4,-3,0.0125,26,0,0,1,0,1,0,0,0,1,1,0,0,0,0,1,1,1118,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/FastDateParser.java,getStrategy,1112,open,"private Strategy getStrategy(String formatField, final Calendar definingCalendar) {
+        switch(formatField.charAt(0)) {
+        case '\'':
+            if(formatField.length()>2) {
+                formatField= formatField.substring(1, formatField.length()-1);
+            }
+            //$FALL-THROUGH$
+        default:
+            return new CopyQuotedStrategy(formatField);
+        case 'D':
+            return DAY_OF_YEAR_STRATEGY;
+        case 'E':
+            return getLocaleSpecificStrategy(Calendar.DAY_OF_WEEK, definingCalendar);
+        case 'F':
+            return DAY_OF_WEEK_IN_MONTH_STRATEGY;
+        case 'G':
+            return getLocaleSpecificStrategy(Calendar.ERA, definingCalendar);
+        case 'H':
+            return MODULO_HOUR_OF_DAY_STRATEGY;
+        case 'K':
+            return HOUR_STRATEGY;
+        case 'M':
+            return formatField.length()>=3 ?getLocaleSpecificStrategy(Calendar.MONTH, definingCalendar) :NUMBER_MONTH_STRATEGY;
+        case 'S':
+            return MILLISECOND_STRATEGY;
+        case 'W':
+            return WEEK_OF_MONTH_STRATEGY;
+        case 'a':
+            return getLocaleSpecificStrategy(Calendar.AM_PM, definingCalendar);
+        case 'd':
+            return DAY_OF_MONTH_STRATEGY;
+        case 'h':
+            return MODULO_HOUR_STRATEGY;
+        case 'k':
+            return HOUR_OF_DAY_STRATEGY;
+        case 'm':
+            return MINUTE_STRATEGY;
+        case 's':
+            return SECOND_STRATEGY;
+        case 'w':
+            return WEEK_OF_YEAR_STRATEGY;
+        case 'y':
+            return formatField.length()>2 ?LITERAL_YEAR_STRATEGY :ABBREVIATED_YEAR_STRATEGY;
+        case 'Z':
+        case 'z':
+            return getLocaleSpecificStrategy(Calendar.ZONE_OFFSET, definingCalendar);
+        }
+    }"
+commons-C-99,1908,org/apache/commons/lang3/time,org/apache/commons/lang3/time/FormatCache.java,986,True,0,8,1898,2,0,227,1,46,0.9210526315789472,107,141,1.3177570093457944,1.0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,18,2,BAD_PRACTICE,0.0099009900990099,BC_EQUALS_METHOD_SHOULD_WORK_FOR_ALL_OBJECTS,16,2,2,0.1698113207547169,0.0188679245283018,0.0188679245283018,-1.0,0.0,0.0,0.0454545454545454,0.0041580578512396,-1.0,0.0,0.0099009900990099,0.0041580578512396,-0.7894736842105263,-1.0,9,814,986,1908,26,0.1891891891891892,2,11,15,39,0.1171086775034143,0,0,0,0,4,0,3,0.0,7,0,0,3,1,-1,4,-3,0.0125,94,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1186,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/FormatCache.java,equals,1112,open,"@Override
+        public boolean equals(final Object obj) {
+            // Eliminate the usual boilerplate because
+            // this inner static class is only used in a generic ConcurrentHashMap
+            // which will not compare against other Object types
+            return Arrays.equals(keys, ((MultipartKey)obj).keys);
+        }"
+commons-C-100,1908,org/apache/commons/lang3/time,org/apache/commons/lang3/time/FormatCache.java,986,True,0,8,1898,2,0,227,1,46,0.9210526315789472,107,141,1.3177570093457944,1.0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,18,2,BAD_PRACTICE,0.0099009900990099,NP_EQUALS_SHOULD_HANDLE_NULL_ARGUMENT,11,2,2,0.1698113207547169,0.0188679245283018,0.0188679245283018,-1.0,0.0,0.0,0.0454545454545454,0.0041580578512396,-1.0,0.0,0.0099009900990099,0.0041580578512396,-0.7894736842105263,-1.0,9,814,986,1908,26,0.1891891891891892,2,11,15,39,0.1171086775034143,0,0,0,0,4,0,3,0.0,7,0,0,3,1,-1,4,-3,0.0125,94,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1186,4806,20,https://github.com/apache/commons-lang/tree/c4ecd75ecd8b78c66cc51b49dd32989a3f1cde2e//src/main/java/org/apache/commons/lang3/time/FormatCache.java,equals,1112,open,"@Override
+        public boolean equals(final Object obj) {
+            // Eliminate the usual boilerplate because
+            // this inner static class is only used in a generic ConcurrentHashMap
+            // which will not compare against other Object types
+            return Arrays.equals(keys, ((MultipartKey)obj).keys);
+        }"

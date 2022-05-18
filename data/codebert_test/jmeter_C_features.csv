@@ -1,0 +1,211 @@
+canonical_id,F72,F54,F55,F25,F26,F62,F65,F64,F67,F34,F66,F69,F68,F101,F102,F103,F104,F105,F107,F108,F16-float,F16-JMeterProperty,F16-X509Certificate[],F16-AssertionResult,F16-long,F16-HTTPSampleResult,F16-PreparedStatement,F16-NA,F16-CollectionProperty,F16-void,F16-int,F16-boolean,F16-PasswordAuthentication,F16-String,F16-ParamMask,F16-HttpResponse,F16-Class<?>,F16-ReportGuiPackage,F16-CookieManager,F16-List<HTTPSamplerBase>,F3-NA,F3-HttpRequestBase,F3-((ThroughputController)el).getMaxThroughput(),F3-JMeterTreeNode,F3-StringProperty,F3-CollectionProperty,F3-TextMessage,F3-TestElementProperty,F3-GenericController,F3-byte[],F3-boolean,F3-Object,F3-MenuIcon,F3-JMeterFileFilter,F3-String,F3-long,F3-InterleaveControl.IGNORE_SUB_CONTROLLERS,F3-int,F3-String[],F3-Date,F7--,F7-++,F7-NA,F7-+,F12-long,F12-Integer,F12-int,F12-RemoteThreadsListener,F12-NA,F12-ThreadLocal<Long>,F12-boolean,F12-JTextField,F12-Logger,F12-String,F12-SamplingStatCalculator,F12-JTree,F12-double,F12-Random,F12-JTextArea,F12-JMeterEngine,F12-RemoteSampleListener,F12-Set<String>,F12-BeanInfo,F12-List<RemoteThreadsLifeCycleListener>,F17-static,F17-final,F17-NA,F2-StringBuilder,F2-NA,F2-Integer,F2-JTextComponent,F2-InputStream,F2-DateFormat,F2-Entry<Object Object>,F2-AbstractButton,F2-JFileChooser,F2-ReportGuiPackage,F2-String,F2-HashTree,F2-MailerModel,F2-Long,F2-SaveService,F2-System,F2-Authorization,F2-Attribute,F2-Statement,F2-File,F6-java.util.Random,F6-java.util.zip.GZIPInputStream,F6-java.io.ByteArrayOutputStream,F6-NA,F6-java.io.FileWriter,F6-org.apache.jmeter.config.StringProperty,F6-java.io.InputStreamReader,F6-org.apache.jmeter.protocol.http.modifier.TestElementProperty,F6-org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.CleanerThread,F6-java.io.PrintWriter,F6-java.io.File,F6-java.lang.String,F6-java.io.OutputStreamWriter,F6-java.lang.StringBuilder,F6-org.apache.jmeter.protocol.http.util.CollectionProperty,F6-org.apache.jmeter.protocol.http.sampler.DefaultHttpRequestRetryHandler,F6-java.util.Date,F6-org.apache.jmeter.testelement.property.StringProperty,F6-org.apache.jmeter.config.CollectionProperty,F6-java.io.BufferedReader,F13-private,F13-NA,F13-public,F18-private,F18-NA,F18-public,F14-static-final,F14-NA,F14-final,F1-cloneTree,F1-setResponseData,F1-NA,F1-setStyle,F1-setProperty,F1-trim,F1-getText,F1-getInstance,F1-getPropDefault,F1-getLoggerForClass,F1-addComponent,F1-debug,F1-execute,F1-getSelectedFile,F1-valueOf,F1-exit,F1-getKey,F1-toString,F1-length,F1-setText,F5-java.util.zip.InflaterInputStream,F5-java.util.AbstractMap,F5-java.lang.Object,F5-NA,F5-java.io.Writer,F5-java.io.OutputStreamWriter,F5-AbstractTestElement,F5-java.util.AbstractSequentialList,F5-java.lang.Thread,F5-java.io.FilterOutputStream,F5-javax.swing.JToggleButton,F5-javax.swing.Timer,F5-java.io.InputStreamReader,F5-java.io.Reader,F5-java.util.AbstractList,F5-java.lang.AbstractStringBuilder,F5-java.io.OutputStream,F5-java.util.AbstractSet,F9-label,F9-data,F9-xAxisLabels,F9-startTime,F9-samplerLabel,F9-color,F9-time,F9-backColor,F9-chkBox,F9-barrier,F9-NA,F9-lineColor,F9-random,F9-keyStore,F9-md5HexInput,F9-length,F10-NA,F10-true,F19-NA,F19-abstract,F19-interface,F15-NA,F15-private,F15-protected,F15-public,F0-NA,F4-NA,F4-String[],F4-Integer,F4-Container,F4-HTTPSampleResult,F4-boolean,F4-File[],F4-long,F4-PreparedStatement,F4-JMeterProperty,F4-Node,F4-Object,F4-File,F4-void,F4-StringBuilder,F4-Long,F4-String,F4-int,F4-JButton,F4-CallableStatement,F8-SSLManager,F8-RespTimeGraphLineBean,F8-BarGraph,F8-RespTimeGraphChart,F8-RespTimeGraphDataBean,F8-RandomTimer,F8-NA,F8-MD5HexAssertionGUI,F8-AxisGraph,F8-LineGraph,F8-BarrierWrapper,F11-ALWAYS_ENCODE,F11-APPLIABLE_CONFIG_CLASSES,F11-compareContent,F11-NA,F11-log,F11-firstTime,F11-ZERO,F11-LOCK,F11-maxThroughput,F11-PARENT,F11-CONDITION,F11-serialVersionUID,F11-listener,F11-TEXT_HTML,F11-sumOfSquares,F11-CLEAR,F11-NORMAL_CHARACTER_REGEX,F11-rand,F11-CONNECTOR_PREFIX_DEFAULT,F11-loopCount,F94,F95,F21,F109,F20,F23,F22,F79,F111,F112,F113,F116,F117,F118,F119,F120,F110,F121,F122,F123,F114,F115,F61,F77,F88,F70,F41,F40,F43,F42,F45,F44,F46,F126,F127,F128,F129,F36,F130,F35,F131,F38,F132,F37,F133,F134,F39,F135,F136,F137,F83,F71-dev-null@apache.org,F71-mblankestijn@apache.org,F71-jsalvata@apache.org,F71-dims@apache.org,F71-jeremy_a@apache.org,F71-seade@apache.org,F71-oros@apache.org,F71-woolfel@apache.org,F71-mkostrze@apache.org,F71-pmouawad@apache.org,F71-alf@apache.org,F71-milamber@apache.org,F71-thads@apache.org,F71-rjung@apache.org,F71-sebb@apache.org,F71-mstover1@apache.org,F74,F73,F84,url,method_name,F146,category,method_content
+jmeter-C-227,9450,org/apache/jmeter/protocol/http/proxy,org/apache/jmeter/protocol/http/proxy/HttpRequestHdr.java,2312,True,12,21,1745,1,16,182,3,19,0.517467248908297,284,133,0.4683098591549295,0.4166666666666667,17,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,4,PERFORMANCE,0.0046875,WMI_WRONG_MAP_ITERATOR,18,2,1,0.0323943661971831,0.0056338028169014,0.0014084507042253,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-0.8333333333333334,-0.5,22,4086,1599,7838,43,0.0714285714285714,22,21,22,86,0.0538149808679586,0,0,0,0,0,0,1,0.0,1,0,0,0,0,1,0,0,0.0,239,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,3989,14044,58,https://github.com/apache/jmeter/tree/032cc396b962c0b5ac6a31f0b756d624be34efd0//src/protocol/http/org/apache/jmeter/protocol/http/proxy/HttpRequestHdr.java,createHeaderManager,3808,close,"private HeaderManager createHeaderManager() {
+        HeaderManager manager = new HeaderManager();
+        for (String key : headers.keySet()) {
+            if (!key.equals(PROXY_CONNECTION)
+             && !key.equals(CONTENT_LENGTH)
+             && !key.equalsIgnoreCase(HTTPConstants.HEADER_CONNECTION)) {
+                manager.add(headers.get(key));
+            }
+        }
+        manager.setName(JMeterUtils.getResString(""header_manager_title"")); // $NON-NLS-1$
+        manager.setProperty(TestElement.TEST_CLASS, HeaderManager.class.getName());
+        manager.setProperty(TestElement.GUI_CLASS, HeaderPanel.class.getName());
+        return manager;
+    }"
+jmeter-C-239,11964,org/apache/jmeter/protocol/http/proxy,org/apache/jmeter/protocol/http/proxy/ProxyControl.java,3374,True,22,78,1745,7,0,182,5,19,0.9703757225433526,972,248,0.2551440329218107,1.0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,11,BAD_PRACTICE,0.00625,RV_RETURN_VALUE_IGNORED_BAD_PRACTICE,16,2,2,0.0323943661971831,0.0154929577464788,0.0028169014084507,0.0,0.0,0.0,0.0344827586206896,0.1184439097800238,-1.0,0.0,0.0033500837520938,0.1184439097800238,-0.8333333333333334,-1.0,17,297,113,4049,43,0.1186580936939505,22,21,22,86,0.0538149808679586,0,0,0,0,7,0,9,0.0,21,0,5,0,0,2,0,0,0.0,92,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,3842,14044,58,https://github.com/apache/jmeter/tree/032cc396b962c0b5ac6a31f0b756d624be34efd0//src/protocol/http/org/apache/jmeter/protocol/http/proxy/ProxyControl.java,initJMeterKeyStore,3808,close,"private void initJMeterKeyStore() throws IOException, GeneralSecurityException {
+        if (storePassword  != null) { // Assume we have already created the store
+            try {
+                keyStore = getKeyStore(storePassword.toCharArray());
+                X509Certificate  caCert = (X509Certificate) keyStore.getCertificate(JMETER_SERVER_ALIAS);
+                caCert.checkValidity(new Date(System.currentTimeMillis()+DateUtils.MILLIS_PER_DAY));
+            } catch (Exception e) { // store is faulty, we need to recreate it
+                keyStore = null; // if cert is not valid, flag up to recreate it
+                log.warn(""Could not open expected file or certificate is not valid "" + CERT_PATH_ABS  + "" "" + e.getMessage());
+            }
+        }
+        if (keyStore == null) { // no existing file or not valid
+            storePassword = RandomStringUtils.randomAlphanumeric(20); // Alphanum to avoid issues with command-line quoting
+            keyPassword = storePassword; // we use same password for both
+            setPassword(storePassword);
+            log.info(""Generating standard keypair in "" + CERT_PATH_ABS);
+            CERT_PATH.delete(); // safer to start afresh
+            KeyToolUtils.genkeypair(CERT_PATH, JMETER_SERVER_ALIAS, storePassword, CERT_VALIDITY, null, null);
+            keyStore = getKeyStore(storePassword.toCharArray()); // This should now work
+        }
+    }"
+jmeter-C-240,11964,org/apache/jmeter/protocol/http/proxy,org/apache/jmeter/protocol/http/proxy/ProxyControl.java,3374,True,135,78,1745,7,24,182,37,19,0.3740366088631984,972,248,0.2551440329218107,0.1259259259259259,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,11,STYLE,0.025,ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD,20,3,1,0.0323943661971831,0.0154929577464788,0.0014084507042253,0.0,0.0,0.0,0.0231362467866323,0.0067109139616965,-1.0,0.0,0.0150753768844221,0.0067109139616965,-0.8333333333333334,-1.0,13,285,112,4037,43,0.1186580936939505,22,21,22,86,0.0538149808679586,0,0,0,0,7,0,9,0.0,21,0,5,0,0,2,0,0,0.0,92,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,3842,14044,58,https://github.com/apache/jmeter/tree/032cc396b962c0b5ac6a31f0b756d624be34efd0//src/protocol/http/org/apache/jmeter/protocol/http/proxy/ProxyControl.java,deliverSampler,3808,open,"public synchronized void deliverSampler(final HTTPSamplerBase sampler, final TestElement[] subConfigs, final SampleResult result) {
+        if (sampler != null) {
+            if (ATTEMPT_REDIRECT_DISABLING && (samplerRedirectAutomatically || samplerFollowRedirects)) {
+                if (result instanceof HTTPSampleResult) {
+                    final HTTPSampleResult httpSampleResult = (HTTPSampleResult) result;
+                    final String urlAsString = httpSampleResult.getUrlAsString();
+                    if (urlAsString.equals(LAST_REDIRECT)) { // the url matches the last redirect
+                        sampler.setEnabled(false);
+                        sampler.setComment(""Detected a redirect from the previous sample"");
+                    } else { // this is not the result of a redirect
+                        LAST_REDIRECT = null; // so break the chain
+                    }
+                    if (httpSampleResult.isRedirect()) { // Save Location so resulting sample can be disabled
+                        if (LAST_REDIRECT == null) {
+                            sampler.setComment(""Detected the start of a redirect chain"");
+                        }
+                        LAST_REDIRECT = httpSampleResult.getRedirectLocation();
+                    } else {
+                        LAST_REDIRECT = null;
+                    }
+                }
+            }
+            if (filterContentType(result) && filterUrl(sampler)) {
+                JMeterTreeNode myTarget = findTargetControllerNode();
+                @SuppressWarnings(""unchecked"") // OK, because find only returns correct element types
+                Collection<ConfigTestElement> defaultConfigurations = (Collection<ConfigTestElement>) findApplicableElements(myTarget, ConfigTestElement.class, false);
+                @SuppressWarnings(""unchecked"") // OK, because find only returns correct element types
+                Collection<Arguments> userDefinedVariables = (Collection<Arguments>) findApplicableElements(myTarget, Arguments.class, true);
+
+                removeValuesFromSampler(sampler, defaultConfigurations);
+                replaceValues(sampler, subConfigs, userDefinedVariables);
+                sampler.setAutoRedirects(samplerRedirectAutomatically);
+                sampler.setFollowRedirects(samplerFollowRedirects);
+                sampler.setUseKeepAlive(useKeepAlive);
+                sampler.setImageParser(samplerDownloadImages);
+
+                placeSampler(sampler, subConfigs, myTarget);
+            } else {
+                if(log.isDebugEnabled()) {
+                    log.debug(""Sample excluded based on url or content-type: "" + result.getUrlAsString() + "" - "" + result.getContentType());
+                }
+                result.setSampleLabel(""[""+result.getSampleLabel()+""]"");
+            }
+        }
+        // SampleEvent is not passed JMeterVariables, because they don't make sense for Proxy Recording
+        notifySampleListeners(new SampleEvent(result, ""WorkBench"")); // TODO - is this the correct threadgroup name?
+    }"
+jmeter-C-308,11941,org/apache/jmeter/protocol/jms/sampler,org/apache/jmeter/protocol/jms/sampler/FixedQueueExecutor.java,3353,True,37,2,1203,1,16,174,10,12,0.9,54,43,0.7962962962962963,0.7297297297297297,22,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,1,CORRECTNESS,0.0015625,RV_RETURN_VALUE_IGNORED,5,2,1,0.0225352112676056,0.0014084507042253,0.0014084507042253,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-1.0,-1.0,1,1763,563,5515,420,0.0,1,27,393,448,0.0292724440046149,0,0,0,0,0,0,0,0.0,0,2,0,2,0,0,4,0,0.0109280962939499,1096,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,4846,14044,12,https://github.com/apache/jmeter/tree/032cc396b962c0b5ac6a31f0b756d624be34efd0//src/protocol/jms/org/apache/jmeter/protocol/jms/sampler/FixedQueueExecutor.java,sendAndReceive,3762,close,"@Override
+    public Message sendAndReceive(Message request) throws JMSException {
+        String id = request.getJMSCorrelationID();
+        if(id == null && !useReqMsgIdAsCorrelId){
+            throw new IllegalArgumentException(""Correlation id is null. Set the JMSCorrelationID header."");
+        }
+        final CountDownLatch countDownLatch = new CountDownLatch(1);
+        final MessageAdmin admin = MessageAdmin.getAdmin();
+        if(useReqMsgIdAsCorrelId) {// msgId not available until after send() is called
+            // Note: there is only one admin object which is shared between all threads
+            synchronized (admin) {// interlock with Receiver
+                producer.send(request);
+                id=request.getJMSMessageID();
+                admin.putRequest(id, request, countDownLatch);
+            }
+        } else {
+            admin.putRequest(id, request, countDownLatch);            
+            producer.send(request);
+        }
+
+        try {
+            if (log.isDebugEnabled()) {
+                log.debug(Thread.currentThread().getName()+"" will wait for reply "" + id + "" started on "" + System.currentTimeMillis());
+            }
+            // This used to be request.wait(timeout_ms), where 0 means forever
+            // However 0 means return immediately for the latch
+            if (timeout == 0){
+                countDownLatch.await(); //
+            } else {
+                countDownLatch.await(timeout, TimeUnit.MILLISECONDS);
+            }
+            if (log.isDebugEnabled()) {
+                log.debug(Thread.currentThread().getName()+"" done waiting for "" + id + "" on ""+request+"" ended on "" + System.currentTimeMillis());
+            }
+
+        } catch (InterruptedException e) {
+            log.warn(""Interrupt exception caught"", e);
+        }
+        return admin.get(id);
+    }"
+jmeter-C-424,10181,org/apache/jmeter/services,org/apache/jmeter/services/FileServer.java,2550,True,24,30,240,2,16,30,5,2,0.904096834264432,309,185,0.598705501618123,0.2708333333333333,5,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,STYLE,0.00625,NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE,13,2,1,0.0056338028169014,0.0056338028169014,0.0014084507042253,-1.0,0.0,0.0,0.0231362467866323,0.0067109139616965,-1.0,0.0,0.0150753768844221,0.0067109139616965,-1.0,-1.0,53,8019,3165,11771,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,846,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,1,4596,14044,846,https://github.com/apache/jmeter/tree/032cc396b962c0b5ac6a31f0b756d624be34efd0//src/core/org/apache/jmeter/services/FileServer.java,getRandomFile,4596,open,"public File getRandomFile(String basedir, String[] extensions) {
+        File input = null;
+        if (basedir != null) {
+            File src = new File(basedir);
+            if (src.isDirectory() && src.list() != null) {
+                File[] lfiles = src.listFiles(new JMeterFileFilter(extensions));
+                int count = lfiles.length;
+                input = lfiles[random.nextInt(count)];
+            }
+        }
+        return input;
+    }"
+jmeter-C-426,7859,org/apache/jmeter/testbeans/gui,org/apache/jmeter/testbeans/gui/ComboStringEditor.java,1600,True,0,16,1417,2,0,155,1,29,0.9272151898734176,182,86,0.4725274725274725,1.0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,1,BAD_PRACTICE,0.0015625,HE_EQUALS_USE_HASHCODE,16,2,1,0.0098591549295774,0.0014084507042253,0.0014084507042253,0.0,0.0,0.0,0.0344827586206896,0.1184439097800238,0.0,0.0,0.0033500837520938,0.1184439097800238,-1.0,0.0,25,8883,3639,12635,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,398,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,4148,14044,262,https://github.com/apache/jmeter/tree/032cc396b962c0b5ac6a31f0b756d624be34efd0//src/core/org/apache/jmeter/testbeans/gui/ComboStringEditor.java,equals,4012,close,"@Override
+        public boolean equals(Object other) {
+            if (this == other) {
+                return true;
+            }
+            if (other instanceof UniqueObject) {
+                return propKey.equals(((UniqueObject) other).propKey);
+            }
+            return false;
+        }"
+jmeter-C-484,4848,org/apache/jmeter/util,org/apache/jmeter/util/JMeterUtils.java,399,True,10,69,2521,3,12,335,1,45,0.6242469879518072,709,525,0.7404795486600846,0.4,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,8,PERFORMANCE,0.0046875,DM_BOXED_PRIMITIVE_FOR_PARSING,16,1,4,0.0352112676056338,0.0112676056338028,0.0056338028169014,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-1.0,-1.0,153,10008,4160,13760,35,0.0,1,8,27,44,0.0202349185107805,0,0,0,0,0,0,0,0.0,0,2,0,2,0,0,4,0,0.0027670527670527,844,0,0,1,0,1,0,0,0,0,1,0,1,0,0,1,1,4594,14044,2,https://github.com/apache/jmeter/tree/032cc396b962c0b5ac6a31f0b756d624be34efd0//src/core/org/apache/jmeter/util/JMeterUtils.java,getPropDefault,3752,close,"public static int getPropDefault(String propName, int defaultVal) {
+        int ans;
+        try {
+            ans = (Integer.valueOf(appProperties.getProperty(propName, Integer.toString(defaultVal)).trim()))
+                    .intValue();
+        } catch (Exception e) {
+            ans = defaultVal;
+        }
+        return ans;
+    }"
+jmeter-C-486,4848,org/apache/jmeter/util,org/apache/jmeter/util/JMeterUtils.java,399,True,29,69,2521,3,16,335,5,45,0.4623493975903614,709,525,0.7404795486600846,0.2413793103448276,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,8,I18N,0.0828125,DM_DEFAULT_ENCODING,19,1,2,0.0352112676056338,0.0112676056338028,0.0028169014084507,-1.0,0.1153846153846153,0.0510355029585798,0.1034482758620689,0.001355502747504,-0.75,0.0,0.0100502512562814,0.001355502747504,-1.0,-1.0,8,1419,484,5171,35,0.0,1,8,27,44,0.0202349185107805,0,0,0,0,0,0,0,0.0,0,2,0,2,0,0,4,0,0.0027670527670527,844,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,4594,14044,2,https://github.com/apache/jmeter/tree/032cc396b962c0b5ac6a31f0b756d624be34efd0//src/core/org/apache/jmeter/util/JMeterUtils.java,getResourceFileAsText,3752,open,"public static String getResourceFileAsText(String name) {
+        BufferedReader fileReader = null;
+        try {
+            String lineEnd = System.getProperty(""line.separator""); // $NON-NLS-1$
+            InputStream is = JMeterUtils.class.getClassLoader().getResourceAsStream(name);
+            if(is != null) {
+                fileReader = new BufferedReader(new InputStreamReader(is));
+                StringBuilder text = new StringBuilder();
+                String line = ""NOTNULL""; // $NON-NLS-1$
+                while (line != null) {
+                    line = fileReader.readLine();
+                    if (line != null) {
+                        text.append(line);
+                        text.append(lineEnd);
+                    }
+                }
+                // Done by finally block: fileReader.close();
+                return text.toString();
+            } else {
+                return """"; // $NON-NLS-1$                
+            }
+        } catch (IOException e) {
+            return """"; // $NON-NLS-1$
+        } finally {
+            IOUtils.closeQuietly(fileReader);
+        }
+    }"
+jmeter-C-487,4848,org/apache/jmeter/util,org/apache/jmeter/util/JMeterUtils.java,399,True,4,69,2521,3,8,335,1,45,0.9856927710843374,709,525,0.7404795486600846,0.5,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,8,PERFORMANCE,0.0015625,DM_GC,16,1,1,0.0352112676056338,0.0112676056338028,0.0014084507042253,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-1.0,-1.0,9,1481,485,5233,35,0.0,1,8,27,44,0.0202349185107805,0,0,0,0,0,0,0,0.0,0,2,0,2,0,0,4,0,0.0027670527670527,844,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,4594,14044,2,https://github.com/apache/jmeter/tree/032cc396b962c0b5ac6a31f0b756d624be34efd0//src/core/org/apache/jmeter/util/JMeterUtils.java,helpGC,3752,open,"public static final void helpGC() {
+        System.gc();
+        System.runFinalization();
+    }"
+jmeter-C-610,7861,org/apache/jorphan/reflect,org/apache/jorphan/reflect/ClassFinder.java,1600,True,26,16,444,4,8,46,7,6,0.9761904761904762,306,219,0.7156862745098039,0.0961538461538461,14,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,2,STYLE,0.00625,NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE,13,2,1,0.0084507042253521,0.0028169014084507,0.0014084507042253,-1.0,0.0,0.0,0.0231362467866323,0.0067109139616965,-1.0,0.0,0.0150753768844221,0.0067109139616965,-1.0,-1.0,45,9932,4094,13684,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,1122,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,1,4872,14044,1122,https://github.com/apache/jmeter/tree/032cc396b962c0b5ac6a31f0b756d624be34efd0//src/jorphan/org/apache/jorphan/reflect/ClassFinder.java,findClassesInPathsDir,4872,close,"private static void findClassesInPathsDir(String strPathElement, File dir, Set<String> listClasses) throws IOException {
+        String[] list = dir.list();
+        for (int i = 0; i < list.length; i++) {
+            File file = new File(dir, list[i]);
+            if (file.isDirectory()) {
+                // Recursive call
+                findClassesInPathsDir(strPathElement, file, listClasses);
+            } else if (list[i].endsWith(DOT_CLASS) && file.exists() && (file.length() != 0)) {
+                final String path = file.getPath();
+                listClasses.add(path.substring(strPathElement.length() + 1,
+                        path.lastIndexOf('.')) // $NON-NLS-1$
+                        .replace(File.separator.charAt(0), '.')); // $NON-NLS-1$
+            }
+        }
+    }"
+jmeter-C-611,8719,org/apache/jorphan/reflect,org/apache/jorphan/reflect/Functor.java,2092,True,9,26,444,1,0,46,1,6,0.7540322580645161,246,213,0.8658536585365854,1.0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,4,BAD_PRACTICE,0.0140625,DE_MIGHT_IGNORE,19,3,2,0.0084507042253521,0.0056338028169014,0.0028169014084507,-1.0,0.125,0.013671875,0.0344827586206896,0.1184439097800238,-0.75,0.0,0.0033500837520938,0.1184439097800238,-1.0,-1.0,11,6250,2496,10002,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,3985,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,7735,14044,1122,https://github.com/apache/jmeter/tree/032cc396b962c0b5ac6a31f0b756d624be34efd0//src/jorphan/org/apache/jorphan/reflect/Functor.java,checkMethod,4872,open,"@Deprecated
+    public boolean checkMethod(Object _invokee){
+        Method m = null;
+        try {
+            m = doCreateMethod(_invokee.getClass(), getTypes(args));
+        } catch (Exception e){
+            // ignored
+        }
+        return null != m;
+    }"

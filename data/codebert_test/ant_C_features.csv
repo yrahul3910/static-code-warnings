@@ -1,0 +1,624 @@
+canonical_id,F72,F54,F55,F25,F26,F62,F65,F64,F67,F34,F66,F69,F68,F101,F102,F103,F104,F105,F107,F108,F16-StringBuffer,F16-Boolean,F16-Object,F16-NA,F16-void,F16-Process,F16-int,F16-URL,F16-boolean,F16-Enumeration,F16-URL[],F16-String,F16-InputStream,F16-Resource,F16-Reader,F16-PrintStream,F16-Iterator<Resource>,F16-File,F16-Map<URL Location>,F16-DateFormat,F3-NA,F3-Class,F3-Integer,F3-Long,F3-PrintStream,F3-File,F3-InputStream,F3-Project,F3-byte[],F3-null,F3-boolean,F3-Object,F3-FileInputStream,F3-FileOutputStream,F3-char,F3-nestedTask.getTaskName(),F3-String,F3-long,F3-int,F3-Project.MSG_DEBUG,F7--,F7-/,F7-++,F7-+=,F7-NA,F7-*,F7-+,F12-long,F12-int,F12-List<ResourceComparator>,F12-Object,F12-NA,F12-List<NameEntry>,F12-boolean,F12-String,F12-AssertionFailedError,F12-Vector<Object>,F12-URL,F12-File,F12-Feature,F12-Mapper,F12-Vector<FileSelector>,F12-FileUtils,F12-ArrayList,F12-Collection<Resource>,F12-Union,F12-Path,F17-final,F17-static,F17-static-final,F17-NA,F2-AbstractFileSetTest,F2-Process,F2-Document,F2-DirectoryScanner,F2-Thread,F2-NA,F2-Vector<String>,F2-ByteArrayOutputStream,F2-StringBuffer,F2-Properties,F2-Object,F2-String,F2-Iterator,F2-Map,F2-Hashtable,F2-BufferedReader,F2-System,F2-MockProject,F2-OutputStream,F2-File,F6-java.io.ByteArrayOutputStream,F6-java.io.BufferedWriter,F6-NA,F6-java.lang.Long,F6-org.apache.tools.ant.taskdefs.FileResource,F6-java.io.InputStreamReader,F6-java.io.FileOutputStream,F6-java.io.FileInputStream,F6-java.util.Properties,F6-java.io.PrintStream,F6-java.io.ByteArrayInputStream,F6-java.lang.Integer,F6-org.apache.tools.ant.util.LayoutPreservingProperties,F6-java.io.FileReader,F6-java.io.File,F6-java.util.ArrayList<org.apache.tools.ant.types.PatternSet.NameEntry>,F6-java.lang.String,F6-java.lang.StringBuffer,F6-org.apache.tools.ant.types.Path,F6-java.io.BufferedReader,F13-private,F13-NA,F13-protected,F13-public,F18-private,F18-NA,F18-public,F14-static-final,F14-static,F14-NA,F1-delete,F1-NA,F1-close,F1-next,F1-assertEquals,F1-write,F1-getInstance,F1-get,F1-listFiles,F1-equals,F1-getProperty,F1-resolveFile,F1-put,F1-load,F1-createTempFile,F1-log,F1-toString,F1-list,F1-getInputStream,F1-assertTrue,F5-java.util.AbstractMap,F5-DataType,F5-java.lang.Object,F5-NA,F5-java.io.Writer,F5-Task,F5-java.io.OutputStreamWriter,F5-java.io.FilterOutputStream,F5-java.util.Hashtable,F5-java.io.InputStream,F5-java.io.FilterInputStream,F5-java.io.InputStreamReader,F5-java.lang.Number,F5-java.io.Reader,F5-java.util.AbstractList,F5-java.lang.RuntimeException,F5-java.lang.AbstractStringBuilder,F5-java.io.OutputStream,F5-EnumeratedAttribute,F5-java.text.DateFormat,F9-srcDir,F9-anonymousSchema,F9-failOnError,F9-ignoreSystemclasses,F9-uname,F9-replyto,F9-extDirs,F9-keys,F9-lastmodified,F9-dateTime,F9-trim,F9-NA,F9-out,F9-className,F9-nowarn,F9-port,F9-buildfile,F9-length,F9-dir,F9-env,F10-NA,F10-true,F19-NA,F19-abstract,F19-interface,F15-NA,F15-private,F15-protected,F15-public,F0-NA,F4-NA,F4-String[],F4-boolean,F4-InputStream,F4-Collection<Resource>,F4-File[],F4-long,F4-Process,F4-StringBuffer,F4-AbstractFileSet,F4-Enumeration,F4-DateFormat,F4-Node,F4-Object,F4-File,F4-Element,F4-void,F4-String,F4-int,F4-SecurityManager,F8-PropertyChecker,F8-Length,F8-GenerateKey,F8-Get,F8-BFT,F8-Checksum,F8-Touch,F8-Execute,F8-Resource,F8-SchemaValidate,F8-MailMessage,F8-Rmic,F8-Available,F8-NA,F8-ReferenceChecker,F8-AbstractFileSet,F8-FixCRLF,F8-AntTypeDefinition,F8-EmailTask,F8-Javac,F11-msg,F11-nested,F11-NA,F11-refid,F11-WEBLOGIC_DEPLOY_CLASS_NAME,F11-classname,F11-FILE_UTILS,F11-method,F11-excludesFileList,F11-type,F11-error,F11-ref,F11-unlessCond,F11-cache,F11-from,F11-name,F11-dir,F11-to,F11-selectorsList,F11-resourceComparators,F94,F95,F21,F109,F20,F23,F22,F79,F111,F112,F113,F116,F117,F118,F119,F120,F110,F121,F122,F123,F114,F115,F61,F77,F88,F70,F41,F40,F43,F42,F45,F44,F46,F126,F127,F128,F129,F36,F130,F35,F131,F38,F132,F37,F133,F134,F39,F135,F136,F137,F83,F71-kevj@apache.org,F71-dev-null@apache.org,F71-jskeet@apache.org,F71-donaldp@apache.org,F71-antoine@apache.org,F71-jkf@apache.org,F71-stevel@apache.org,F71-jglick@apache.org,F71-bodewig@apache.org,F71-stefano@apache.org,F71-umagesh@apache.org,F71-sbailliez@apache.org,F71-ehatcher@apache.org,F71-costin@apache.org,F71-rubys@apache.org,F71-peterreilly@apache.org,F71-hibou@apache.org,F71-conor@apache.org,F71-mbenson@apache.org,F71-jhm@apache.org,F74,F73,F84,url,method_name,F146,category,method_content
+ant-C-15,719,org/apache/tools/ant,org/apache/tools/ant/ArgumentProcessorRegistry.java,495,True,96,10,8034,1,14,1108,5,150,0.9017857142857144,115,33,0.2869565217391304,0.0859375,5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,2,CORRECTNESS,0.0008136696501220504,NP_NULL_ON_SOME_PATH_EXCEPTION,11,2,2,0.0922213311948676,0.0016038492381716,0.0016038492381716,-1.0,0.0,0.0,0.0089285714285714,0.00011061961549325613,-1.0,0.0,0.0008216926869350862,0.00011061961549325613,-1.0,-1.0,0,144,495,719,71,0.0,7,5,66,83,0.0110830603171919,0,0,0,0,0,0,0,0.0,0,42,0,4,7,0,53,38,0.0067250040512072,146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,719,13499,6,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/main/org/apache/tools/ant/ArgumentProcessorRegistry.java,getProcessorByService,579,close,"private ArgumentProcessor getProcessorByService(InputStream is)
+            throws IOException {
+        InputStreamReader isr = null;
+        try {
+            try {
+                isr = new InputStreamReader(is, ""UTF-8"");
+            } catch (java.io.UnsupportedEncodingException e) {
+                isr = new InputStreamReader(is);
+            }
+            BufferedReader rd = new BufferedReader(isr);
+            String processorClassName = rd.readLine();
+            if (processorClassName != null && !"""".equals(processorClassName)) {
+                return getProcessor(processorClassName);
+            }
+        } finally {
+            try {
+                isr.close();
+            } catch (IOException e) {
+                // ignore
+            }
+        }
+        return null;
+    }"
+ant-C-19,6364,org/apache/tools/ant,org/apache/tools/ant/BuildFileTest.java,3613,True,44,36,8034,3,12,1108,1,150,0.5512152777777778,256,263,1.02734375,0.2159090909090909,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,2,I18N,0.1350691619202603,DM_DEFAULT_ENCODING,19,1,1,0.0922213311948676,0.0016038492381716,0.0008019246190858059,-1.0,0.0060240963855421,0.0029939033241399,0.0052910052910052,3.5665199427919074e-06,-0.9879518072289156,0.0,0.0008216926869350862,3.5665199427919074e-06,-1.0,-1.0,30,7376,3983,7951,71,0.0,7,5,66,83,0.0110830603171919,0,0,0,0,0,0,0,0.0,0,42,0,4,7,0,53,38,0.0067250040512072,800,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,1,0,1,1,1,1373,13499,6,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/ant/BuildFileTest.java,executeTarget,579,open,"public void executeTarget(String targetName) {
+        PrintStream sysOut = System.out;
+        PrintStream sysErr = System.err;
+        try {
+            sysOut.flush();
+            sysErr.flush();
+            outBuffer = new StringBuffer();
+            PrintStream out = new PrintStream(new AntOutputStream(outBuffer));
+            System.setOut(out);
+            errBuffer = new StringBuffer();
+            PrintStream err = new PrintStream(new AntOutputStream(errBuffer));
+            System.setErr(err);
+            logBuffer = new StringBuffer();
+            fullLogBuffer = new StringBuffer();
+            buildException = null;
+            project.executeTarget(targetName);
+        } finally {
+            System.setOut(sysOut);
+            System.setErr(sysErr);
+        }
+
+    }"
+ant-C-233,13034,org/apache/tools/ant/taskdefs,org/apache/tools/ant/taskdefs/EchoTest.java,4850,True,21,4,23315,2,0,3202,1,399,0.6728971962616822,63,30,0.4761904761904761,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,385,5,STYLE,0.0382424735557363,REC_CATCH_EXCEPTION,17,2,3,0.3087409783480352,0.004009623095429,0.0024057738572574,0.0,0.0,0.0,0.0081967213114754,0.0048387561741697,-1.0,0.0,0.0024650780608052,0.0048387561741697,-0.989501312335958,-1.0,0,121,303,696,295,0.0,20,20,275,335,0.010641383694982,0,0,0,0,0,0,0,0.0,0,69,0,9,11,0,89,60,0.0065007935221057,123,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,696,13499,3,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/ant/taskdefs/EchoTest.java,testLogUTF8Echo,576,close,"public void testLogUTF8Echo() {
+        Project p = new Project();
+        p.init();
+        EchoTestLogger logger = new EchoTestLogger();
+        p.addBuildListener(logger);
+        Echo echo = new Echo();
+        echo.setProject(p);
+        echo.setTaskName(""testLogUTF8Echo"");
+        echo.setMessage(""\u00e4\u00a9"");
+        removeThis = new File(""abc.txt"");
+        echo.setFile(removeThis);
+        echo.setEncoding(""UTF-8"");
+        echo.execute();
+        FileUtils fu = FileUtils.getFileUtils();
+        try {
+        String x = FileUtils.readFully(new InputStreamReader(new FileInputStream(removeThis), ""UTF-8"" ));
+            assertEquals(x,""\u00e4\u00a9"");
+        } catch (Exception exc) {
+
+        }
+    }"
+ant-C-389,11389,org/apache/tools/ant/taskdefs,org/apache/tools/ant/taskdefs/ManifestTest.java,4430,True,30,30,23315,1,8,3202,8,399,0.6202185792349727,232,84,0.3620689655172414,0.6333333333333333,24,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,385,4,BAD_PRACTICE,0.0154597233523189,OS_OPEN_STREAM,16,2,2,0.3087409783480352,0.0032076984763432,0.0016038492381716,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-0.989501312335958,-1.0,0,274,677,849,295,0.0,20,20,275,335,0.010641383694982,0,0,0,0,0,0,0,0.0,0,69,0,9,11,0,89,60,0.0065007935221057,276,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,849,13499,3,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/ant/taskdefs/ManifestTest.java,testLongLine,576,open,"public void testLongLine() throws IOException, ManifestException {
+        Project p = getProject();
+        p.setUserProperty(""test.longline"", LONG_LINE);
+        p.setUserProperty(""test.long68name"" , LONG_68_NAME);
+        p.setUserProperty(""test.long70name"" , LONG_70_NAME);
+        p.setUserProperty(""test.notlongname"" , NOT_LONG_NAME);
+        p.setUserProperty(""test.value"", VALUE);
+        executeTarget(""testLongLine"");
+
+        Manifest manifest = getManifest(EXPANDED_MANIFEST);
+        Manifest.Section mainSection = manifest.getMainSection();
+        String classpath = mainSection.getAttributeValue(""class-path"");
+        assertEquals(""Class-Path attribute was not set correctly - "",
+            LONG_LINE, classpath);
+        
+        String value = mainSection.getAttributeValue(LONG_68_NAME);
+        assertEquals(""LONG_68_NAME_VALUE_MISMATCH"", VALUE, value);
+        value = mainSection.getAttributeValue(LONG_70_NAME);
+        assertEquals(""LONG_70_NAME_VALUE_MISMATCH"", VALUE, value);
+        value = mainSection.getAttributeValue(NOT_LONG_NAME);
+        assertEquals(""NOT_LONG_NAME_VALUE_MISMATCH"", VALUE, value);
+        
+        BufferedReader in = new BufferedReader(new FileReader(new File(System.getProperty(""root""), EXPANDED_MANIFEST)));
+        
+        Set set = new HashSet();
+        String read = in.readLine();
+        while (read != null)
+        {
+            set.add(read);
+            read = in.readLine();
+        }
+        
+        assertTrue(""Manifest file should have contained string "", set
+                .remove("" NOT_LONG""));
+        assertTrue(""Manifest file should have contained string "", set
+                .remove("" NG""));
+        assertTrue(""Manifest file should have contained string "", set
+                .remove(LONG_70_NAME + "": ""));
+        assertTrue(""Manifest file should have contained string "", set
+                .remove(NOT_LONG_NAME + "": NOT_LO""));
+    }"
+ant-C-486,7351,org/apache/tools/ant/taskdefs,org/apache/tools/ant/taskdefs/TouchTest.java,3843,True,4,20,23315,1,8,3202,1,399,0.3333333333333333,83,75,0.9036144578313252,0.75,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,385,4,STYLE,0.0138323840520748,DLS_DEAD_LOCAL_STORE,17,2,1,0.3087409783480352,0.0032076984763432,0.0008019246190858059,-1.0,0.0,0.0,0.0081967213114754,0.0048387561741697,-1.0,0.0,0.0024650780608052,0.0048387561741697,-0.989501312335958,-1.0,13,5895,3646,6470,295,0.0,20,20,275,335,0.010641383694982,0,0,0,0,0,0,0,0.0,0,69,0,9,11,0,89,60,0.0065007935221057,3081,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,1,0,0,1,0,3654,13499,3,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/ant/taskdefs/TouchTest.java,testNoSeconds,576,close,"public void testNoSeconds() {
+        executeTarget(""noSeconds"");
+        long time = getTargetTime();
+    }"
+ant-C-487,7351,org/apache/tools/ant/taskdefs,org/apache/tools/ant/taskdefs/TouchTest.java,3843,True,4,20,23315,1,8,3202,1,399,0.3825136612021858,83,75,0.9036144578313252,0.75,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,385,4,STYLE,0.0138323840520748,DLS_DEAD_LOCAL_STORE,17,2,1,0.3087409783480352,0.0032076984763432,0.0008019246190858059,-1.0,0.0,0.0,0.0081967213114754,0.0048387561741697,-1.0,0.0,0.0024650780608052,0.0048387561741697,-0.989501312335958,-1.0,13,5895,3646,6470,295,0.0,20,20,275,335,0.010641383694982,0,0,0,0,0,0,0,0.0,0,69,0,9,11,0,89,60,0.0065007935221057,3081,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,1,0,0,1,0,3654,13499,3,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/ant/taskdefs/TouchTest.java,testSeconds,576,close,"public void testSeconds() {
+        executeTarget(""seconds"");
+        long time=getTargetTime();
+    }"
+ant-C-489,7351,org/apache/tools/ant/taskdefs,org/apache/tools/ant/taskdefs/TouchTest.java,3843,True,3,20,23315,1,6,3202,1,399,1.6830601092896176,83,75,0.9036144578313252,0.8333333333333334,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,385,4,BAD_PRACTICE,0.049633848657445,NM_CONFUSING,19,3,0,0.3087409783480352,0.0032076984763432,0.00040096230954290296,-0.5,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-0.989501312335958,-1.0,14,6776,3843,7351,295,0.0,20,20,275,335,0.010641383694982,0,0,0,0,0,0,0,0.0,0,69,0,9,11,0,89,60,0.0065007935221057,3081,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,1,0,0,1,0,3654,13499,3,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/ant/taskdefs/TouchTest.java,testFilelist,576,open,"public void testFilelist() {
+        touchFile(""testFilelist"", 662256000000L);
+    }"
+ant-C-574,10154,org/apache/tools/ant/taskdefs/email,org/apache/tools/ant/taskdefs/email/Message.java,4347,True,27,11,625,1,20,109,4,11,0.7272727272727273,73,80,1.095890410958904,0.2962962962962963,10,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,3,BAD_PRACTICE,0.0154597233523189,OS_OPEN_STREAM,16,2,3,0.0064153969526864,0.0024057738572574,0.0024057738572574,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-1.0,-1.0,18,8310,4280,8885,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,496,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,1069,13499,160,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/main/org/apache/tools/ant/taskdefs/email/Message.java,print,733,close,"public void print(PrintStream ps)
+         throws IOException {
+        // We need character encoding aware printing here.
+        // So, using BufferedWriter over OutputStreamWriter instead of PrintStream
+        BufferedWriter out = null;
+        try {
+            out
+                = charset != null ? new BufferedWriter(new OutputStreamWriter(ps, charset))
+                : new BufferedWriter(new OutputStreamWriter(ps));
+            if (messageSource != null) {
+                // Read message from a file
+                FileReader freader = new FileReader(messageSource);
+
+                try {
+                    BufferedReader in = new BufferedReader(freader);
+                    String line = null;
+                    while ((line = in.readLine()) != null) {
+                        out.write(getProject().replaceProperties(line));
+                        out.newLine();
+                    }
+                } finally {
+                    freader.close();
+                }
+            } else {
+                out.write(getProject().replaceProperties(buffer.substring(0)));
+                out.newLine();
+            }
+            out.flush();
+        } finally {
+            //do not close the out writer as it is reused afterwards by the mail task
+        }
+    }"
+ant-C-575,1348,org/apache/tools/ant/taskdefs/email,org/apache/tools/ant/taskdefs/email/MessageTest.java,1385,True,18,2,625,1,12,109,1,11,0.7258064516129032,34,20,0.5882352941176471,0.5,6,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,1,I18N,0.1350691619202603,DM_DEFAULT_ENCODING,19,1,1,0.0064153969526864,0.0008019246190858059,0.0008019246190858059,-1.0,0.0060240963855421,0.0029939033241399,0.0052910052910052,3.5665199427919074e-06,-0.9879518072289156,0.0,0.0008216926869350862,3.5665199427919074e-06,-1.0,-1.0,1,773,1385,1348,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,774,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1347,13499,160,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/ant/taskdefs/email/MessageTest.java,testPrintStreamDoesNotGetClosed,733,open,"public void testPrintStreamDoesNotGetClosed() {
+        Message ms = new Message();
+        Project p = new Project();
+        ms.setProject(p);
+        ms.addText(""hi, this is an email"");
+        FileOutputStream fis = null;
+        try {
+            fis = new FileOutputStream(f);
+            ms.print(new PrintStream(fis));
+            fis.write(120);
+        } catch (IOException ioe) {
+            fail(""we should not have issues writing after having called Message.print"");
+        } finally {
+            FileUtils.close(fis);
+        }
+
+    }"
+ant-C-576,10154,org/apache/tools/ant/taskdefs/email,org/apache/tools/ant/taskdefs/email/PlainMailer.java,4347,True,28,3,625,1,12,109,5,11,0.8636363636363636,126,34,0.2698412698412698,0.7142857142857143,13,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,1,BAD_PRACTICE,0.0154597233523189,OS_OPEN_STREAM,16,2,1,0.0064153969526864,0.0008019246190858059,0.0008019246190858059,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-1.0,-1.0,16,8310,4280,8885,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,1547,0,0,0,1,1,0,0,0,1,0,1,0,1,0,0,1,0,1,1,0,2120,13499,160,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/main/org/apache/tools/ant/taskdefs/email/PlainMailer.java,attach,733,close,"protected void attach(File file, PrintStream out)
+         throws IOException {
+        if (!file.exists() || !file.canRead()) {
+            throw new BuildException(""File \"""" + file.getName()
+                 + ""\"" does not exist or is not ""
+                 + ""readable."");
+        }
+
+        if (includeFileNames) {
+            out.println();
+
+            String filename = file.getName();
+            int filenamelength = filename.length();
+
+            out.println(filename);
+            for (int star = 0; star < filenamelength; star++) {
+                out.print('=');
+            }
+            out.println();
+        }
+
+        int length;
+        final int maxBuf = 1024;
+        byte[] buf = new byte[maxBuf];
+        FileInputStream finstr = new FileInputStream(file);
+
+        try {
+            BufferedInputStream in = new BufferedInputStream(finstr, buf.length);
+
+            while ((length = in.read(buf)) != -1) {
+                out.write(buf, 0, length);
+            }
+        } finally {
+            finstr.close();
+        }
+    }"
+ant-C-577,765,org/apache/tools/ant/taskdefs/launcher,org/apache/tools/ant/taskdefs/launcher/OS2CommandLauncher.java,566,True,23,2,272,1,16,26,4,10,0.7439024390243902,33,44,1.3333333333333333,0.3478260869565217,7,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,1,STYLE,0.0065093572009764,NP_LOAD_OF_KNOWN_NULL_VALUE,16,2,1,0.0048115477145148,0.0008019246190858059,0.0008019246190858059,-1.0,0.0,0.0,0.0081967213114754,0.0048387561741697,-1.0,0.0,0.0024650780608052,0.0048387561741697,-1.0,-1.0,1,190,566,765,153,0.1118421052631579,0,0,153,153,0.1425136818035646,17,0,0,17,0,17,17,0.1118421052631579,17,153,0,0,0,17,153,153,0.1425136818035646,13,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,586,13499,13,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/main/org/apache/tools/ant/taskdefs/launcher/OS2CommandLauncher.java,exec,586,open,"@Override
+    public Process exec(Project project, String[] cmd, String[] env,
+                        File workingDir) throws IOException {
+        File commandDir = workingDir;
+        if (workingDir == null) {
+            if (project != null) {
+                commandDir = project.getBaseDir();
+            } else {
+                return exec(project, cmd, env);
+            }
+        }
+        // Use cmd.exe to change to the specified drive and
+        // directory before running the command
+        final int preCmdLength = 7;
+        final String cmdDir = commandDir.getAbsolutePath();
+        String[] newcmd = new String[cmd.length + preCmdLength];
+        // CheckStyle:MagicNumber OFF - do not bother
+        newcmd[0] = ""cmd"";
+        newcmd[1] = ""/c"";
+        newcmd[2] = cmdDir.substring(0, 2);
+        newcmd[3] = ""&&"";
+        newcmd[4] = ""cd"";
+        newcmd[5] = cmdDir.substring(2);
+        newcmd[6] = ""&&"";
+        // CheckStyle:MagicNumber ON
+        System.arraycopy(cmd, 0, newcmd, preCmdLength, cmd.length);
+
+        return exec(project, newcmd, env);
+    }"
+ant-C-578,765,org/apache/tools/ant/taskdefs/launcher,org/apache/tools/ant/taskdefs/launcher/PerlScriptCommandLauncher.java,566,True,23,2,272,1,16,26,5,10,0.6555555555555556,42,41,0.9761904761904762,0.1739130434782608,12,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,1,STYLE,0.0065093572009764,NP_LOAD_OF_KNOWN_NULL_VALUE,16,2,1,0.0048115477145148,0.0008019246190858059,0.0008019246190858059,-1.0,0.0,0.0,0.0081967213114754,0.0048387561741697,-1.0,0.0,0.0024650780608052,0.0048387561741697,-1.0,-1.0,2,190,566,765,153,0.096045197740113,0,0,153,153,0.1425136818035646,17,0,0,17,0,17,17,0.096045197740113,17,153,0,0,0,17,153,153,0.1425136818035646,13,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,586,13499,13,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/main/org/apache/tools/ant/taskdefs/launcher/PerlScriptCommandLauncher.java,exec,586,open,"@Override
+    public Process exec(Project project, String[] cmd, String[] env,
+                        File workingDir) throws IOException {
+        if (project == null) {
+            if (workingDir == null) {
+                return exec(project, cmd, env);
+            }
+            throw new IOException(""Cannot locate antRun script: ""
+                                  + ""No project provided"");
+        }
+        // Locate the auxiliary script
+        String antHome = project.getProperty(MagicNames.ANT_HOME);
+        if (antHome == null) {
+            throw new IOException(""Cannot locate antRun script: ""
+                                  + ""Property '"" + MagicNames.ANT_HOME
+                                  + ""' not found"");
+        }
+        String antRun = FILE_UTILS.resolveFile(project.getBaseDir(),
+                                               antHome + File.separator
+                                               + myScript).toString();
+
+        // Build the command
+        File commandDir = workingDir;
+        if (workingDir == null) {
+            commandDir = project.getBaseDir();
+        }
+        // CheckStyle:MagicNumber OFF
+        String[] newcmd = new String[cmd.length + 3];
+        newcmd[0] = ""perl"";
+        newcmd[1] = antRun;
+        newcmd[2] = commandDir.getAbsolutePath();
+        System.arraycopy(cmd, 0, newcmd, 3, cmd.length);
+        // CheckStyle:MagicNumber ON
+
+        return exec(project, newcmd, env);
+    }"
+ant-C-599,3655,org/apache/tools/ant/taskdefs/optional,org/apache/tools/ant/taskdefs/optional/EchoPropertiesTest.java,2658,True,22,27,2798,1,12,347,3,49,0.4722222222222222,172,30,0.1744186046511628,0.2727272727272727,4,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62,4,BAD_PRACTICE,0.0154597233523189,OS_OPEN_STREAM,16,2,3,0.0497193263833199,0.0032076984763432,0.0024057738572574,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-1.0,-1.0,20,9220,4330,9795,15,0.0,0,5,10,20,0.0015760637049917,0,0,0,0,0,0,0,0.0,0,2,0,1,0,0,3,1,0.0006024096385542168,496,0,0,0,0,1,0,1,1,1,0,1,0,0,0,0,1,0,0,1,1,1069,13499,7,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/ant/taskdefs/optional/EchoPropertiesTest.java,testEchoToGoodFileXml,580,close,"public void testEchoToGoodFileXml() throws Exception {
+        executeTarget( ""testEchoToGoodFileXml"" );
+
+        // read in the file
+        File f = createRelativeFile( GOOD_OUTFILE_XML );
+        FileReader fr = new FileReader( f );
+        try {
+            BufferedReader br = new BufferedReader( fr );
+            String read = null;
+            while ( (read = br.readLine()) != null) {
+                if (read.indexOf(""<property name=\""test.property\"" value=\""""+TEST_VALUE+""\"" />"") >= 0) {
+                    // found the property we set - it's good.
+                    return;
+                }
+            }
+            fail( ""did not encounter set property in generated file."" );
+        } finally {
+            try {
+                fr.close();
+            } catch(IOException e) {}
+        }
+    }"
+ant-C-604,11148,org/apache/tools/ant/taskdefs/optional,org/apache/tools/ant/taskdefs/optional/PropertyFile.java,4399,True,40,10,2798,5,20,347,7,49,0.2553191489361702,374,259,0.6925133689839572,0.35,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62,5,BAD_PRACTICE,0.0154597233523189,OS_OPEN_STREAM,16,2,2,0.0497193263833199,0.004009623095429,0.0016038492381716,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-1.0,-1.0,64,10911,4452,11486,15,0.0,0,5,10,20,0.0015760637049917,0,0,0,0,0,0,0,0.0,0,2,0,1,0,0,3,1,0.0006024096385542168,973,1,0,1,1,1,1,1,1,1,0,1,1,1,0,0,1,0,1,0,1,1546,13499,7,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/main/org/apache/tools/ant/taskdefs/optional/PropertyFile.java,readFile,580,close,"private void readFile() throws BuildException {
+        if (useJDKProperties) {
+            // user chose to use standard Java properties, which loose
+            // comments and layout
+            properties = new Properties();
+        } else {
+            properties = new LayoutPreservingProperties();
+        }
+        try {
+            if (propertyfile.exists()) {
+                log(""Updating property file: ""
+                    + propertyfile.getAbsolutePath());
+                FileInputStream fis = null;
+                try {
+                    fis = new FileInputStream(propertyfile);
+                    BufferedInputStream bis = new BufferedInputStream(fis);
+                    properties.load(bis);
+                } finally {
+                    if (fis != null) {
+                        fis.close();
+                    }
+                }
+            } else {
+                log(""Creating new property file: ""
+                    + propertyfile.getAbsolutePath());
+                FileOutputStream out = null;
+                try {
+                    out = new FileOutputStream(propertyfile.getAbsolutePath());
+                    out.flush();
+                } finally {
+                    if (out != null) {
+                        out.close();
+                    }
+                }
+            }
+        } catch (IOException ioe) {
+            throw new BuildException(ioe.toString());
+        }
+    }"
+ant-C-605,11148,org/apache/tools/ant/taskdefs/optional,org/apache/tools/ant/taskdefs/optional/PropertyFile.java,4399,True,80,10,2798,5,16,347,13,49,0.2595744680851063,374,259,0.6925133689839572,0.225,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62,5,STYLE,0.0789259560618388,UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR,20,3,2,0.0497193263833199,0.004009623095429,0.0016038492381716,-1.0,0.0101010101010101,0.0003447924033085997,0.0081967213114754,0.0048387561741697,-0.9797979797979798,0.0,0.0024650780608052,0.0048387561741697,-1.0,-1.0,36,9224,4331,9799,15,0.0,0,5,10,20,0.0015760637049917,0,0,0,0,0,0,0,0.0,0,2,0,1,0,0,3,1,0.0006024096385542168,973,1,0,1,1,1,1,1,1,1,0,1,0,1,0,0,1,0,1,0,1,1546,13499,7,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/main/org/apache/tools/ant/taskdefs/optional/PropertyFile.java,readFile,580,open,"private void readFile() throws BuildException {
+        if (useJDKProperties) {
+            // user chose to use standard Java properties, which loose
+            // comments and layout
+            properties = new Properties();
+        } else {
+            properties = new LayoutPreservingProperties();
+        }
+        try {
+            if (propertyfile.exists()) {
+                log(""Updating property file: ""
+                    + propertyfile.getAbsolutePath());
+                FileInputStream fis = null;
+                try {
+                    fis = new FileInputStream(propertyfile);
+                    BufferedInputStream bis = new BufferedInputStream(fis);
+                    properties.load(bis);
+                } finally {
+                    if (fis != null) {
+                        fis.close();
+                    }
+                }
+            } else {
+                log(""Creating new property file: ""
+                    + propertyfile.getAbsolutePath());
+                FileOutputStream out = null;
+                try {
+                    out = new FileOutputStream(propertyfile.getAbsolutePath());
+                    out.flush();
+                } finally {
+                    if (out != null) {
+                        out.close();
+                    }
+                }
+            }
+        } catch (IOException ioe) {
+            throw new BuildException(ioe.toString());
+        }
+    }"
+ant-C-606,11148,org/apache/tools/ant/taskdefs/optional,org/apache/tools/ant/taskdefs/optional/PropertyFile.java,4399,True,0,10,2798,5,0,347,1,49,0.9858156028368794,374,259,0.6925133689839572,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62,5,I18N,0.0195280716029292,DM_CONVERT_CASE,20,3,1,0.0497193263833199,0.004009623095429,0.0008019246190858059,-1.0,0.0,0.0,0.0052910052910052,3.5665199427919074e-06,-1.0,0.0,0.0008216926869350862,3.5665199427919074e-06,-1.0,-1.0,36,9224,4331,9799,15,0.0,0,5,10,20,0.0015760637049917,0,0,0,0,0,0,0,0.0,0,2,0,1,0,0,3,1,0.0006024096385542168,973,1,0,1,1,1,1,1,1,1,0,1,0,1,0,0,1,0,1,0,1,1546,13499,7,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/main/org/apache/tools/ant/taskdefs/optional/PropertyFile.java,getCalendarField,580,open,"public int getCalendarField() {
+            String key = getValue().toLowerCase();
+            Integer i = (Integer) calendarFields.get(key);
+            return i.intValue();
+        }"
+ant-C-847,7913,org/apache/tools/ant/taskdefs/optional/vss,org/apache/tools/ant/taskdefs/optional/vss/MSVSSTest.java,3978,True,58,23,842,1,14,133,11,14,0.9611973392461196,294,89,0.3027210884353741,0.2586206896551724,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,BAD_PRACTICE,0.0032546786004882,ES_COMPARING_STRINGS_WITH_EQ,11,2,1,0.0032076984763432,0.0032076984763432,0.0008019246190858059,-1.0,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-1.0,-1.0,14,7338,3978,7913,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,496,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,1069,13499,203,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/ant/taskdefs/optional/vss/MSVSSTest.java,checkCommandLines,776,close,"private void checkCommandLines(String[] sTestCmdLine, String[] sGeneratedCmdLine) {
+        int testLength = sTestCmdLine.length;
+        int genLength = sGeneratedCmdLine.length;
+
+        int genIndex = 0;
+        int testIndex = 0;
+
+        while (testIndex < testLength) {
+            try {
+                if (sGeneratedCmdLine[genIndex] == """") {
+                    genIndex++;
+                    continue;
+                }
+                assertEquals(""arg # "" + testIndex,
+                        sTestCmdLine[testIndex],
+                        sGeneratedCmdLine[genIndex]);
+                testIndex++;
+                genIndex++;
+            } catch (ArrayIndexOutOfBoundsException aioob) {
+                fail(""missing arg "" + sTestCmdLine[testIndex]);
+            }
+        }
+
+        // Count the number of empty strings
+        int cnt = 0;
+        for (int i = 0; i < genLength; i++) {
+            if (sGeneratedCmdLine[i] == """") {
+                cnt++;
+            }
+        }
+        if (genLength - cnt > sTestCmdLine.length) {
+            // We have extra elements
+            fail(""extra args"");
+        }
+    }"
+ant-C-849,7913,org/apache/tools/ant/taskdefs/optional/vss,org/apache/tools/ant/taskdefs/optional/vss/MSVSSTest.java,3978,True,21,23,842,1,7,133,1,14,0.1629711751662971,294,89,0.3027210884353741,0.5714285714285714,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,BAD_PRACTICE,0.049633848657445,NM_CONFUSING,19,3,0,0.0032076984763432,0.0032076984763432,0.00040096230954290296,-0.5,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-1.0,-1.0,14,7338,3978,7913,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,496,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,1069,13499,203,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/ant/taskdefs/optional/vss/MSVSSTest.java,testGetCommandLine,776,open,"public void testGetCommandLine() {
+        String[] sTestCmdLine = {MSVSS.SS_EXE, MSVSS.COMMAND_GET, DS_VSS_PROJECT_PATH,
+                MSVSS.FLAG_OVERRIDE_WORKING_DIR + project.getBaseDir().getAbsolutePath()
+                 + File.separator + LOCAL_PATH, MSVSS.FLAG_AUTORESPONSE_DEF,
+                MSVSS.FLAG_RECURSION, MSVSS.FLAG_VERSION + VERSION, MSVSS.FLAG_LOGIN
+                 + VSS_USERNAME + "","" + VSS_PASSWORD, FLAG_FILETIME_UPDATED, FLAG_SKIP_WRITABLE};
+
+        // Set up a VSSGet task
+        MSVSSGET vssGet = new MSVSSGET();
+        vssGet.setProject(project);
+        vssGet.setRecursive(true);
+        vssGet.setLocalpath(new Path(project, LOCAL_PATH));
+        vssGet.setLogin(VSS_USERNAME + "","" + VSS_PASSWORD);
+        vssGet.setVersion(VERSION);
+        vssGet.setQuiet(false);
+        vssGet.setDate(DATE);
+        vssGet.setLabel(SRC_LABEL);
+        vssGet.setVsspath(VSS_PROJECT_PATH);
+        MSVSS.CurrentModUpdated cmu = new MSVSS.CurrentModUpdated();
+        cmu.setValue(TIME_UPDATED);
+        vssGet.setFileTimeStamp(cmu);
+        MSVSS.WritableFiles wf = new MSVSS.WritableFiles();
+        wf.setValue(WRITABLE_SKIP);
+        vssGet.setWritableFiles(wf);
+
+        commandline = vssGet.buildCmdLine();
+
+        checkCommandLines(sTestCmdLine, commandline.getCommandline());
+    }"
+ant-C-870,13253,org/apache/tools/ant/types,org/apache/tools/ant/types/CommandlineJavaTest.java,4913,True,27,7,6335,1,12,805,2,118,0.4222222222222222,130,31,0.2384615384615384,0.4444444444444444,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,3,STYLE,0.0138323840520748,DLS_DEAD_LOCAL_STORE,17,2,3,0.0737770649558941,0.0024057738572574,0.0024057738572574,-1.0,0.0,0.0,0.0081967213114754,0.0048387561741697,-1.0,0.0,0.0024650780608052,0.0048387561741697,-1.0,-1.0,26,11880,4707,12455,20,0.0,4,1,19,25,0.0055957300275482,0,0,0,0,0,0,0,0.0,0,2,0,1,0,0,3,1,0.002840909090909,1106,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,1,0,1,1,1,1679,13499,9,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/ant/types/CommandlineJavaTest.java,testGetCommandline,582,close,"public void testGetCommandline() throws Exception {
+        CommandlineJava c = new CommandlineJava();
+        c.createArgument().setValue(""org.apache.tools.ant.CommandlineJavaTest"");
+        c.setClassname(""junit.textui.TestRunner"");
+        c.createVmArgument().setValue(""-Djava.compiler=NONE"");
+        String[] s = c.getCommandline();
+        assertEquals(""no classpath"", 4, s.length);
+        /*
+         * After changing CommandlineJava to search for the java
+         * executable, I don't know, how to tests the value returned
+         * here without using the same logic as applied in the class
+         * itself.
+         *
+         * assertTrue(""no classpath"", ""java"", s[0]);
+         */
+        assertEquals(""no classpath"", ""-Djava.compiler=NONE"", s[1]);
+        assertEquals(""no classpath"", ""junit.textui.TestRunner"", s[2]);
+        assertEquals(""no classpath"",
+                     ""org.apache.tools.ant.CommandlineJavaTest"", s[3]);
+        try {
+            CommandlineJava c2 = (CommandlineJava) c.clone();
+        } catch (NullPointerException ex) {
+            fail(""cloning should work without classpath specified"");
+        }
+
+        c.createClasspath(project).setLocation(project.resolveFile(""build.xml""));
+        c.createClasspath(project).setLocation(project.resolveFile(
+            System.getProperty(MagicNames.ANT_HOME)+""/lib/ant.jar""));
+        s = c.getCommandline();
+        assertEquals(""with classpath"", 6, s.length);
+        //        assertEquals(""with classpath"", ""java"", s[0]);
+        assertEquals(""with classpath"", ""-Djava.compiler=NONE"", s[1]);
+        assertEquals(""with classpath"", ""-classpath"", s[2]);
+        assertTrue(""build.xml contained"",
+               s[3].indexOf(""build.xml""+java.io.File.pathSeparator) >= 0);
+        assertTrue(""ant.jar contained"", s[3].endsWith(""ant.jar""));
+        assertEquals(""with classpath"", ""junit.textui.TestRunner"", s[4]);
+        assertEquals(""with classpath"",
+                     ""org.apache.tools.ant.CommandlineJavaTest"", s[5]);
+    }"
+ant-C-871,13253,org/apache/tools/ant/types,org/apache/tools/ant/types/CommandlineJavaTest.java,4913,True,27,7,6335,1,8,805,2,118,0.45,130,31,0.2384615384615384,0.6296296296296297,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,3,STYLE,0.0789259560618388,UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR,20,3,3,0.0737770649558941,0.0024057738572574,0.0024057738572574,-1.0,0.0101010101010101,0.0003447924033085997,0.0081967213114754,0.0048387561741697,-0.9797979797979798,0.0,0.0024650780608052,0.0048387561741697,-1.0,-1.0,14,6094,3731,6669,20,0.0,4,1,19,25,0.0055957300275482,0,0,0,0,0,0,0,0.0,0,2,0,1,0,0,3,1,0.002840909090909,1106,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,1,0,0,1,0,1679,13499,9,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/ant/types/CommandlineJavaTest.java,testGetCommandline,582,open,"public void testGetCommandline() throws Exception {
+        CommandlineJava c = new CommandlineJava();
+        c.createArgument().setValue(""org.apache.tools.ant.CommandlineJavaTest"");
+        c.setClassname(""junit.textui.TestRunner"");
+        c.createVmArgument().setValue(""-Djava.compiler=NONE"");
+        String[] s = c.getCommandline();
+        assertEquals(""no classpath"", 4, s.length);
+        /*
+         * After changing CommandlineJava to search for the java
+         * executable, I don't know, how to tests the value returned
+         * here without using the same logic as applied in the class
+         * itself.
+         *
+         * assertTrue(""no classpath"", ""java"", s[0]);
+         */
+        assertEquals(""no classpath"", ""-Djava.compiler=NONE"", s[1]);
+        assertEquals(""no classpath"", ""junit.textui.TestRunner"", s[2]);
+        assertEquals(""no classpath"",
+                     ""org.apache.tools.ant.CommandlineJavaTest"", s[3]);
+        try {
+            CommandlineJava c2 = (CommandlineJava) c.clone();
+        } catch (NullPointerException ex) {
+            fail(""cloning should work without classpath specified"");
+        }
+
+        c.createClasspath(project).setLocation(project.resolveFile(""build.xml""));
+        c.createClasspath(project).setLocation(project.resolveFile(
+            System.getProperty(MagicNames.ANT_HOME)+""/lib/ant.jar""));
+        s = c.getCommandline();
+        assertEquals(""with classpath"", 6, s.length);
+        //        assertEquals(""with classpath"", ""java"", s[0]);
+        assertEquals(""with classpath"", ""-Djava.compiler=NONE"", s[1]);
+        assertEquals(""with classpath"", ""-classpath"", s[2]);
+        assertTrue(""build.xml contained"",
+               s[3].indexOf(""build.xml""+java.io.File.pathSeparator) >= 0);
+        assertTrue(""ant.jar contained"", s[3].endsWith(""ant.jar""));
+        assertEquals(""with classpath"", ""junit.textui.TestRunner"", s[4]);
+        assertEquals(""with classpath"",
+                     ""org.apache.tools.ant.CommandlineJavaTest"", s[5]);
+    }"
+ant-C-872,13253,org/apache/tools/ant/types,org/apache/tools/ant/types/CommandlineJavaTest.java,4913,True,31,7,6335,1,8,805,1,118,0.6722222222222223,130,31,0.2384615384615384,0.3225806451612903,28,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,3,STYLE,0.0789259560618388,UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR,20,3,1,0.0737770649558941,0.0024057738572574,0.0008019246190858059,-1.0,0.0101010101010101,0.0003447924033085997,0.0081967213114754,0.0048387561741697,-0.9797979797979798,0.0,0.0024650780608052,0.0048387561741697,-1.0,-1.0,16,6914,3886,7489,20,0.0,4,1,19,25,0.0055957300275482,0,0,0,0,0,0,0,0.0,0,2,0,1,0,0,3,1,0.002840909090909,1106,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,1,0,0,1,1,1679,13499,9,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/ant/types/CommandlineJavaTest.java,testSysproperties,582,open,"public void testSysproperties() {
+        String currentClasspath = System.getProperty(""java.class.path"");
+        assertNotNull(currentClasspath);
+        assertNull(System.getProperty(""key""));
+        CommandlineJava c = new CommandlineJava();
+        Environment.Variable v = new Environment.Variable();
+        v.setKey(""key"");
+        v.setValue(""value"");
+        c.addSysproperty(v);
+
+        project.setProperty(""key2"", ""value2"");
+        PropertySet ps = new PropertySet();
+        ps.setProject(project);
+        ps.appendName(""key2"");
+        c.addSyspropertyset(ps);
+
+        try {
+            c.setSystemProperties();
+            String newClasspath = System.getProperty(""java.class.path"");
+            assertNotNull(newClasspath);
+            assertEquals(currentClasspath, newClasspath);
+            assertNotNull(System.getProperty(""key""));
+            assertEquals(""value"", System.getProperty(""key""));
+            assertTrue(System.getProperties().containsKey(""java.class.path""));
+            assertNotNull(System.getProperty(""key2""));
+            assertEquals(""value2"", System.getProperty(""key2""));
+        } finally {
+            c.restoreSystemProperties();
+        }
+        assertNull(System.getProperty(""key""));
+        assertNull(System.getProperty(""key2""));
+    }"
+ant-C-1016,8642,org/apache/tools/ant/types/selectors,org/apache/tools/ant/types/selectors/BaseSelectorTest.java,4232,True,0,16,3114,2,0,406,1,58,0.9411764705882352,151,100,0.6622516556291391,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,3,CORRECTNESS,0.0683482506102522,IJU_TEARDOWN_NO_SUPER,7,2,1,0.0264635124298315,0.0024057738572574,0.0008019246190858059,-1.0,0.0117647058823529,0.0009688581314878892,0.0089285714285714,0.00011061961549325613,-0.976470588235294,0.0,0.0008216926869350862,0.00011061961549325613,-1.0,-1.0,14,8067,4232,8642,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,3081,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,1,0,0,1,1,3654,13499,122,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/ant/types/selectors/BaseSelectorTest.java,tearDown,695,close,"public void tearDown() {
+            executeTarget(""cleanup"");
+        }"
+ant-C-1173,2353,org/apache/tools/bzip2,org/apache/tools/bzip2/CBZip2StreamTest.java,1994,True,8,2,1959,1,12,102,1,10,0.7142857142857143,18,19,1.0555555555555556,0.375,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,STYLE,0.0138323840520748,DLS_DEAD_LOCAL_STORE,17,2,1,0.0016038492381716,0.0008019246190858059,0.0008019246190858059,-1.0,0.0,0.0,0.0081967213114754,0.0048387561741697,-1.0,0.0,0.0024650780608052,0.0048387561741697,-1.0,-1.0,0,1778,1994,2353,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,1780,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2353,13499,189,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/bzip2/CBZip2StreamTest.java,testNullPointer,762,close,"public void testNullPointer() throws IOException {
+        try {
+            CBZip2InputStream cb = new CBZip2InputStream(new ByteArrayInputStream(new byte[0]));
+            fail(""expected an exception"");
+        } catch (IOException e) {
+            // expected
+        }
+    }"
+ant-C-1174,13163,org/apache/tools/mail,org/apache/tools/mail/MailMessage.java,4897,True,3,31,571,2,5,46,1,8,0.8669201520912547,272,197,0.7242647058823529,0.8333333333333334,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,2,BAD_PRACTICE,0.049633848657445,NM_CONFUSING,19,3,0,0.0072173215717722,0.0016038492381716,0.00040096230954290296,-0.5,0.0,0.0,0.0,0.0,-1.0,0.0,0.0,0.0,-1.0,-1.0,40,12588,4897,13163,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,203,0,0,0,1,1,1,0,0,1,0,1,1,0,0,0,1,0,1,0,0,776,13499,203,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/main/org/apache/tools/mail/MailMessage.java,replyto,776,open,"public void replyto(String rto) {
+      this.replyto.addElement(rto);
+    }"
+ant-C-1175,6944,org/apache/tools/mail,org/apache/tools/mail/MailMessageTest.java,3785,True,32,9,571,4,0,46,2,8,0.6580381471389646,569,65,0.1142355008787346,1.0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,6,I18N,0.1350691619202603,DM_DEFAULT_ENCODING,19,1,2,0.0072173215717722,0.0048115477145148,0.0016038492381716,-1.0,0.0060240963855421,0.0029939033241399,0.0052910052910052,3.5665199427919074e-06,-0.9879518072289156,0.0,0.0008216926869350862,3.5665199427919074e-06,-1.0,-1.0,7,6369,3785,6944,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,3081,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,3654,13499,203,https://github.com/apache/ant/tree/c92f8f160a3197e8f3df74ceb588f581d08404c0//src/tests/junit/org/apache/tools/mail/MailMessageTest.java,testAsciiCharset,776,open,"public void testAsciiCharset() {
+
+        ServerThread testMailServer = new ServerThread();
+        Thread server = new Thread(testMailServer);
+        server.start();
+
+        ClientThread testMailClient = new ClientThread();
+
+        testMailClient.from(""Mail Message <EmailTaskTest@ant.apache.org>"");
+        testMailClient.to(""Ceki G\u00fclc\u00fc <abuse@mail-abuse.org>"");
+        testMailClient.setSubject(""Test subject"");
+        testMailClient.setMessage("""");
+
+        Thread client = new Thread(testMailClient);
+        client.start();
+
+        try {
+            server.join(60 * 1000); // 60s
+            client.join(30 * 1000); // a further 30s
+        } catch (InterruptedException ie ) {
+            fail(""InterruptedException: "" + ie);
+        }
+
+        String result = testMailServer.getResult();
+        String expectedResult = ""220 test SMTP EmailTaskTest\r\n"" +
+        ""HELO "" + local + ""\r\n"" +
+        ""250 "" + local + "" Hello "" + local + "" [127.0.0.1], pleased to meet you\r\n"" +
+        ""MAIL FROM: <EmailTaskTest@ant.apache.org>\r\n"" +
+        ""250\r\n"" +
+        ""RCPT TO: <abuse@mail-abuse.org>\r\n"" +
+        ""250\r\n"" +
+        ""DATA\r\n"" +
+        ""354\r\n"" +
+        ""Subject: Test subject\r\n"" +
+            ""From: Mail Message <EmailTaskTest@ant.apache.org>\r\n"" +
+            ""To: Ceki G\u00fclc\u00fc <abuse@mail-abuse.org>\r\n"" +
+        ""X-Mailer: org.apache.tools.mail.MailMessage (ant.apache.org)\r\n"" +
+        ""\r\n"" +
+        ""\r\n"" +
+        ""\r\n"" +
+        "".\r\n"" +
+        ""250\r\n"" +
+        ""QUIT\r\n"" +
+        ""221\r\n"";
+        ByteArrayOutputStream baos1 = new ByteArrayOutputStream();
+        ByteArrayOutputStream baos2 = new ByteArrayOutputStream();
+        PrintStream bos1 = new PrintStream(baos1, true);
+        PrintStream bos2 = new PrintStream(baos2, true);
+
+        bos1.print(expectedResult);
+        bos2.print(result);
+
+        assertEquals( ""expected message length != actual message length ""
+            + ""in testAsciiCharset()"", expectedResult.length(), result.length() );
+        assertEquals( ""baos1 and baos2 should be the same in testAsciiCharset()"",
+            baos1.toString(), baos2.toString() ); // order of headers cannot be guaranteed
+        if (testMailClient.isFailed()) {
+            fail(testMailClient.getFailMessage());
+        }
+    }"
