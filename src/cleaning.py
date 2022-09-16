@@ -1,12 +1,12 @@
-import numpy as np
 import glob
+import os
+
+import numpy as np
 import pandas as pd
-from sklearn.preprocessing import MinMaxScaler
 from sklearn import preprocessing
 from sklearn.preprocessing import LabelBinarizer
-from IPython import embed
-import sys
-import os
+from sklearn.preprocessing import MinMaxScaler
+
 
 def read_training_testing_files(path):
     trainingFiles = glob.glob(path + "/train/*.csv")

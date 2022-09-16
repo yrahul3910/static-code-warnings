@@ -1,0 +1,7 @@
+.idea/
+.ipynb_checkpoints/
+.DS_Store
+log/
+log_dodge/
+__pycache__/
+ivis/

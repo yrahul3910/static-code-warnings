@@ -1,18 +1,14 @@
 import os
-import tensorflow as tf
+
 import numpy as np
 import pandas as pd
-from glob import glob
-from ivis import Ivis
-from dodge import _DODGE
-from raise_utils.learners import *
-from sklearn.svm import SVC
+from raise_utils.data import Data
 from raise_utils.transforms import Transform
-from raise_utils.data import DataLoader, Data
-from raise_utils.metrics import ClassificationMetrics
-from sklearn.model_selection import train_test_split
-from scipy.stats import mode
 from scipy.spatial import KDTree
+from scipy.stats import mode
+from sklearn.model_selection import train_test_split
+
+from dodge import _DODGE
 
 
 def remove_labels(data):

@@ -1,19 +1,14 @@
 import os
-import tensorflow as tf
+
 import numpy as np
 import pandas as pd
-from glob import glob
-from ivis import Ivis
-from ghost import BinaryGHOST
+from raise_utils.data import Data
 from raise_utils.learners import FeedforwardDL
-from raise_utils.hyperparams import DODGE
-from raise_utils.transforms import Transform
-from raise_utils.data import DataLoader, Data
 from raise_utils.metrics import ClassificationMetrics
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import pairwise_distances
-from scipy.stats import mode
+from raise_utils.transforms import Transform
 from scipy.spatial import KDTree
+from scipy.stats import mode
+from sklearn.model_selection import train_test_split
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 
@@ -110,8 +105,8 @@ for dataset in datasets:
         res = m.get_metrics()
         print(res)
         results.append(res)
-    except:
-        pass
+    except Exception as e:
+        print(e)
 
 results = np.array(results)
 print(np.median(results, axis=0))

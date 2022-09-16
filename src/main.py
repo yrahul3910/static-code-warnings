@@ -1,19 +1,15 @@
 import os
-import tensorflow as tf
+
 import numpy as np
 import pandas as pd
-from glob import glob
-from ivis import Ivis
-from ghost import BinaryGHOST
+from raise_utils.data import Data
+from raise_utils.hyperparams import BinaryGHOST
 from raise_utils.learners import *
-from sklearn.svm import SVC
-from raise_utils.hyperparams import DODGE
 from raise_utils.transforms import Transform
-from raise_utils.data import DataLoader, Data
-from raise_utils.metrics import ClassificationMetrics
-from sklearn.model_selection import train_test_split
-from scipy.stats import mode
 from scipy.spatial import KDTree
+from scipy.stats import mode
+from sklearn.model_selection import train_test_split
+from sklearn.svm import SVC
 
 
 def remove_labels(data):
@@ -96,15 +92,14 @@ for dataset in datasets:
         data = Data(*train_test_split(X, y, test_size=.2, shuffle=False))
     data.x_train = np.array(data.x_train)
     data.y_train = np.array(data.y_train)
-    #data, ratio = remove_labels(data)
+    data, ratio = remove_labels(data)
 
     try:
-        #transform = Transform('wfo')
-        # transform.apply(data)
-        # transform.apply(data)
-        #transform = Transform('smote')
-        # transform.apply(data)
-        pass
+        transform = Transform('wfo')
+        transform.apply(data)
+        transform.apply(data)
+        transform = Transform('smote')
+        transform.apply(data)
     except ValueError:
         pass
 
@@ -112,6 +107,8 @@ for dataset in datasets:
                          'prec', 'auc'], smote=True, autoencode=False,  name=dataset)
     ghost.set_data(*data)
     ghost.fit()
+
+    best_learner = ghost.dodge.best_learner
     """
     dodge_config = {
         'n_runs': 1,

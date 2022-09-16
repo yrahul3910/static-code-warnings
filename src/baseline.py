@@ -1,36 +1,20 @@
-import statistics
-import time
-import warnings
-import cleaning
-import sys
 import os
-import glob
-
-import numpy as np
-import pandas as pd
-
-from sklearn import svm
-from sklearn.svm import LinearSVC
-from sklearn import tree
-from sklearn.preprocessing import MinMaxScaler
-from sklearn import preprocessing
-from sklearn import metrics
-from sklearn.ensemble import RandomForestClassifier
-from sklearn import preprocessing
-from sklearn.dummy import DummyClassifier
-from collections import defaultdict
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.preprocessing import LabelBinarizer
-from sklearn.preprocessing import LabelEncoder
-
+import statistics
+import sys
+import warnings
 from pathlib import Path
 
 import lime
 import lime.lime_tabular
-from lime import submodular_pick
-import shap
+import numpy as np
+from sklearn import metrics
+from sklearn import svm
+from sklearn import tree
+from sklearn.dummy import DummyClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.neighbors import KNeighborsClassifier
 
-
+import cleaning
 
 """ NOTES:
       - requires Python 3.0 or greater
