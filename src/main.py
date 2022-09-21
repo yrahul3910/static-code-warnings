@@ -10,6 +10,8 @@ from scipy.spatial import KDTree
 from scipy.stats import mode
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
+from lime.lime_tabular import LimeTabularExplainer
+import lime
 
 
 def remove_labels(data):
@@ -60,8 +62,9 @@ class _SVM(Learner):
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 
 base_path = '../data/reimplemented_2016_manual/'
-datasets = ['ant', 'cassandra', 'commons', 'derby',
-            'jmeter', 'lucene-solr', 'maven', 'tomcat']
+#datasets = ['ant', 'cassandra', 'commons', 'derby',
+#            'jmeter', 'lucene-solr', 'maven', 'tomcat']
+datasets = ['ant']
 
 for dataset in datasets:
     print(dataset)
@@ -104,11 +107,22 @@ for dataset in datasets:
         pass
 
     ghost = BinaryGHOST(['pd-pf', 'pd', 'pf',
-                         'prec', 'auc'], smote=True, autoencode=False,  name=dataset)
+                         'prec', 'auc'], n_runs=1, smote=True, autoencode=False,  name=dataset)
     ghost.set_data(*data)
     ghost.fit()
 
-    best_learner = ghost.dodge.best_learner
+    best_learner = ghost.dodge.best_learner[1].model
+    explainer = LimeTabularExplainer(
+        training_data=data.x_train,
+        feature_names=range(data.x_train.shape[1]),
+        class_names=['non-actionable', 'actionable'],
+        mode='classification'
+    )
+    explanation = explainer.explain_instance(
+        data_row=data.x_test.iloc[np.random.choice(range(len(data.x_test))),:],
+        predict_fn=best_learner.predict
+    )
+    explanation.save_to_file('explanation.html')
     """
     dodge_config = {
         'n_runs': 1,
