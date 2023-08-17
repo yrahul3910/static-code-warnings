@@ -1,0 +1,96 @@
+canonical_id,F72,F54,F55,F25,F26,F62,F65,F64,F67,F34,F66,F69,F68,F101,F102,F103,F104,F105,F107,F108,F16-float,F16-Thread,F16-JMeterProperty,F16-X509Certificate[],F16-AssertionResult,F16-long,F16-NA,F16-CollectionProperty,F16-void,F16-int,F16-GuiPackage,F16-boolean,F16-PasswordAuthentication,F16-String,F16-Integer,F16-ReportPage,F16-ParamMask,F16-Class<?>,F16-CookieManager,F16-List<HTTPSamplerBase>,F3-NA,F3-((ThroughputController)el).getMaxThroughput(),F3-JMeterTreeNode,F3-StringProperty,F3-CollectionProperty,F3-TextMessage,F3-TestElementProperty,F3-GenericController,F3-HashTree,F3-byte[],F3-boolean,F3-JMeterFileFilter,F3-String,F3-long,F3-InterleaveControl.IGNORE_SUB_CONTROLLERS,F3-int,F3-Node,F3-String[],F3-Date,F3-Locale,F7--,F7-++,F7-+=,F7-NA,F7-+,F12-long,F12-int,F12-Object,F12-LinkedList<LoopIterationListener>,F12-NA,F12-ThreadLocal<Long>,F12-boolean,F12-JTextField,F12-Logger,F12-String[],F12-String,F12-SamplingStatCalculator,F12-JTree,F12-double,F12-Random,F12-JTextArea,F12-JMeterEngine,F12-RemoteSampleListener,F12-Set<String>,F12-BeanInfo,F17-static,F17-final,F17-NA,F2-StringBuilder,F2-NA,F2-Integer,F2-JTextComponent,F2-JTree,F2-InputStream,F2-DateFormat,F2-Entry<Object Object>,F2-AbstractButton,F2-JFileChooser,F2-Header,F2-ExecutorService,F2-Connection,F2-String,F2-HashTree,F2-MailerModel,F2-Long,F2-System,F2-Authorization,F2-File,F6-java.util.Random,F6-java.util.zip.GZIPInputStream,F6-java.io.ByteArrayOutputStream,F6-NA,F6-java.io.FileWriter,F6-org.apache.jmeter.config.StringProperty,F6-java.io.InputStreamReader,F6-org.apache.jmeter.protocol.http.modifier.TestElementProperty,F6-java.io.PrintWriter,F6-org.apache.jmeter.gui.action.ActionRouter,F6-java.io.File,F6-java.lang.String,F6-java.lang.StringBuilder,F6-org.apache.jmeter.protocol.http.util.CollectionProperty,F6-org.apache.jmeter.protocol.http.sampler.DefaultHttpRequestRetryHandler,F6-java.util.Date,F6-org.apache.jmeter.testelement.property.StringProperty,F6-org.apache.jmeter.config.CollectionProperty,F6-java.io.BufferedReader,F6-org.apache.jmeter.gui.ReportGuiPackage,F13-private,F13-NA,F13-public,F18-private,F18-NA,F18-public,F14-static-final,F14-NA,F14-final,F1-cloneTree,F1-setResponseData,F1-NA,F1-setStyle,F1-setProperty,F1-trim,F1-getMailerModel,F1-getText,F1-getPropDefault,F1-getLoggerForClass,F1-addComponent,F1-getSelectedFile,F1-debug,F1-get,F1-setSelected,F1-exit,F1-getKey,F1-toString,F1-length,F1-setText,F5-java.util.AbstractMap,F5-java.util.zip.InflaterInputStream,F5-java.lang.Object,F5-NA,F5-java.io.Writer,F5-java.io.OutputStreamWriter,F5-AbstractTestElement,F5-java.util.AbstractSequentialList,F5-java.lang.Thread,F5-java.io.FilterOutputStream,F5-javax.swing.JToggleButton,F5-java.io.Reader,F5-java.lang.AbstractStringBuilder,F5-java.io.OutputStream,F5-java.util.AbstractSet,F9-factory,F9-label,F9-data,F9-xAxisLabels,F9-startTime,F9-samplerLabel,F9-time,F9-backColor,F9-chkBox,F9-barrier,F9-NA,F9-lineColor,F9-random,F9-md5HexInput,F9-length,F10-NA,F10-true,F19-NA,F19-abstract,F19-interface,F15-NA,F15-private,F15-protected,F15-public,F0-NA,F4-NA,F4-HashTree,F4-String[],F4-Container,F4-boolean,F4-File[],F4-Future,F4-long,F4-PreparedStatement,F4-JMeterProperty,F4-Node,F4-Object,F4-File,F4-TreePath,F4-void,F4-List,F4-StringBuilder,F4-String,F4-int,F4-JButton,F8-RespTimeGraphLineBean,F8-BarGraph,F8-RespTimeGraphChart,F8-RespTimeGraphDataBean,F8-RandomTimer,F8-NA,F8-MD5HexAssertionGUI,F8-AxisGraph,F8-LineGraph,F8-HC4TrustAllSSLSocketFactory,F8-BarrierWrapper,F11-ALWAYS_ENCODE,F11-APPLIABLE_CONFIG_CLASSES,F11-compareContent,F11-NA,F11-log,F11-firstTime,F11-ZERO,F11-LOCK,F11-maxThroughput,F11-CONDITION,F11-serialVersionUID,F11-listener,F11-TEXT_HTML,F11-COLUMN_RESOURCE_NAMES,F11-sumOfSquares,F11-CLEAR,F11-NORMAL_CHARACTER_REGEX,F11-rand,F11-CONNECTOR_PREFIX_DEFAULT,F11-loopCount,F94,F95,F21,F109,F20,F23,F22,F79,F111,F112,F113,F116,F117,F118,F119,F120,F110,F121,F122,F123,F114,F115,F61,F77,F88,F70,F41,F40,F43,F42,F45,F44,F46,F126,F127,F128,F129,F36,F130,F35,F131,F38,F132,F37,F133,F134,F39,F135,F136,F137,F83,F71-dev-null@apache.org,F71-mblankestijn@apache.org,F71-jsalvata@apache.org,F71-dims@apache.org,F71-jeremy_a@apache.org,F71-seade@apache.org,F71-oros@apache.org,F71-woolfel@apache.org,F71-mkostrze@apache.org,F71-pmouawad@apache.org,F71-alf@apache.org,F71-milamber@apache.org,F71-thads@apache.org,F71-sebb@apache.org,F71-mstover1@apache.org,F74,F73,F84,url,method_name,F146,category,method_content
+jmeter-B-24,13325,org/apache/jmeter/assertions,org/apache/jmeter/assertions/XMLAssertion.java,3497,True,24,2,1541,2,0,193,2,24,0.696969696969697,53,33,0.6226415094339622,1.0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,2,I18N,0.0871021775544388,DM_DEFAULT_ENCODING,19,1,1,0.0324483775811209,0.0029498525073746,0.0014749262536873,-1.0,0.2280701754385964,0.0880270852570021,0.2063492063492063,0.0053814744323911,-0.5263157894736842,0.0,0.0208667736757624,0.0053814744323911,-0.5,-1.0,5,3118,1244,7876,18,0.0070422535211267,0,2,16,20,0.0217100919039972,0,0,0,0,0,0,1,0.0,1,2,0,2,0,1,4,0,0.0095238095238095,96,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,4852,14044,5,https://github.com/apache/jmeter/tree/adca9fe1d982342e0cec8d1e410dabd0967bb852//src/components/org/apache/jmeter/assertions/XMLAssertion.java,getResult,4761,close,"@Override
+    public AssertionResult getResult(SampleResult response) {
+        // no error as default
+        AssertionResult result = new AssertionResult(getName());
+        byte[] responseData = response.getResponseData();
+        if (responseData.length == 0) {
+            return result.setResultForNull();
+        }
+        result.setFailure(false);
+
+        // the result data
+        String resultData = new String(getResultBody(responseData)); // TODO - charset?
+
+        SAXBuilder builder = myBuilder.get();
+
+        try {
+            builder.build(new StringReader(resultData));
+        } catch (JDOMException e) {
+            log.debug(""Cannot parse result content"", e); // may well happen
+            result.setFailure(true);
+            result.setFailureMessage(e.getMessage());
+        } catch (IOException e) {
+            log.error(""Cannot read result content"", e); // should never happen
+            result.setError(true);
+            result.setFailureMessage(e.getMessage());
+        }
+
+        return result;
+    }"
+jmeter-B-239,7508,org/apache/jmeter/protocol/http/sampler,org/apache/jmeter/protocol/http/sampler/HTTPSampleResult.java,1056,True,34,15,4121,1,12,368,7,41,0.9252136752136751,123,86,0.6991869918699187,0.1176470588235294,11,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,1,I18N,0.0871021775544388,DM_DEFAULT_ENCODING,19,1,1,0.0383480825958702,0.0014749262536873,0.0014749262536873,-1.0,0.2280701754385964,0.0880270852570021,0.2063492063492063,0.0053814744323911,-0.5263157894736842,0.0,0.0208667736757624,0.0053814744323911,-0.76,-1.0,13,2456,830,7214,118,0.3293650793650793,18,63,55,199,0.0645946450082372,0,0,0,0,1,0,12,0.0,13,4,0,0,9,11,13,4,0.0164141414141414,156,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,4912,14044,12,https://github.com/apache/jmeter/tree/adca9fe1d982342e0cec8d1e410dabd0967bb852//src/protocol/http/org/apache/jmeter/protocol/http/sampler/HTTPSampleResult.java,getDataEncodingWithDefault,4768,close,"@Override
+    public String getDataEncodingWithDefault() {
+        if (getDataEncodingNoDefault() == null && getContentType().startsWith(""text/html"")){ // $NON-NLS-1$
+            byte[] bytes=getResponseData();
+            // get the start of the file
+            // TODO - charset?
+            String prefix = new String(bytes,0,Math.min(bytes.length, 2000)).toLowerCase(java.util.Locale.ENGLISH);
+            // Extract the content-type if present
+            final String METATAG = ""<meta http-equiv=\""content-type\"" content=\""""; // $NON-NLS-1$
+            int tagstart=prefix.indexOf(METATAG);
+            if (tagstart!=-1){
+                tagstart += METATAG.length();
+                int tagend = prefix.indexOf('\""', tagstart); // $NON-NLS-1$
+                if (tagend!=-1){
+                    // TODO use fixed charset:
+                    final String ct = new String(bytes,tagstart,tagend-tagstart); // TODO - charset?
+                    setEncodingAndType(ct);// Update the dataEncoding
+                }
+            }
+        }
+        return super.getDataEncodingWithDefault(DEFAULT_HTTP_ENCODING);
+    }"
+jmeter-B-240,5492,org/apache/jmeter/protocol/http/sampler,org/apache/jmeter/protocol/http/sampler/HTTPSamplerBase.java,191,True,25,117,4121,6,0,368,9,41,0.7955390334572491,1172,494,0.4215017064846416,1.0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,3,STYLE,0.1457286432160804,BC_UNCONFIRMED_CAST,20,3,1,0.0383480825958702,0.0044247787610619,0.0014749262536873,-1.0,0.0561797752808988,0.0020393695434725,0.0725,0.3051565999835923,-0.8876404494382022,0.0,0.0465489566613162,0.3051565999835923,-0.76,-1.0,43,1878,455,6636,118,0.1582454211434615,18,63,55,199,0.0645946450082372,0,0,0,0,9,0,28,0.0,43,4,6,0,9,19,13,4,0.0164141414141414,91,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,4847,14044,12,https://github.com/apache/jmeter/tree/adca9fe1d982342e0cec8d1e410dabd0967bb852//src/protocol/http/org/apache/jmeter/protocol/http/sampler/HTTPSamplerBase.java,resultProcessing,4768,open,"protected HTTPSampleResult resultProcessing(boolean areFollowingRedirect, int frameDepth, HTTPSampleResult res) {
+        boolean wasRedirected = false;
+        if (!areFollowingRedirect) {
+            if (res.isRedirect()) {
+                log.debug(""Location set to - "" + res.getRedirectLocation());
+
+                if (getFollowRedirects()) {
+                    res = followRedirects(res, frameDepth);
+                    areFollowingRedirect = true;
+                    wasRedirected = true;
+                }
+            }
+        }
+        if (isImageParser() && (SampleResult.TEXT).equals(res.getDataType()) && res.isSuccessful()) {
+            if (frameDepth > MAX_FRAME_DEPTH) {
+                res.addSubResult(errorResult(new Exception(""Maximum frame/iframe nesting depth exceeded.""), new HTTPSampleResult(res)));
+            } else {
+                // Only download page resources if we were not redirected.
+                // If we were redirected, the page resources have already been
+                // downloaded for the sample made for the redirected url
+                // otherwise, use null so the container is created if necessary unless
+                // the flag is false, in which case revert to broken 2.1 behaviour 
+                // Bug 51939 -  https://issues.apache.org/bugzilla/show_bug.cgi?id=51939
+                if(!wasRedirected) {
+                    HTTPSampleResult container = (HTTPSampleResult) (
+                            areFollowingRedirect ? res.getParent() : SEPARATE_CONTAINER ? null : res);
+                    res = downloadPageResources(res, container, frameDepth);
+                }
+            }
+        }
+        return res;
+    }"
+jmeter-B-241,5492,org/apache/jmeter/protocol/http/sampler,org/apache/jmeter/protocol/http/sampler/HTTPSamplerBase.java,191,True,12,117,4121,6,8,368,1,41,0.4540626659585767,1172,494,0.4215017064846416,0.4166666666666667,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,3,I18N,0.0871021775544388,DM_DEFAULT_ENCODING,19,1,1,0.0383480825958702,0.0044247787610619,0.0014749262536873,-1.0,0.2280701754385964,0.0880270852570021,0.2063492063492063,0.0053814744323911,-0.5263157894736842,0.0,0.0208667736757624,0.0053814744323911,-0.76,-1.0,159,7450,3207,12208,118,0.1582454211434615,18,63,55,199,0.0645946450082372,0,0,0,0,9,0,28,0.0,43,4,6,0,9,19,13,4,0.0164141414141414,91,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,4847,14044,12,https://github.com/apache/jmeter/tree/adca9fe1d982342e0cec8d1e410dabd0967bb852//src/protocol/http/org/apache/jmeter/protocol/http/sampler/HTTPSamplerBase.java,errorResult,4768,open,"protected HTTPSampleResult errorResult(Throwable e, HTTPSampleResult res) {
+        res.setSampleLabel(""Error: "" + res.getSampleLabel());
+        res.setDataType(SampleResult.TEXT);
+        ByteArrayOutputStream text = new ByteArrayOutputStream(200);
+        e.printStackTrace(new PrintStream(text));
+        res.setResponseData(text.toByteArray());
+        res.setResponseCode(NON_HTTP_RESPONSE_CODE+"": ""+e.getClass().getName());
+        res.setResponseMessage(NON_HTTP_RESPONSE_MESSAGE+"": ""+e.getMessage());
+        res.setSuccessful(false);
+        res.setMonitor(this.isMonitor());
+        return res;
+    }"

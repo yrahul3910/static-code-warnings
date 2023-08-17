@@ -1,0 +1,197 @@
+canonical_id,F72,F54,F55,F25,F26,F62,F65,F64,F67,F34,F66,F69,F68,F101,F102,F103,F104,F105,F107,F108,F16-Comparable<String>,F16-String[],F16-Comparable<Boolean>,F16-List<ObjectName>,F16-Object,F16-PreparedStatement,F16-NA,F16-WebResource[],F16-void,F16-int,F16-boolean,F16-Comparable<Date>,F16-ELContextImpl,F16-String,F16-Method,F16-SkipConstantResult,F16-KeyManager[],F16-JspApplicationContext,F16-Void,F16-WebResource,F3-NA,F3-Session,F3-Integer,F3-Long,F3-Member,F3-Class<?>[],F3-InputStream,F3-null,F3-byte[],F3-ELContext,F3-boolean,F3-Object,F3-Object[],F3-FileInputStream,F3-String,F3-long,F3-int,F3-String[],F3-ObjectName,F3-Class[],F7--,F7-&=,F7-++,F7-|=,F7-+=,F7-NA,F7-*,F7-+,F12-long,F12-int,F12-HashMap<String Method>,F12-NA,F12-boolean,F12-byte[],F12-String,F12-StringManager,F12-Comparator<Session>,F17-static,F17-final,F17-static-final,F17-NA,F2-StringBuilder,F2-ELParser,F2-Thread,F2-NA,F2-ReentrantLock,F2-SimpleCharStream,F2-MBeanServer,F2-Properties,F2-Object,F2-Connection,F2-String,F2-JDBCStore,F2-AccessibleObject,F2-Method,F2-Class<>,F2-Long,F2-System,F2-Map<String LockRecord>,F2-DataInputStream,F2-File,F6-java.io.ByteArrayOutputStream,F6-NA,F6-java.lang.Long,F6-org.apache.jasper.compiler.JspConfig.JspProperty,F6-java.io.FileOutputStream,F6-java.io.InputStreamReader,F6-org.apache.catalina.startup.FailedContext,F6-java.io.FileInputStream,F6-java.util.Properties,F6-org.apache.el.parser.Token,F6-java.io.PrintWriter,F6-java.io.PrintStream,F6-java.lang.Integer,F6-java.io.File,F6-java.lang.String,F6-java.lang.StringBuilder,F6-org.apache.tomcat.jni.Library,F6-java.util.Date,F6-java.lang.Double,F6-java.io.BufferedReader,F13-private,F13-NA,F13-protected,F18-private,F18-NA,F18-public,F14-static-final,F14-NA,F14-final,F1-invoke,F1-ReInit,F1-delete,F1-NA,F1-jj_ntk,F1-close,F1-jj_consume_token,F1-getString,F1-substring,F1-longValue,F1-get,F1-append,F1-getConnection,F1-openNodeScope,F1-getProperty,F1-put,F1-currentTimeMillis,F1-toString,F1-length,F1-list,F5-javax.management.openmbean.OpenType,F5-java.lang.Object,F5-NA,F5-java.io.Writer,F5-java.util.logging.Logger,F5-java.lang.Thread,F5-java.util.zip.ZipFile,F5-java.io.FilterOutputStream,F5-java.util.Hashtable,F5-java.io.InputStream,F5-java.lang.Number,F5-java.io.Reader,F5-java.lang.AbstractStringBuilder,F5-java.io.OutputStream,F5-java.lang.Exception,F9-cluster,F9-flipped,F9-encoding,F9-accessed,F9-options,F9-rpcChannel,F9-sessionIdCol,F9-locks,F9-sessionAppCol,F9-lastAccess,F9-servletClass,F9-view,F9-payload,F9-NA,F9-wrapper,F9-channel,F9-uniqueId,F9-hosts,F9-membershipService,F9-message,F10-NA,F10-true,F19-NA,F15-NA,F15-private,F15-protected,F15-public,F0-NA,F4-NA,F4-String[],F4-Integer,F4-boolean,F4-Constructor,F4-InputStream,F4-long,F4-Method[],F4-PreparedStatement,F4-LockRecord,F4-Token,F4-Connection,F4-Object,F4-File,F4-void,F4-StringBuilder,F4-String,F4-int,F4-Method,F4-short,F8-AccessLogValve,F8-ValueExpressionImpl,F8-StandardWrapper,F8-ResultSetProxy,F8-MultiLockFairBlockingQueue<E>,F8-McastService,F8-MapMessage,F8-HostManagerServlet,F8-ByteBufferHolder,F8-ParameterParser,F8-AbstractReplicatedMap<K V>,F8-ChannelData,F8-CloseReason,F8-CoordinationEvent,F8-JDBCStore,F8-NA,F8-FaultyMember,F8-Mapper,F8-ObjectReader,F8-ChannelCoordinator,F11-START_DATA,F11-type,F11-fnmap,F11-class_name,F11-NA,F11-serialVersionUID,F11-comparator,F11-sm,F11-hasHashCode,F11-hashCode,F94,F95,F21,F109,F20,F23,F22,F79,F111,F112,F113,F116,F117,F118,F119,F120,F110,F121,F122,F123,F114,F115,F61,F77,F88,F70,F41,F40,F43,F42,F45,F44,F46,F126,F127,F128,F129,F36,F130,F35,F131,F38,F132,F37,F133,F134,F39,F135,F136,F137,F83,F71-mturk@apache.org,F71-remm@apache.org,F71-fhanik@apache.org,F71-kfujino@apache.org,F71-fcarrion@apache.org,F71-funkman@apache.org,F71-costin@apache.org,F71-kkolinko@apache.org,F71-jhook@apache.org,F71-yoavs@apache.org,F71-markt@apache.org,F71-timw@apache.org,F71-billbarker@apache.org,F71-jfclere@apache.org,F71-idarwin@apache.org,F71-rjung@apache.org,F71-pero@apache.org,F71-schultz@apache.org,F71-slaurent@apache.org,F74,F73,F84,url,method_name,F146,category,method_content
+tomcat-B-18,17993,compressionFilters,compressionFilters/CompressionServletResponseWrapper.java,2411,True,6,13,192,1,8,35,2,4,0.4748201438848921,130,100,0.7692307692307693,0.8333333333333334,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,2,MALICIOUS_CODE,0.0543785310734463,EI_EXPOSE_REP2,18,2,1,0.0031705770450221,0.0012682308180088,0.0006341154090044388,0.0,0.1111111111111111,0.0070546737213403,0.1988795518207282,0.1475300139294781,-0.691358024691358,0.0,0.0494084899095337,0.1475300139294781,0.3333333333333333,0.0,4,973,202,9801,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,493,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,9319,18084,492,https://github.com/apache/tomcat/tree/ad9a49cb08bf004af97cad465bba45d21d112325//webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java,setCompressionMimeTypes,9318,open,"public void setCompressionMimeTypes(String[] mimeTypes) {
+        if (debug > 1) {
+            System.out.println(""setCompressionMimeTypes to "" +
+                    Arrays.toString(mimeTypes));
+        }
+        this.compressionMimeTypes = mimeTypes;
+    }"
+tomcat-B-703,17709,org/apache/jasper,org/apache/jasper/JspC.java,2264,True,12,81,417,1,0,203,1,6,0.879727216367018,1032,411,0.3982558139534883,1.0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,16,13,I18N,0.03954802259887,DM_DEFAULT_ENCODING,19,1,1,0.010145846544071,0.0082435003170577,0.0006341154090044388,-1.0,0.0208333333333333,0.0101996527777777,0.0588235294117647,0.0463645668132449,-0.9375,0.0,0.0020876826722338,0.0463645668132449,-0.7647058823529411,-0.8461538461538461,38,9256,2471,18084,0,0.1333333333333333,0,2,-2,2,0.0222222222222222,0,0,0,0,2,0,0,0.0,2,0,0,0,0,-2,0,0,0.0,337,1,1,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,9163,18084,337,https://github.com/apache/tomcat/tree/ad9a49cb08bf004af97cad465bba45d21d112325//java/org/apache/jasper/JspC.java,initServletContext,9163,open,"protected void initServletContext() {
+        try {
+            context =new JspCServletContext
+                (new PrintWriter(System.out),
+                 new URL(""file:"" + uriRoot.replace('\\','/') + '/'));
+            tldLocationsCache = TldLocationsCache.getInstance(context);
+        } catch (MalformedURLException me) {
+            System.out.println(""**"" + me);
+        }
+        rctxt = new JspRuntimeContext(context, this);
+        jspConfig = new JspConfig(context);
+        tagPluginManager = new TagPluginManager(context);
+    }"
+tomcat-B-715,17709,org/apache/jasper,org/apache/jasper/JspC.java,2264,True,3,81,417,1,8,203,1,6,0.5238685678859268,1032,411,0.3982558139534883,0.6666666666666666,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,16,13,STYLE,0.0176553672316384,ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD,15,1,1,0.010145846544071,0.0082435003170577,0.0006341154090044388,-1.0,0.0769230769230769,0.0022189349112426,0.1084070796460177,0.3712370758067992,-0.8076923076923077,0.0,0.034098816979819,0.3712370758067992,-0.7647058823529411,-0.8461538461538461,38,9256,2471,18084,0,0.1333333333333333,0,2,-2,2,0.0222222222222222,0,0,0,0,2,0,0,0.0,2,0,0,0,0,-2,0,0,0.0,337,1,1,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,9163,18084,337,https://github.com/apache/tomcat/tree/ad9a49cb08bf004af97cad465bba45d21d112325//java/org/apache/jasper/JspC.java,setValidateXml,9163,close,"public void setValidateXml( boolean b ) {
+        org.apache.jasper.xmlparser.ParserUtils.validating=b;
+    }"
+tomcat-B-716,17709,org/apache/jasper,org/apache/jasper/JspCompilationContext.java,2264,True,6,52,417,1,0,203,2,6,0.2490421455938697,523,164,0.3135755258126195,1.0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,16,2,MALICIOUS_CODE,0.001412429378531,DP_CREATE_CLASSLOADER_INSIDE_DO_PRIVILEGED,18,2,1,0.010145846544071,0.0012682308180088,0.0006341154090044388,-1.0,0.3333333333333333,0.0158730158730158,0.1988795518207282,0.1475300139294781,-0.3333333333333333,0.0,0.0494084899095337,0.1475300139294781,-0.7647058823529411,-0.3333333333333333,47,9256,2471,18084,0,0.0,0,2,-2,2,0.0222222222222222,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,583,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,9409,18084,337,https://github.com/apache/tomcat/tree/ad9a49cb08bf004af97cad465bba45d21d112325//java/org/apache/jasper/JspCompilationContext.java,getJspLoader,9163,open,"public ClassLoader getJspLoader() {
+        if( jspLoader == null ) {
+            jspLoader = new JasperLoader
+            (new URL[] {baseUrl},
+                    getClassLoader(),
+                    rctxt.getPermissionCollection());
+        }
+        return jspLoader;
+    }"
+tomcat-B-876,13323,org/apache/tomcat/buildutil,org/apache/tomcat/buildutil/Txt2Html.java,862,True,27,4,0,1,8,7,5,4,0.7831325301204819,92,56,0.6086956521739131,0.1111111111111111,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,5,I18N,0.03954802259887,DM_DEFAULT_ENCODING,19,1,4,0.0031705770450221,0.0031705770450221,0.0025364616360177,-1.0,0.0208333333333333,0.0101996527777777,0.0588235294117647,0.0463645668132449,-0.9375,0.0,0.0020876826722338,0.0463645668132449,-1.0,-1.0,8,8272,2030,17100,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,470,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,9296,18084,470,https://github.com/apache/tomcat/tree/ad9a49cb08bf004af97cad465bba45d21d112325//java/org/apache/tomcat/buildutil/Txt2Html.java,convert,9296,close,"private void convert( File from, File to )
+        throws IOException
+    {
+        // Open files:
+        BufferedReader in = new BufferedReader( new FileReader( from ) );
+        PrintWriter out = new PrintWriter( new FileWriter( to ) );
+
+        // Output header:
+        out.println( ""<html><body><pre>"" );
+
+        // Convert, line-by-line:
+        String line;
+        while( (line = in.readLine()) != null ) {
+            StringBuilder result = new StringBuilder();
+            int len = line.length();
+            for( int i = 0; i < len; i++ ) {
+                char c = line.charAt( i );
+                switch( c ) {
+                    case '&':
+                        result.append( ""&amp;"" );
+                        break;
+                    case '<':
+                        result.append( ""&lt;"" );
+                        break;
+                    default:
+                        result.append( c );
+                }
+            }
+            out.println( result.toString() );
+        }
+
+        // Output footer:
+        out.println( ""</pre></body></html>"" );
+
+        // Close streams:
+        out.close();
+        in.close();
+    }"
+tomcat-B-879,13323,org/apache/tomcat/buildutil,org/apache/tomcat/buildutil/Txt2Html.java,862,True,27,4,0,1,0,7,5,4,0.6746987951807228,92,56,0.6086956521739131,1.0,17,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,5,STYLE,0.030367231638418,UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR,20,3,1,0.0031705770450221,0.0031705770450221,0.0006341154090044388,-1.0,0.074074074074074,0.0021433470507544,0.1084070796460177,0.3712370758067992,-0.7777777777777778,0.0,0.034098816979819,0.3712370758067992,-1.0,-1.0,8,8272,2030,17100,0,0.0,0,0,0,0,0.0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,470,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,9296,18084,470,https://github.com/apache/tomcat/tree/ad9a49cb08bf004af97cad465bba45d21d112325//java/org/apache/tomcat/buildutil/Txt2Html.java,execute,9296,open,"@Override
+    public void execute()
+        throws BuildException
+    {
+        int count = 0;
+
+        // Step through each file and convert.
+        Iterator<FileSet> iter = filesets.iterator();
+        while( iter.hasNext() ) {
+            FileSet fs = iter.next();
+            DirectoryScanner ds = fs.getDirectoryScanner(getProject());
+            File basedir = ds.getBasedir();
+            String[] files = ds.getIncludedFiles();
+            for( int i = 0; i < files.length; i++ ) {
+                File from = new File( basedir, files[i] );
+                File to = new File( todir, files[i] + "".html"" );
+                if( !to.exists() ||
+                    (from.lastModified() > to.lastModified()) )
+                {
+                    log( ""Converting file '"" + from.getAbsolutePath() +
+                        ""' to '"" + to.getAbsolutePath(), Project.MSG_VERBOSE );
+                    try {
+                        convert( from, to );
+                    }
+                    catch( IOException e ) {
+                        throw new BuildException( ""Could not convert '"" +
+                            from.getAbsolutePath() + ""' to '"" +
+                            to.getAbsolutePath() + ""'"", e );
+                    }
+                    count++;
+                }
+            }
+            if( count > 0 ) {
+                log( ""Converted "" + count + "" file"" + (count > 1 ? ""s"" : """") +
+                    "" to "" + todir.getAbsolutePath() );
+            }
+        }
+    }"
+tomcat-B-928,16037,org/apache/tomcat/jdbc/pool/interceptor,org/apache/tomcat/jdbc/pool/interceptor/SlowQueryReportJmx.java,1481,True,11,21,327,1,10,94,4,16,0.3448275862068966,229,41,0.1790393013100436,0.2272727272727272,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,27,5,MT_CORRECTNESS,0.0042372881355932,LI_LAZY_INIT_STATIC,14,2,1,0.0171211160431198,0.0031705770450221,0.0006341154090044388,-1.0,0.25,0.0133928571428571,0.1440677966101695,0.2452880654440269,-0.5,0.0,0.0118302018093249,0.2452880654440269,-1.0,-1.0,18,7209,1481,16037,33,0.0333333333333333,0,12,21,45,0.0330933481346075,0,0,0,0,1,0,1,0.0,2,0,0,0,0,0,0,0,0.0,330,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,9156,18084,266,https://github.com/apache/tomcat/tree/ad9a49cb08bf004af97cad465bba45d21d112325//modules/jdbc-pool/src/main/java/org/apache/tomcat/jdbc/pool/interceptor/SlowQueryReportJmx.java,getCompositeType,9092,close,"protected static CompositeType getCompositeType() {
+        if (SLOW_QUERY_TYPE==null) {
+            try {
+                SLOW_QUERY_TYPE = new CompositeType(
+                        SlowQueryReportJmx.class.getName(),
+                        ""Composite data type for query statistics"",
+                        QueryStats.getFieldNames(),
+                        QueryStats.getFieldDescriptions(),
+                        QueryStats.getFieldTypes());
+            }catch (OpenDataException x) {
+                log.warn(""Unable to initialize composite data type for JMX stats and notifications."",x);
+            }
+        }
+        return SLOW_QUERY_TYPE;
+    }"
+tomcat-B-1110,17709,org/apache/tomcat/util/http/fileupload,org/apache/tomcat/util/http/fileupload/FileUploadBase.java,2264,True,31,22,585,11,16,152,7,39,0.4198988195615514,570,494,0.8666666666666667,0.8064516129032258,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,15,5,PERFORMANCE,0.0063559322033898,SBSC_USE_STRINGBUFFER_CONCATENATION,18,2,1,0.0095117311350665,0.0031705770450221,0.0006341154090044388,-1.0,0.0,0.0,0.08,0.0106455218454623,-1.0,0.0,0.0083507306889352,0.0106455218454623,-1.0,-1.0,18,6058,1140,14886,57,0.6415094339622641,4,107,-50,168,0.0738071901144677,0,0,0,0,23,0,11,0.0,34,0,0,0,0,-12,0,0,0.0,306,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,9132,18084,269,https://github.com/apache/tomcat/tree/ad9a49cb08bf004af97cad465bba45d21d112325//java/org/apache/tomcat/util/http/fileupload/FileUploadBase.java,getParsedHeaders,9095,close,"protected FileItemHeaders getParsedHeaders(String headerPart) {
+        final int len = headerPart.length();
+        FileItemHeadersImpl headers = newFileItemHeaders();
+        int start = 0;
+        for (;;) {
+            int end = parseEndOfLine(headerPart, start);
+            if (start == end) {
+                break;
+            }
+            String header = headerPart.substring(start, end);
+            start = end + 2;
+            while (start < len) {
+                int nonWs = start;
+                while (nonWs < len) {
+                    char c = headerPart.charAt(nonWs);
+                    if (c != ' '  &&  c != '\t') {
+                        break;
+                    }
+                    ++nonWs;
+                }
+                if (nonWs == start) {
+                    break;
+                }
+                // Continuation line found
+                end = parseEndOfLine(headerPart, nonWs);
+                header += "" "" + headerPart.substring(nonWs, end);
+                start = end + 2;
+            }
+            parseHeaderLine(headers, header);
+        }
+        return headers;
+    }"
+tomcat-B-1112,17983,org/apache/tomcat/util/http/fileupload,org/apache/tomcat/util/http/fileupload/MultipartStream.java,2398,True,74,15,585,5,14,152,13,39,0.5284090909090909,395,463,1.1721518987341772,0.4324324324324324,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,15,6,I18N,0.03954802259887,DM_DEFAULT_ENCODING,19,1,1,0.0095117311350665,0.0038046924540266,0.0006341154090044388,-1.0,0.0208333333333333,0.0101996527777777,0.0588235294117647,0.0463645668132449,-0.9375,0.0,0.0020876826722338,0.0463645668132449,-1.0,-1.0,13,9155,2398,17983,57,0.0,4,107,-50,168,0.0738071901144677,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,2358,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,11184,18084,269,https://github.com/apache/tomcat/tree/ad9a49cb08bf004af97cad465bba45d21d112325//java/org/apache/tomcat/util/http/fileupload/MultipartStream.java,readHeaders,9095,open,"public String readHeaders()
+    throws MalformedStreamException {
+        int i = 0;
+        byte b;
+        // to support multi-byte characters
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        int size = 0;
+        while (i < HEADER_SEPARATOR.length) {
+            try {
+                b = readByte();
+            } catch (IOException e) {
+                throw new MalformedStreamException(""Stream ended unexpectedly"");
+            }
+            if (++size > HEADER_PART_SIZE_MAX) {
+                throw new MalformedStreamException(
+                        ""Header section has more than "" + HEADER_PART_SIZE_MAX
+                        + "" bytes (maybe it is not properly terminated)"");
+            }
+            if (b == HEADER_SEPARATOR[i]) {
+                i++;
+            } else {
+                i = 0;
+            }
+            baos.write(b);
+        }
+
+        String headers = null;
+        if (headerEncoding != null) {
+            try {
+                headers = baos.toString(headerEncoding);
+            } catch (UnsupportedEncodingException e) {
+                // Fall back to platform default if specified encoding is not
+                // supported.
+                headers = baos.toString();
+            }
+        } else {
+            headers = baos.toString();
+        }
+
+        return headers;
+    }"

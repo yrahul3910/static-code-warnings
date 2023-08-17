@@ -1,0 +1,287 @@
+canonical_id,F72,F54,F55,F25,F26,F62,F65,F64,F67,F34,F66,F69,F68,F101,F102,F103,F104,F105,F107,F108,F16-float,F16-String[],F16-SolrInputField,F16-char[],F16-long,F16-Object,F16-NA,F16-void,F16-int,F16-double,F16-Query,F16-Header,F16-boolean,F16-Collection<ContentStream>,F16-String,F16-SolrIndexSearcher,F16-DocIdSet,F16-TermRangeFilter,F16-NamedList,F16-BytesRef,F3-NA,F3-CharSequence,F3-int[],F3-Class,F3-FieldInfo,F3-Among[],F3-byte[],F3-boolean,F3-FileInputStream,F3-char,F3-Bits,F3-String,F3-long,F3-CharStream,F3-int,F3-char[],F3-getBoost(),F3-StandardTermState,F3-OutputStream,F3-Locale,F7-|,F7--,F7-^,F7-/,F7--=,F7-++,F7-%,F7-+=,F7-&,F7-NA,F7-+,F7-^=,F12-long,F12-int,F12-BytesRef,F12-SpanQuery,F12-NA,F12-boolean,F12-Double,F12-NamedList,F12-String,F12-Scorer,F12-List<String>,F12-byte,F12-Map<String FieldsProducer>,F12-Token,F12-CharTermAttribute,F12-float,F12-ValueSource,F12-IndexInput,F12-List<AnalysisPhase>,F12-SolrParams,F17-abstract,F17-final-final-final,F17-static,F17-final,F17-NA,F2-StringBuilder,F2-HungarianStemmer,F2-Class,F2-StandardSyntaxParser,F2-UAX29URLEmailTokenizerImpl,F2-NA,F2-QueryParserTokenManager,F2-Map<String String>,F2-Integer,F2-QueryParser,F2-Object,F2-String,F2-PorterStemmer,F2-Trie,F2-Pattern,F2-Element,F2-Float,F2-KpStemmer,F2-File,F2-HTMLStripCharFilter,F6-NA,F6-org.apache.lucene.queryparser.surround.parser.Token,F6-java.util.HashSet<java.lang.String>,F6-java.io.FileOutputStream,F6-java.io.FileInputStream,F6-org.apache.lucene.codecs.lucene41.Lucene41PostingsReader.BlockDocsAndPositionsEnum,F6-org.egothor.stemmer.Trie.StrEnum,F6-org.apache.lucene.search.suggest.analyzing.BytesRef,F6-org.apache.solr.parser.Token,F6-org.apache.lucene.queryparser.flexible.standard.parser.Token,F6-java.util.ArrayList<java.lang.String>,F6-java.lang.Character,F6-java.lang.Integer,F6-org.apache.solr.handler.dataimport.VariableResolver,F6-java.io.File,F6-java.util.ArrayList<java.lang.Integer>,F6-java.util.HashMap<java.lang.String org.apache.solr.client.solrj.response.FieldAnalysisResponse.Analysis>,F6-org.apache.solr.client.solrj.impl.ZkStateReader,F6-java.util.Date,F6-org.apache.solr.client.solrj.impl.BasicHeader,F13-private,F13-NA,F13-protected,F13-public,F18-protected,F18-private,F18-NA,F18-public,F14-static-final,F14-static,F14-NA,F14-final,F1-size,F1-delete,F1-NA,F1-jj_ntk,F1-add,F1-r_mark_regions,F1-close,F1-getClass,F1-clone,F1-jj_consume_token,F1-find_among_b,F1-get,F1-readChar,F1-equals,F1-slice_from,F1-zzUnpackTrans,F1-getBoost,F1-getName,F1-toString,F1-length,F5-java.util.AbstractMap,F5-java.lang.Object,F5-NA,F5-java.util.AbstractSequentialList,F5-java.util.Hashtable,F5-java.io.InputStream,F5-DocsAndPositionsEnum,F5-java.io.FilterInputStream,F5-java.lang.Number,F5-CharacterIterator,F5-java.util.AbstractList,F5-java.io.Reader,F5-java.lang.RuntimeException,F5-DocsEnum,F5-java.lang.AbstractStringBuilder,F5-java.io.OutputStream,F5-java.util.AbstractSet,F5-java.lang.Exception,F5-java.util.HashMap,F5-NamedList,F9-flags,F9-functions,F9-lo,F9-dateFormat,F9-scorer,F9-field,F9-indexedField,F9-hi,F9-theScore,F9-min,F9-subStats,F9-fullFlush,F9-buf,F9-fieldNames,F9-source,F9-NA,F9-numPending,F9-normalCompletion,F9-sources,F9-lowHitCount,F10-NA,F10-true,F19-NA,F19-abstract,F15-NA,F15-private,F15-protected,F15-public,F0-NA,F4-NA,F4-Integer,F4-boolean,F4-File[],F4-long,F4-QueryNode,F4-char,F4-float,F4-Token,F4-Object,F4-SrndQuery,F4-void,F4-List,F4-StringBuilder,F4-T,F4-int,F4-String,F4-Class,F4-Row,F4-DocsEnum,F8-DocumentsWriterFlushControl,F8-FSTCompletionLookup,F8-TernaryTree,F8-DateFormatCacheKey,F8-MultiFunction,F8-ClusterStateUpdater,F8-MultiStats,F8-InputWindowToken,F8-MoreLikeThis,F8-ScaleFloatFunction,F8-CompoundWordTokenFilterBase,F8-Correction,F8-CombineSuggestionWrapper,F8-CharVector,F8-TypePromoter,F8-OpenStringBuilder,F8-NA,F8-ElevationObj,F8-JavaUtilRegexMatcher,F8-SloppyPhraseScorer,F11-scorer,F11-timestamp,F11-NA,F11-params,F11-comparator,F11-failedPings,F11-field,F11-b,F11-showMatch,F11-start,F11-token,F11-numTerms,F11-baseParser,F11-deleteById,F11-vs,F11-_name,F11-clauses,F11-query,F11-state,F11-queryPhases,F94,F95,F21,F109,F20,F23,F22,F79,F111,F112,F113,F116,F117,F118,F119,F120,F110,F121,F122,F123,F114,F115,F61,F77,F88,F70,F41,F40,F43,F42,F45,F44,F46,F126,F127,F128,F129,F36,F130,F35,F131,F38,F132,F37,F133,F134,F39,F135,F136,F137,F83,F71-ryan@apache.org,F71-chrism@apache.org,F71-mvg@apache.org,F71-shalin@apache.org,F71-koji@apache.org,F71-rmuir@apache.org,F71-simonw@apache.org,F71-sarowe@apache.org,F71-gsingers@apache.org,F71-hossman@apache.org,F71-ehatcher@apache.org,F71-buschmi@apache.org,F71-siren@apache.org,F71-markrmiller@apache.org,F71-noble@apache.org,F71-yonik@apache.org,F71-mikemccand@apache.org,F71-shaie@apache.org,F71-erick@apache.org,F71-uschindler@apache.org,F74,F73,F84,url,method_name,F146,category,method_content
+lucene-solr-B-433,22821,org/apache/lucene/index,org/apache/lucene/index/LogMergePolicy.java,1931,True,0,28,14508,2,0,1501,1,278,0.7236842105263158,427,237,0.5550351288056206,1.0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,134,5,BAD_PRACTICE,0.0030911901081916,CO_COMPARETO_INCORRECT_FLOATING,16,2,2,0.0499068901303538,0.0018621973929236,0.0007448789571694599,1.0,0.2857142857142857,0.0049776007964161,0.2425595238095238,0.4843410085820644,-0.4285714285714285,0.0,0.0486421963592957,0.4843410085820644,-0.4725848563968668,0.5,9,2237,223,12955,868,0.00023137436372049975,76,638,230,1582,0.028446794061851,0,0,0,0,0,0,1,0.0,1,0,0,3,0,1,3,-3,0.0013489208633093,205,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,1,1,0,1,10803,26424,22,https://github.com/apache/lucene-solr/tree/9e82c2409d62e7be04dc4fae7c45c3712be639a2//lucene/core/src/java/org/apache/lucene/index/LogMergePolicy.java,compareTo,10620,close,"@Override
+    public int compareTo(SegmentInfoAndLevel other) {
+      if (level < other.level) {
+        return 1;
+      } else if (level > other.level) {
+        return -1;
+      } else {
+        return 0;
+      }
+    }"
+lucene-solr-B-434,22821,org/apache/lucene/index,org/apache/lucene/index/LogMergePolicy.java,1931,True,0,28,14508,2,0,1501,1,278,0.7210526315789474,427,237,0.5550351288056206,1.0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,134,5,BAD_PRACTICE,0.0061823802163833,EQ_COMPARETO_USE_OBJECT_EQUALS,16,2,2,0.0499068901303538,0.0018621973929236,0.0007448789571694599,1.0,0.3809523809523809,0.0057518942536364,0.2425595238095238,0.4843410085820644,-0.0476190476190476,0.0,0.0486421963592957,0.4843410085820644,-0.4725848563968668,0.5,47,8097,1020,18815,868,0.00023137436372049975,76,638,230,1582,0.028446794061851,0,0,0,0,0,0,1,0.0,1,0,0,3,0,1,3,-3,0.0013489208633093,205,0,0,0,0,0,1,1,1,0,1,0,1,0,0,0,0,1,1,0,1,10803,26424,22,https://github.com/apache/lucene-solr/tree/9e82c2409d62e7be04dc4fae7c45c3712be639a2//lucene/core/src/java/org/apache/lucene/index/LogMergePolicy.java,compareTo,10620,open,"@Override
+    public int compareTo(SegmentInfoAndLevel other) {
+      if (level < other.level) {
+        return 1;
+      } else if (level > other.level) {
+        return -1;
+      } else {
+        return 0;
+      }
+    }"
+lucene-solr-B-1296,10803,org/apache/solr/core,org/apache/solr/core/SolrResourceLoader.java,20,True,60,31,4171,2,10,397,16,60,0.548,476,191,0.4012605042016807,0.45,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,8,STYLE,0.0011591962905718,DLS_DEAD_LOCAL_STORE_IN_RETURN,11,2,6,0.02756052141527,0.0029795158286778,0.0022346368715083,0.0,0.0,0.0,0.1889710827168796,0.4070964043141742,0.0,0.0,0.0838555655028349,0.4070964043141742,-0.7254901960784313,-1.0,8,1560,158,12278,401,0.0002127056154282473,129,171,230,701,0.0333917514810695,0,0,0,0,0,0,3,0.0,3,13,0,21,0,3,34,-8,0.0108455669143705,205,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,1,10803,26424,7,https://github.com/apache/lucene-solr/tree/9e82c2409d62e7be04dc4fae7c45c3712be639a2//solr/core/src/java/org/apache/solr/core/SolrResourceLoader.java,findClass,10605,open,"public <T> Class<? extends T> findClass(String cname, Class<T> expectedType, String... subpackages) {
+    if (subpackages == null || subpackages.length == 0 || subpackages == packages) {
+      subpackages = packages;
+      String  c = classNameCache.get(cname);
+      if(c != null) {
+        try {
+          return Class.forName(c, true, classLoader).asSubclass(expectedType);
+        } catch (ClassNotFoundException e) {
+          //this is unlikely
+          log.error(""Unable to load cached class-name :  ""+ c +"" for shortname : ""+cname + e);
+        }
+
+      }
+    }
+    Class<? extends T> clazz = null;
+    
+    // first try legacy analysis patterns, now replaced by Lucene's Analysis package:
+    final Matcher m = legacyAnalysisPattern.matcher(cname);
+    if (m.matches()) {
+      final String name = m.group(4);
+      log.trace(""Trying to load class from analysis SPI using name='{}'"", name);
+      try {
+        if (CharFilterFactory.class.isAssignableFrom(expectedType)) {
+          return clazz = CharFilterFactory.lookupClass(name).asSubclass(expectedType);
+        } else if (TokenizerFactory.class.isAssignableFrom(expectedType)) {
+          return clazz = TokenizerFactory.lookupClass(name).asSubclass(expectedType);
+        } else if (TokenFilterFactory.class.isAssignableFrom(expectedType)) {
+          return clazz = TokenFilterFactory.lookupClass(name).asSubclass(expectedType);
+        } else {
+          log.warn(""'{}' looks like an analysis factory, but caller requested different class type: {}"", cname, expectedType.getName());
+        }
+      } catch (IllegalArgumentException ex) { 
+        // ok, we fall back to legacy loading
+      }
+    }
+    
+    // first try cname == full name
+    try {
+      return Class.forName(cname, true, classLoader).asSubclass(expectedType);
+    } catch (ClassNotFoundException e) {
+      String newName=cname;
+      if (newName.startsWith(project)) {
+        newName = cname.substring(project.length()+1);
+      }
+      for (String subpackage : subpackages) {
+        try {
+          String name = base + '.' + subpackage + newName;
+          log.trace(""Trying class name "" + name);
+          return clazz = Class.forName(name,true,classLoader).asSubclass(expectedType);
+        } catch (ClassNotFoundException e1) {
+          // ignore... assume first exception is best.
+        }
+      }
+  
+      throw new SolrException( SolrException.ErrorCode.SERVER_ERROR, ""Error loading class '"" + cname + ""'"", e);
+    }finally{
+      //cache the shortname vs FQN if it is loaded by the webapp classloader  and it is loaded
+      // using a shortname
+      if ( clazz != null &&
+              clazz.getClassLoader() == SolrResourceLoader.class.getClassLoader() &&
+              !cname.equals(clazz.getName()) &&
+              (subpackages.length == 0 || subpackages == packages)) {
+        //store in the cache
+        classNameCache.put(cname, clazz.getName());
+      }
+    }
+  }"
+lucene-solr-B-1583,12050,org/apache/solr/schema,org/apache/solr/schema/CurrencyField.java,140,True,41,15,5274,5,4,464,6,118,0.1234256926952141,541,131,0.2421441774491682,0.3658536585365853,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,7,STYLE,0.0320710973724884,RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE,18,2,2,0.0208566108007448,0.0026070763500931,0.0007448789571694599,0.0,0.1666666666666666,0.0035612535612535,0.1889710827168796,0.4070964043141742,-0.4166666666666667,0.0,0.0838555655028349,0.4070964043141742,-0.9375,0.0,16,3123,297,13841,160,0.0727466597212314,15,33,127,208,0.0229953830092926,0,0,0,0,7,0,12,0.0,23,0,4,0,0,5,0,0,0.0,205,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,1,10803,26424,205,https://github.com/apache/lucene-solr/tree/9e82c2409d62e7be04dc4fae7c45c3712be639a2//solr/core/src/java/org/apache/solr/schema/CurrencyField.java,init,10803,close,"@Override
+  protected void init(IndexSchema schema, Map<String, String> args) {
+    super.init(schema, args);
+    if (this.isMultiValued()) { 
+      throw new SolrException(SolrException.ErrorCode.SERVER_ERROR, 
+                              ""CurrencyField types can not be multiValued: "" + 
+                              this.typeName);
+    }
+    this.schema = schema;
+    this.exchangeRateProviderClass = args.get(PARAM_RATE_PROVIDER_CLASS);
+    this.defaultCurrency = args.get(PARAM_DEFAULT_CURRENCY);
+
+    if (this.defaultCurrency == null) {
+      this.defaultCurrency = DEFAULT_DEFAULT_CURRENCY;
+    }
+    
+    if (this.exchangeRateProviderClass == null) {
+      this.exchangeRateProviderClass = DEFAULT_RATE_PROVIDER_CLASS;
+    }
+
+    if (java.util.Currency.getInstance(this.defaultCurrency) == null) {
+      throw new SolrException(SolrException.ErrorCode.BAD_REQUEST, ""Invalid currency code "" + this.defaultCurrency);
+    }
+
+    String precisionStepString = args.get(PARAM_PRECISION_STEP);
+    if (precisionStepString == null) {
+      precisionStepString = DEFAULT_PRECISION_STEP;
+    }
+
+    // Initialize field type for amount
+    fieldTypeAmountRaw = new TrieLongField();
+    fieldTypeAmountRaw.setTypeName(""amount_raw_type_tlong"");
+    Map<String,String> map = new HashMap<String,String>(1);
+    map.put(""precisionStep"", precisionStepString);
+    fieldTypeAmountRaw.init(schema, map);
+    
+    // Initialize field type for currency string
+    fieldTypeCurrency = new StrField();
+    fieldTypeCurrency.setTypeName(""currency_type_string"");
+    fieldTypeCurrency.init(schema, new HashMap<String,String>());
+    
+    args.remove(PARAM_RATE_PROVIDER_CLASS);
+    args.remove(PARAM_DEFAULT_CURRENCY);
+    args.remove(PARAM_PRECISION_STEP);
+
+    try {
+      Class<? extends ExchangeRateProvider> c = schema.getResourceLoader().findClass(exchangeRateProviderClass, ExchangeRateProvider.class);
+      provider = c.newInstance();
+      provider.init(args);
+    } catch (Exception e) {
+      throw new SolrException(ErrorCode.BAD_REQUEST, ""Error instansiating exhange rate provider ""+exchangeRateProviderClass+"". Please check your FieldType configuration"", e);
+    }
+  }"
+lucene-solr-B-1584,12050,org/apache/solr/schema,org/apache/solr/schema/CurrencyField.java,140,True,41,15,5274,5,0,464,6,118,0.1599496221662468,541,131,0.2421441774491682,1.0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,7,STYLE,0.0363214837712519,REC_CATCH_EXCEPTION,20,3,2,0.0208566108007448,0.0026070763500931,0.0007448789571694599,0.0,0.217391304347826,0.0043623673113276,0.1889710827168796,0.4070964043141742,-0.4239130434782608,0.0,0.0838555655028349,0.4070964043141742,-0.9375,0.0,16,3123,297,13841,160,0.0727466597212314,15,33,127,208,0.0229953830092926,0,0,0,0,7,0,12,0.0,23,0,4,0,0,5,0,0,0.0,205,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,1,10803,26424,205,https://github.com/apache/lucene-solr/tree/9e82c2409d62e7be04dc4fae7c45c3712be639a2//solr/core/src/java/org/apache/solr/schema/CurrencyField.java,init,10803,open,"@Override
+  protected void init(IndexSchema schema, Map<String, String> args) {
+    super.init(schema, args);
+    if (this.isMultiValued()) { 
+      throw new SolrException(SolrException.ErrorCode.SERVER_ERROR, 
+                              ""CurrencyField types can not be multiValued: "" + 
+                              this.typeName);
+    }
+    this.schema = schema;
+    this.exchangeRateProviderClass = args.get(PARAM_RATE_PROVIDER_CLASS);
+    this.defaultCurrency = args.get(PARAM_DEFAULT_CURRENCY);
+
+    if (this.defaultCurrency == null) {
+      this.defaultCurrency = DEFAULT_DEFAULT_CURRENCY;
+    }
+    
+    if (this.exchangeRateProviderClass == null) {
+      this.exchangeRateProviderClass = DEFAULT_RATE_PROVIDER_CLASS;
+    }
+
+    if (java.util.Currency.getInstance(this.defaultCurrency) == null) {
+      throw new SolrException(SolrException.ErrorCode.BAD_REQUEST, ""Invalid currency code "" + this.defaultCurrency);
+    }
+
+    String precisionStepString = args.get(PARAM_PRECISION_STEP);
+    if (precisionStepString == null) {
+      precisionStepString = DEFAULT_PRECISION_STEP;
+    }
+
+    // Initialize field type for amount
+    fieldTypeAmountRaw = new TrieLongField();
+    fieldTypeAmountRaw.setTypeName(""amount_raw_type_tlong"");
+    Map<String,String> map = new HashMap<String,String>(1);
+    map.put(""precisionStep"", precisionStepString);
+    fieldTypeAmountRaw.init(schema, map);
+    
+    // Initialize field type for currency string
+    fieldTypeCurrency = new StrField();
+    fieldTypeCurrency.setTypeName(""currency_type_string"");
+    fieldTypeCurrency.init(schema, new HashMap<String,String>());
+    
+    args.remove(PARAM_RATE_PROVIDER_CLASS);
+    args.remove(PARAM_DEFAULT_CURRENCY);
+    args.remove(PARAM_PRECISION_STEP);
+
+    try {
+      Class<? extends ExchangeRateProvider> c = schema.getResourceLoader().findClass(exchangeRateProviderClass, ExchangeRateProvider.class);
+      provider = c.newInstance();
+      provider.init(args);
+    } catch (Exception e) {
+      throw new SolrException(ErrorCode.BAD_REQUEST, ""Error instansiating exhange rate provider ""+exchangeRateProviderClass+"". Please check your FieldType configuration"", e);
+    }
+  }"
+lucene-solr-B-1606,13591,org/apache/solr/schema,org/apache/solr/schema/OpenExchangeRatesOrgProvider.java,277,True,18,9,5274,2,4,464,5,118,0.2950191570881226,189,40,0.2116402116402116,0.4444444444444444,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,4,STYLE,0.008887171561051,ICAST_INTEGER_MULTIPLY_CAST_TO_LONG,17,2,1,0.0208566108007448,0.0014897579143389,0.00037243947858473,0.0,0.2857142857142857,0.0052328623757195,0.1889710827168796,0.4070964043141742,-0.2857142857142857,0.0,0.0838555655028349,0.4070964043141742,-0.9375,0.0,7,2873,277,13591,160,0.00012563603241409635,15,33,127,208,0.0229953830092926,0,0,0,0,0,0,2,0.0,2,0,0,0,0,2,0,0,0.0,205,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,10803,26424,205,https://github.com/apache/lucene-solr/tree/9e82c2409d62e7be04dc4fae7c45c3712be639a2//solr/core/src/java/org/apache/solr/schema/OpenExchangeRatesOrgProvider.java,getExchangeRate,10803,close,"@Override
+  public double getExchangeRate(String sourceCurrencyCode, String targetCurrencyCode) {
+    if (rates == null) {
+      throw new SolrException(SolrException.ErrorCode.SERVICE_UNAVAILABLE, ""Rates not initialized."");
+    }
+      
+    if (sourceCurrencyCode == null || targetCurrencyCode == null) {
+      throw new SolrException(SolrException.ErrorCode.BAD_REQUEST, ""Cannot get exchange rate; currency was null."");
+    }
+    
+    if (rates.getTimestamp() + refreshInterval*60*1000 > System.currentTimeMillis()) {
+      log.debug(""Refresh interval has expired. Refreshing exchange rates."");
+      reload();
+    }
+    
+    Double source = (Double) rates.getRates().get(sourceCurrencyCode);
+    Double target = (Double) rates.getRates().get(targetCurrencyCode);
+
+    if (source == null || target == null) {
+      throw new SolrException(SolrException.ErrorCode.BAD_REQUEST, 
+          ""No available conversion rate from "" + sourceCurrencyCode + "" to "" + targetCurrencyCode + "". ""
+          + ""Available rates are ""+listAvailableCurrencies());
+    }
+    
+    return target / source;  
+  }"
+lucene-solr-B-1608,13591,org/apache/solr/schema,org/apache/solr/schema/OpenExchangeRatesOrgProvider.java,277,True,50,9,5274,2,0,464,3,118,0.5019157088122606,189,40,0.2116402116402116,1.0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,4,STYLE,0.0363214837712519,REC_CATCH_EXCEPTION,20,3,1,0.0208566108007448,0.0014897579143389,0.00037243947858473,0.0,0.217391304347826,0.0043623673113276,0.1889710827168796,0.4070964043141742,-0.4239130434782608,0.0,0.0838555655028349,0.4070964043141742,-0.9375,0.0,7,2873,277,13591,160,0.00012563603241409635,15,33,127,208,0.0229953830092926,0,0,0,0,0,0,2,0.0,2,0,0,0,0,2,0,0,0.0,205,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,10803,26424,205,https://github.com/apache/lucene-solr/tree/9e82c2409d62e7be04dc4fae7c45c3712be639a2//solr/core/src/java/org/apache/solr/schema/OpenExchangeRatesOrgProvider.java,reload,10803,open,"@Override
+  public boolean reload() throws SolrException {
+    InputStream ratesJsonStream = null;
+    try {
+      log.info(""Reloading exchange rates from ""+ratesFileLocation);
+      try {
+        ratesJsonStream = (new URL(ratesFileLocation)).openStream();
+      } catch (Exception e) {
+        ratesJsonStream = resourceLoader.openResource(ratesFileLocation);
+      }
+        
+      rates = new OpenExchangeRates(ratesJsonStream);
+      return true;
+    } catch (Exception e) {
+      throw new SolrException(ErrorCode.SERVER_ERROR, ""Error reloading exchange rates"", e);
+    } finally {
+      if (ratesJsonStream != null) try {
+        ratesJsonStream.close();
+      } catch (IOException e) {
+        throw new SolrException(ErrorCode.SERVER_ERROR, ""Error closing stream"", e);
+      }
+    }
+  }"
+lucene-solr-B-1827,12763,org/apache/solr/update,org/apache/solr/update/UpdateLog.java,203,True,22,41,3573,12,4,279,1,56,0.2309322033898305,1001,152,0.1518481518481518,0.2727272727272727,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,16,STYLE,0.0038639876352395,NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE,13,2,1,0.0245810055865921,0.0059590316573556,0.00037243947858473,0.0,0.2857142857142857,0.0052328623757195,0.1889710827168796,0.4070964043141742,-0.3333333333333333,0.0,0.0838555655028349,0.4070964043141742,0.1111111111111111,0.0,35,3842,341,14560,177,0.0876986911594396,3,98,79,278,0.0498672767281805,2,2,0,4,5,0,20,0.0268456375838926,25,3,0,3,0,15,6,0,0.0016329715248432,15,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,1,0,1,1,1,10613,26424,15,https://github.com/apache/lucene-solr/tree/9e82c2409d62e7be04dc4fae7c45c3712be639a2//solr/core/src/java/org/apache/solr/update/UpdateLog.java,getLogList,10613,close,"public static String[] getLogList(File directory) {
+    final String prefix = TLOG_NAME+'.';
+    String[] names = directory.list(new FilenameFilter() {
+      @Override
+      public boolean accept(File dir, String name) {
+        return name.startsWith(prefix);
+      }
+    });
+    Arrays.sort(names);
+    return names;
+  }"
+lucene-solr-B-1828,12763,org/apache/solr/update,org/apache/solr/update/UpdateLog.java,203,True,67,41,3573,12,4,279,12,56,0.1511299435028248,1001,152,0.1518481518481518,0.2835820895522388,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,16,BAD_PRACTICE,0.008887171561051,RV_RETURN_VALUE_IGNORED_BAD_PRACTICE,16,2,1,0.0245810055865921,0.0059590316573556,0.00037243947858473,0.0,0.3191489361702128,0.0052998266515032,0.2425595238095238,0.4843410085820644,-0.2765957446808511,0.0,0.0486421963592957,0.4843410085820644,0.1111111111111111,0.0,35,3842,341,14560,177,0.0876986911594396,3,98,79,278,0.0498672767281805,2,2,0,4,5,0,20,0.0268456375838926,25,3,0,3,0,15,6,0,0.0016329715248432,15,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,1,0,1,1,1,10613,26424,15,https://github.com/apache/lucene-solr/tree/9e82c2409d62e7be04dc4fae7c45c3712be639a2//solr/core/src/java/org/apache/solr/update/UpdateLog.java,init,10613,open,"@Override
+  public void init(PluginInfo info) {
+    dataDir = (String)info.initArgs.get(""dir"");
+    defaultSyncLevel = SyncLevel.getSyncLevel((String)info.initArgs.get(""syncLevel""));
+  }"
+lucene-solr-B-1837,12729,org/apache/solr/update/processor,org/apache/solr/update/processor/CloneFieldUpdateProcessorFactory.java,201,True,7,5,2564,2,4,168,2,87,0.7631578947368421,150,76,0.5066666666666667,0.2857142857142857,18,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,1,STYLE,0.0374806800618238,DLS_DEAD_LOCAL_STORE,17,2,1,0.0126629422718808,0.00037243947858473,0.00037243947858473,0.0,0.2478632478632478,0.0047801809800494,0.1889710827168796,0.4070964043141742,-0.3247863247863248,0.0,0.0838555655028349,0.4070964043141742,-1.0,0.0,3,2011,201,12729,113,5.6471651231082e-05,18,162,-49,293,0.0161911552600148,0,0,0,0,0,0,1,0.0,1,15,0,9,1,1,25,6,0.0075483091787439,205,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,10803,26424,8,https://github.com/apache/lucene-solr/tree/9e82c2409d62e7be04dc4fae7c45c3712be639a2//solr/core/src/java/org/apache/solr/update/processor/CloneFieldUpdateProcessorFactory.java,inform,10606,close,"@Override
+  public void inform(final SolrCore core) {
+    
+    final IndexSchema schema = core.getSchema();
+
+    srcSelector = 
+      FieldMutatingUpdateProcessor.createFieldNameSelector
+      (core.getResourceLoader(),
+       core.getSchema(),
+       srcInclusions.fieldName,
+       srcInclusions.typeName,
+       srcInclusions.typeClass,
+       srcInclusions.fieldRegex,
+       FieldMutatingUpdateProcessor.SELECT_NO_FIELDS);
+
+    for (SelectorParams exc : srcExclusions) {
+      srcSelector = FieldMutatingUpdateProcessor.wrap
+        (srcSelector,
+         FieldMutatingUpdateProcessor.createFieldNameSelector
+         (core.getResourceLoader(),
+          core.getSchema(),
+          exc.fieldName,
+          exc.typeName,
+          exc.typeClass,
+          exc.fieldRegex,
+          FieldMutatingUpdateProcessor.SELECT_NO_FIELDS));
+    }
+  }"
